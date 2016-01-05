@@ -1,4 +1,4 @@
-<Database><_BaseKey>76347</_BaseKey>
+<Database><_BaseKey>76787</_BaseKey>
 <Strings><_MOD_>2011-11-19</_MOD_>
 <Name>Strings</Name>
 <Type>3505</Type>
@@ -12893,12 +12893,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_HOPS</Name>
-<Short-Name>Add Hops</Short-Name>
-<Menu-Name>Add Hops...</Menu-Name>
+<Short-Name>Hopfen hinzuf&uuml;gen</Short-Name>
+<Menu-Name>Hopfen hinzuf&uuml;gen...</Menu-Name>
 <Icon-File>Hops</Icon-File>
-<Description>Add a new hop to the hops database</Description>
+<Description>Neue Hopfensorte zur Hopfendatenbank hinzuf&uuml;gen</Description>
 <Help-Name>hops</Help-Name>
-<Tip>Add a new hops type to the hops database</Tip>
+<Tip>Neue Hopfensorte zur Hopfendatenbank hinzuf&uuml;gen</Tip>
 <RID>7404</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
