@@ -9,14 +9,14 @@
 <Allocinc>16</Allocinc>
 <Data><String><_MOD_>2011-11-19</_MOD_>
 <Name>S_MENU_FILE</Name>
-<Value>File</Value>
-<Description>File Menu Title</Description>
+<Value>Datei</Value>
+<Description>Datei Menu Titel</Description>
 <RID>6499</RID>
 </String>
 <String><_MOD_>2011-11-19</_MOD_>
 <Name>S_MENU_EDIT</Name>
-<Value>Edit</Value>
-<Description>Edit menu title</Description>
+<Value>Bearbeiten</Value>
+<Description>Bearbeiten Menu Titel</Description>
 <RID>6500</RID>
 </String>
 <String><_MOD_>2011-11-19</_MOD_>
