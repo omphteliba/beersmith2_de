@@ -1,22 +1,22 @@
-<Database><_BaseKey>76787</_BaseKey>
+<Database><_BaseKey>79944</_BaseKey>
 <Strings><_MOD_>2011-11-19</_MOD_>
 <Name>Strings</Name>
 <Type>3505</Type>
 <Owndata>0</Owndata>
 <TID>3505</TID>
-<Size>594</Size>
+<Size>694</Size>
 <_XName>Strings</_XName>
 <Allocinc>16</Allocinc>
 <Data><String><_MOD_>2011-11-19</_MOD_>
 <Name>S_MENU_FILE</Name>
-<Value>Datei</Value>
-<Description>Datei Menu Titel</Description>
+<Value>File</Value>
+<Description>File Menu Title</Description>
 <RID>6499</RID>
 </String>
 <String><_MOD_>2011-11-19</_MOD_>
 <Name>S_MENU_EDIT</Name>
-<Value>Bearbeiten</Value>
-<Description>Bearbeiten Menu Titel</Description>
+<Value>Edit</Value>
+<Description>Edit menu title</Description>
 <RID>6500</RID>
 </String>
 <String><_MOD_>2011-11-19</_MOD_>
@@ -3571,6 +3571,606 @@
 <Description>Login failed</Description>
 <RID>8740</RID>
 </String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_NOT_CONNECTED</Name>
+<Value>Not Connected to the BeerSmith Recipes Server</Value>
+<Description>Shown when connection fails or offline</Description>
+<RID>8751</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_CONNECT_BUTTON</Name>
+<Value>Connect To Cloud</Value>
+<Description>Button shown to reconnect to cloud...</Description>
+<RID>8752</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>SC_OFFLINE_ERROR</Name>
+<Value>Server is offline or unreachable.  Please try again later.</Value>
+<Description>Used when we can&#39;t reach the server</Description>
+<RID>8754</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>SC_UPDATING</Name>
+<Value>Updating Recipes...</Value>
+<Description>Shown when updating</Description>
+<RID>8761</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>SC_ONLINE</Name>
+<Value>Online</Value>
+<Description>Shows online status after successful connection with cloud</Description>
+<RID>8762</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>SC_SAVE_LOCAL</Name>
+<Value>Could not save %s online - Would you like to save a local copy of your changes to My Recipes?</Value>
+<Description>Used to prompt user for local save</Description>
+<RID>8771</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>SC_CANT_ADD_FOLDERS</Name>
+<Value>Can&#39;t add folders to the cloud view - only one or more recipes</Value>
+<Description>Cloud view does not support subfolders</Description>
+<RID>8776</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>SC_NOT_LOGGED_IN</Name>
+<Value>Cloud - Offline</Value>
+<Description>Used for status when not logged in to cloud</Description>
+<RID>8780</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>SC_NO_SPACE</Name>
+<Value>Your cloud recipe folder is full - can&#39;t add additional recipes</Value>
+<Description>Your cloud recipe folder is full - can&#39;t add additional recipes</Description>
+<RID>8788</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>SC_LIMITED_SPACE</Name>
+<Value>You don&#39;t have enough space remaining to add these recipes to your cloud folder</Value>
+<Description>You don&#39;t have enough space remaining to add these recipes to your cloud folder</Description>
+<RID>8789</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>SC_HAS_COMMENTS</Name>
+<Value>Recipe &#39;%s&#39; has comments which will be lost if you delete it - are you sure you want to delete it?</Value>
+<Description>Used to confirm cloud recipe delete with comments.</Description>
+<RID>8793</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_AUTOSAVE_OPTS</Name>
+<Value>Autosave</Value>
+<Description>Title for autosave options</Description>
+<RID>8799</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_MASH_STEP_HTML</Name>
+<Value>%s - %s (%s rise, hold %s for %s)&lt;br&gt;&lt;ul&gt;&lt;li&gt;%s &lt;/li&gt;</Value>
+<Description>Mash step in HTML format for timer tab</Description>
+<RID>8825</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_FIRST_WORT_START_HTML</Name>
+<Value>Sparge - Ensure First Wort Hops Were Added&lt;br&gt;&lt;ul&gt;</Value>
+<Description>Used in HTML listing of boil steps</Description>
+<RID>8826</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_STEEP_OPTIONS</Name>
+<Value>Steeping Time/Temperature for Steeping Grains when Extract Brewing</Value>
+<Description>Options used by timer</Description>
+<RID>8832</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SAVE_CSV_WILDCARD</Name>
+<Value>CSV File (*.csv)|*.csv</Value>
+<Description>Save to CSV file wildcard (format here is very important!).</Description>
+<RID>8837</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_WARN_PROXY</Name>
+<Value>Leave proxy blank unless you know what you are doing - format is PROXY_NAME or PROXY_NAME:PORT</Value>
+<Description>Proxy warning for cloud proxy access</Description>
+<RID>8843</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SET_BTIMER_PROMPT</Name>
+<Value>Set boil timer to start at: (hh:mm:ss)</Value>
+<Description>Prompt for setting boil timer</Description>
+<RID>8849</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SET_MTIMER_PROMPT</Name>
+<Value>Set mash/steep timer to start at: (hh:mm:ss)</Value>
+<Description>Used to set mash timer in timer tab</Description>
+<RID>8850</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_NEXT_STEP_TIME</Name>
+<Value>Next Step In</Value>
+<Description>Countdown time for next step</Description>
+<RID>8857</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_GT_DRY_MALT</Name>
+<Value>Dry Malt Extract</Value>
+<Description>Dry extract</Description>
+<RID>8873</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_GT_LIQUID_MALT</Name>
+<Value>Liquid Malt Extract</Value>
+<Description>Liquid malt extract</Description>
+<RID>8874</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_GT_CURRENT</Name>
+<Value>Current Wort Gravity</Value>
+<Description>Current Wort Gravity</Description>
+<RID>8875</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_GT_ADDITIONS</Name>
+<Value>Amount of Extract or Water to Add</Value>
+<Description>Amount of Extract or Water to Add</Description>
+<RID>8876</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_AS_TERMS</Name>
+<Value>Enter multiple search terms or ingredients separated by commas (i.e. Fuggles, Burton, WLP060)</Value>
+<Description>Enter multiple search terms or ingredients separated by commas</Description>
+<RID>8886</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_AS_MATCH_ANY</Name>
+<Value>Match recipes containing ANY listed term</Value>
+<Description>Match recipes containing ANY listed term</Description>
+<RID>8895</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_AS_MATCH_ALL</Name>
+<Value>Match recipes containing ALL listed terms</Value>
+<Description>Match recipes containing ALL listed terms</Description>
+<RID>8896</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_NAME</Name>
+<Value>Name</Value>
+<Description>Sort by name for cloud search</Description>
+<RID>8913</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_RATING</Name>
+<Value>Rating</Value>
+<Description>Sort by rating for cloud search</Description>
+<RID>8914</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_RECENT</Name>
+<Value>Most Recent</Value>
+<Description>Sort by most recent for cloud search</Description>
+<RID>8915</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_TERMS</Name>
+<Value>Search online for recipes matching this term - Use &#39;Start Search&#39; button to start search</Value>
+<Description>Used as title for cloud search</Description>
+<RID>8918</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_DEFAULT</Name>
+<Value>Default</Value>
+<Description>Default sort order for online search</Description>
+<RID>8922</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_ABV_HI</Name>
+<Value>ABV (Hi-Lo)</Value>
+<Description>Sort for online search by alcohol by volume</Description>
+<RID>8926</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_ABV</Name>
+<Value>ABV (Lo-Hi)</Value>
+<Description>Sort online search by ABV values</Description>
+<RID>8927</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_COLOR_HI</Name>
+<Value>Color (Hi-Lo)</Value>
+<Description>Sort online recipe search by color hi-low</Description>
+<RID>8928</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_COLOR</Name>
+<Value>Color (Lo-Hi)</Value>
+<Description>Sort by color low to high</Description>
+<RID>8929</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_IBU_HI</Name>
+<Value>IBU (Hi-Lo)</Value>
+<Description>Sorty by bitterness from hi to low (online search)(</Description>
+<RID>8930</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_IBU</Name>
+<Value>IBU (Lo-Hi)</Value>
+<Description>Sort online search by bitterness low to hi</Description>
+<RID>8931</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_SEARCHING</Name>
+<Value>Searching Online...</Value>
+<Description>Used for cloud search when search ongoing</Description>
+<RID>8937</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_COMPLETE</Name>
+<Value>Showing first %d results.  More available...</Value>
+<Description>Used for cloud search when complete</Description>
+<RID>8938</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_START_SEARCH</Name>
+<Value>Click &#39;Start Search&#39; or hit enter to begin online search</Value>
+<Description>Prompt for starting cloud search</Description>
+<RID>8939</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_NONE_FOUND</Name>
+<Value>No Matching Recipes Found</Value>
+<Description>Used for cloud search when nothing found...</Description>
+<RID>8943</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_SC_SEARCH_TOT</Name>
+<Value>Search Complete - Total of %d Recipes Found</Value>
+<Description>Used when no more results in cloud search</Description>
+<RID>8944</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_INSTALL_NEW_VERSION</Name>
+<Value>Your BeerSmith update is downloaded and ready to install.  To install the new version I will need to shut down BeerSmith.  If you have problems you can also download the update from BeerSmith.com - Install this new version now?</Value>
+<Description>Prompt for installing new version</Description>
+<RID>8964</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_EQUIP_SAVED</Name>
+<Value>Equipment profile saved to your Profiles-&gt;Equipment table</Value>
+<Description>Equipment profile saved to your Profiles-&gt;Equipment table</Description>
+<RID>8977</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_MASH_SAVED</Name>
+<Value>Mash profile saved to your Profiles-&gt;Mash table</Value>
+<Description>Mash profile saved to your Profiles-&gt;Mash table</Description>
+<RID>8978</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_CARB_SAVED</Name>
+<Value>Carbonation profile saved to your Profiles-&gt;Carbonation table</Value>
+<Description>Carbonation profile saved to your Profiles-&gt;Carbonation table</Description>
+<RID>8979</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_AGE_SAVED</Name>
+<Value>Fermentation profile saved to your Profiles-&gt;Fermentation table</Value>
+<Description>Fermentation profile saved to your Profiles-&gt;Fermentation table</Description>
+<RID>8980</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_WHIRLPOOL_NOTE</Name>
+<Value>Steep/Whirlpool factor is a percent of equivalent boiled hops.  Should be set to 50% for a steep temperature of 90C/194F.</Value>
+<Description>Note used on hop options page.</Description>
+<RID>8985</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_PH_STARTER</Name>
+<Value>Yeast Starter</Value>
+<Description>Yeast starter phase</Description>
+<RID>8996</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_PH_PREP</Name>
+<Value>Preparation</Value>
+<Description>Preparation phase</Description>
+<RID>8997</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_PH_MASH</Name>
+<Value>Mash</Value>
+<Description>Mash phase</Description>
+<RID>8998</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_PH_FWH</Name>
+<Value>First Wort Hop</Value>
+<Description>First Wort Hop Phase</Description>
+<RID>8999</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_PH_BOIL</Name>
+<Value>Boil</Value>
+<Description>Boil phase</Description>
+<RID>9000</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_PH_COOL</Name>
+<Value>Cool</Value>
+<Description>Cooling phase</Description>
+<RID>9001</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_PH_FERM</Name>
+<Value>Primary</Value>
+<Description>Fermentation phase</Description>
+<RID>9002</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_PH_SEC</Name>
+<Value>Secondary</Value>
+<Description>Secondary phase</Description>
+<RID>9003</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_PH_TERT</Name>
+<Value>Tertiary</Value>
+<Description>Tertiary phase</Description>
+<RID>9004</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_PH_BOTTLING</Name>
+<Value>Bottling</Value>
+<Description>Bottling phase</Description>
+<RID>9005</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_PH_AGE</Name>
+<Value>Aging</Value>
+<Description>Aging phase</Description>
+<RID>9006</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_BATCH_PROMPT</Name>
+<Value>How large a batch to you typically brew (volume into fermenter)?</Value>
+<Description>Prompt for equip wizard</Description>
+<RID>9014</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_FERMENT_LOSS_PROMPT</Name>
+<Value>How much beer is lost during fermentation and bottling?</Value>
+<Description>equip wizard prompt</Description>
+<RID>9015</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_FINAL_VOL_PROMPT</Name>
+<Value>Bottled/Kegged volume based on your batch size and losses</Value>
+<Description>equip wizard prompt</Description>
+<RID>9016</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_COOLING</Name>
+<Value>Additions and Losses Post Boil</Value>
+<Description>equip wizard prompt</Description>
+<RID>9017</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_TOP_UP_PROMPT</Name>
+<Value>Do you add top up water after boiling (usually for extract brewers)?</Value>
+<Description>Equip wizard prompt</Description>
+<RID>9018</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_TRUB_PROMPT</Name>
+<Value>How much wort is lost when cooling or to trub (gunk at bottom of boiler)?</Value>
+<Description>equip wizard prompt</Description>
+<RID>9019</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_POST_BOIL_PROMPT</Name>
+<Value>Estimated shrinkage and post boil volume based on your inputs</Value>
+<Description>Equip wizard prompts...</Description>
+<RID>9020</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_BOIL_TIME_PROMPT</Name>
+<Value>How long do you boil your wort? (60-90 minutes recommended)</Value>
+<Description>Wizard prompt</Description>
+<RID>9021</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_BOIL_OFF_PROMPT</Name>
+<Value>How much wort boils off per hour (evaporates)?</Value>
+<Description>Wizard prompt</Description>
+<RID>9022</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_BOIL_LOSS_PROMPT</Name>
+<Value>Estimated total boil off, evaporation rate and pre-boil volume needed</Value>
+<Description>Wizard prompt</Description>
+<RID>9023</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_MASH_PROMPT</Name>
+<Value>Mash Settings for All Grain/Partial Mash Brewers</Value>
+<Description>Wizard prompt</Description>
+<RID>9024</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_MASH_NOTE</Name>
+<Value>Extract brewers do not need to fill out this section!</Value>
+<Description>Mash note</Description>
+<RID>9025</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_EFFICIENCY_PROMPT</Name>
+<Value>Brewhouse efficiency including all losses (lower than mash efficiency - 72% is a good start)?</Value>
+<Description>Wizard prompt</Description>
+<RID>9026</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_MASH_TUN_VOL_PROMPT</Name>
+<Value>Total volume of your mash tun?</Value>
+<Description>wizard prompt</Description>
+<RID>9027</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_TUN_WEIGHT_PROMPT</Name>
+<Value>Mash tun weight (used for estimating its thermal properties)?</Value>
+<Description>Wizard prompt</Description>
+<RID>9028</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_HEAT_1_PROMPT</Name>
+<Value>Mash tun specific heat based on material used?</Value>
+<Description>wizard prompt</Description>
+<RID>9029</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_HEAT_2_PROMPT</Name>
+<Value>Recommended values: Stainless=0.12, Plastic=0.3, Aluminum=0.21</Value>
+<Description>Values for mash tun specific heat</Description>
+<RID>9030</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_DEADSPACE_PROMPT</Name>
+<Value>Deadspace in mash tun (volume below filter you can&#39;t recover)?</Value>
+<Description>Wizard prompt</Description>
+<RID>9031</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_ADJ_DEADSPACE_PROMPT</Name>
+<Value>Adjust mash water/grain ratio to compensate for large deadspace volume?</Value>
+<Description>Prompt for wizard</Description>
+<RID>9032</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_HOP_UTIL1_PROMPT</Name>
+<Value>Hop utilization factor for commercial brewers</Value>
+<Description>wizard prompt</Description>
+<RID>9033</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_E_HOP_UTIL2_PROMPT</Name>
+<Value>Should be 100% for batches less than 20 gallons (75L).  Commercial breweries use values &gt; 100%</Value>
+<Description>wizard prompt</Description>
+<RID>9034</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_EQUIP_WIZ1</Name>
+<Value>Step 1: Bottling and Batch Volumes</Value>
+<Description>Title used in wizard</Description>
+<RID>9045</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_EQUIP_WIZ2</Name>
+<Value>Step 2: Boil Volumes and Details</Value>
+<Description></Description>
+<RID>9046</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_EQUIP_WIZ3</Name>
+<Value>Step 3: Mash Details for All Grain</Value>
+<Description>Title in equip wizard</Description>
+<RID>9047</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_GETTING_STARTED</Name>
+<Value>Getting Started with BeerSmith</Value>
+<Description>Used in new intro screen</Description>
+<RID>9051</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_EQUIP_START</Name>
+<Value>You should set up an equipment profile before building your first recipe</Value>
+<Description>Used in startup screen</Description>
+<RID>9052</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_ARCHIVE_FILE_NOT_FOUND</Name>
+<Value>Could not locate archived recipe file to open it</Value>
+<Description>Could not locate archived recipe file to open it</Description>
+<RID>9063</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_ACTION_EDIT</Name>
+<Value>Edit</Value>
+<Description>Used for describing actions for archiving recipes</Description>
+<RID>9064</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_ACTION_DELETE</Name>
+<Value>Delete/Cut</Value>
+<Description>Deleted description for archive of recipes</Description>
+<RID>9065</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_ACTION_INSERT</Name>
+<Value>Insert/Paste</Value>
+<Description>Used for describing action in recipe archive</Description>
+<RID>9066</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_ACTION_ADD_RECIPE</Name>
+<Value>Add Recipe</Value>
+<Description>Action for adding a recipe</Description>
+<RID>9070</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_ACTION_PASTE</Name>
+<Value>Paste</Value>
+<Description>Paste action</Description>
+<RID>9071</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_ACTION_CLOUD</Name>
+<Value>Cloud://</Value>
+<Description>Location of edits for archiving</Description>
+<RID>9072</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_ACTION_MOVE</Name>
+<Value>Move</Value>
+<Description>Aciton description for moves in the archive</Description>
+<RID>9076</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_ACTION_COPY_LOG</Name>
+<Value>Copy to Brew Log</Value>
+<Description>Action description for archive</Description>
+<RID>9077</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_DEL_ARCHIVE_PROMPT</Name>
+<Value>Deleting archive items will permanently remove these - do you want to continue?</Value>
+<Description>Prompt for deleting items from the archive</Description>
+<RID>9078</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_ACTION_BASELINE</Name>
+<Value>Existing Recipe</Value>
+<Description>Description for archive of existing recipes</Description>
+<RID>9079</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_ARCHIVE_OPTIONS</Name>
+<Value>Archiving of Recipes</Value>
+<Description>Title for advanced options page</Description>
+<RID>9092</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_G_STEEP</Name>
+<Value>[Steep Separately]</Value>
+<Description>Used with new all grain steeping description</Description>
+<RID>9099</RID>
+</String>
+<String><_MOD_>2016-03-15</_MOD_>
+<Name>S_CHOOSE_FOLDER</Name>
+<Value>Choose Local Destination Folder</Value>
+<Description>Choose a local folder dialog for local copy</Description>
+<RID>9105</RID>
+</String>
 </Data>
 <_TExpanded>1</_TExpanded>
 </Strings>
@@ -3579,86 +4179,86 @@
 <Type>3506</Type>
 <Owndata>0</Owndata>
 <TID>3506</TID>
-<Size>986</Size>
+<Size>1053</Size>
 <_XName>Fields</_XName>
 <Allocinc>16</Allocinc>
 <Data><Field><_MOD_>2011-11-19</_MOD_>
 <Name>F_HT_MEASURED_SG</Name>
-<Description>The measured specific gravity</Description>
-<Label>Measured Gravity</Label>
+<Description>Der gemessene Restextrakt</Description>
+<Label>Abgelesener Restextrakt</Label>
 <Column-Name>Gravity</Column-Name>
 <Units></Units>
-<Tip>The measured specific gravity</Tip>
+<Tip>Der gemessene Restextrakt</Tip>
 <RID>6826</RID>
 </Field>
 <Field><_MOD_>2011-11-19</_MOD_>
 <Name>F_TEMPERATURE</Name>
-<Description>The temperature</Description>
-<Label>Temperature</Label>
-<Column-Name>Temperature</Column-Name>
+<Description>Die Temperatur</Description>
+<Label>Temperatur</Label>
+<Column-Name>Temperatur</Column-Name>
 <Units></Units>
-<Tip>The temperature</Tip>
+<Tip>Die Temperatur</Tip>
 <RID>6827</RID>
 </Field>
 <Field><_MOD_>2011-11-19</_MOD_>
 <Name>F_HT_CORRECTED</Name>
-<Description>Corrected specific gravity</Description>
-<Label>Corrected Gravity</Label>
-<Column-Name>Corrected SG</Column-Name>
+<Description>Korrigierter Restextrakt</Description>
+<Label>Korrigierter Restextrakt</Label>
+<Column-Name>Korrigierter RE</Column-Name>
 <Units></Units>
-<Tip>The specific gravity after it has been corrected for temperature</Tip>
+<Tip>Der Restextrakt nachdem er f&uuml;r die Temperatur korrigert wurde</Tip>
 <RID>6828</RID>
 </Field>
 <Field><_MOD_>2011-11-19</_MOD_>
 <Name>F_HT_CALIBRATION_TEMP</Name>
-<Description>Calibration temperature for the hydrometer</Description>
-<Label>Calibration Temperature</Label>
-<Column-Name>Cal Temp</Column-Name>
+<Description>Kalibrierungs Temperatur des Hydrometers</Description>
+<Label>Kalibrierungs Temperatur</Label>
+<Column-Name>Kalibrierungs Temp</Column-Name>
 <Units></Units>
-<Tip>The calibration temperature for the hydrometer (60F or 15C recommended)</Tip>
+<Tip>Die Temperatur nach dem das Hydrometer kalibriert wurde (mei&szlig;t 20 oder 70&deg;C)</Tip>
 <RID>6829</RID>
 </Field>
 <Field><_MOD_>2011-11-19</_MOD_>
 <Name>F_WV_CURRENT_WEIGHT</Name>
-<Description>Current Container Weight - for Weight-Vol Tool</Description>
-<Label>Current Container Weight</Label>
-<Column-Name>Current Weight</Column-Name>
+<Description>Aktuelles Beh&auml;ltergewicht - f&uuml;r Gewicht-Vol Tool</Description>
+<Label>Aktuelles Beh&auml;ltergewicht</Label>
+<Column-Name>Aktuelles Gewicht</Column-Name>
 <Units></Units>
-<Tip>The current weight of the container</Tip>
+<Tip>Das aktuelle Gewicht des Beh&auml;lters</Tip>
 <RID>6830</RID>
 </Field>
 <Field><_MOD_>2011-11-19</_MOD_>
 <Name>F_WV_EMPTY_WEIGHT</Name>
-<Description>The weight of the empty container - Weight vol view</Description>
-<Label>Empty Container Weight</Label>
-<Column-Name>Empty Weight</Column-Name>
+<Description>Das Gewicht des leeren Beh&auml;lters - Gewicht Volumen Ansicht</Description>
+<Label>Leergewicht Beh&auml;lter</Label>
+<Column-Name>Leergewicht</Column-Name>
 <Units></Units>
-<Tip>The container weight when empty</Tip>
+<Tip>Das Gewicht des leeren Beh&auml;lters </Tip>
 <RID>6831</RID>
 </Field>
 <Field><_MOD_>2011-11-19</_MOD_>
 <Name>F_WV_GRAVITY</Name>
-<Description>The specific gravity of the liquid</Description>
-<Label>Specific Gravity</Label>
-<Column-Name>Specific Gravity</Column-Name>
+<Description>Der Restextrakt des Fl&uuml;ssigkeit</Description>
+<Label>Restextrakt</Label>
+<Column-Name>Restextrakt</Column-Name>
 <Units></Units>
-<Tip>Specific gravity of the liquid in the container (default 1.000)</Tip>
+<Tip>Restextrakt der Fl&uuml;ssigkeit im Beh&auml;lter (Standard: 0&deg;P)</Tip>
 <RID>6832</RID>
 </Field>
 <Field><_MOD_>2011-11-19</_MOD_>
 <Name>F_WV_EST_VOLUME</Name>
-<Description>Estimated volume of the full container</Description>
-<Label>Estimated Volume</Label>
-<Column-Name>Estimated Volume</Column-Name>
+<Description>Gesch&auml;tztes Volumen des vollen Beh&auml;lters</Description>
+<Label>Gesch&auml;tztes Volumen</Label>
+<Column-Name>Gesch&auml;tztes Volumen</Column-Name>
 <Units></Units>
-<Tip>Estimated volume of liquid in the container currently</Tip>
+<Tip>Gesch&auml;tztes Volumen der Fl&uuml;ssigkeit im vollen Beh&auml;lter</Tip>
 <RID>6833</RID>
 </Field>
 <Field><_MOD_>2011-11-19</_MOD_>
 <Name>F_SI_CALC</Name>
 <Description>Calculation Type for Strike/Infusion Calculator</Description>
-<Label>Calculation</Label>
-<Column-Name>Calculation</Column-Name>
+<Label>Berechnung</Label>
+<Column-Name>Berechnung</Column-Name>
 <Units></Units>
 <Tip>Type of calculation - either an initial strike or infusion step</Tip>
 <RID>6834</RID>
@@ -12460,6 +13060,613 @@
 <Tip>BSMX version of entire recipe </Tip>
 <RID>8744</RID>
 </Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_C_ON_SERVER</Name>
+<Description>True if item is on the server</Description>
+<Label>On Server</Label>
+<Column-Name>On Server</Column-Name>
+<Units></Units>
+<Tip>Used for synching (internal)</Tip>
+<RID>8747</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_CLOUD_STATUS</Name>
+<Description>Status of online cloud connection</Description>
+<Label>Cloud Status</Label>
+<Column-Name>Cloud Status</Column-Name>
+<Units></Units>
+<Tip>Status of online cloud connection</Tip>
+<RID>8758</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_CLOUD_NEW</Name>
+<Description>Create an account on BeerSmithRecipes.com</Description>
+<Label>Create an Account</Label>
+<Column-Name>Create an Account</Column-Name>
+<Units></Units>
+<Tip>Create an account on BeerSmithRecipes.com</Tip>
+<RID>8767</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_CLOUD_LOST_PASSWORD</Name>
+<Description>Link to recover a lost password</Description>
+<Label>Lost Password?</Label>
+<Column-Name>Lost Password?</Column-Name>
+<Units></Units>
+<Tip>Recover a lost password on BeerSmithRecipes.com</Tip>
+<RID>8768</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_C_COMMENTCOUNT</Name>
+<Description>The number of ratings made online about this recipe</Description>
+<Label>Ratings</Label>
+<Column-Name>Ratings</Column-Name>
+<Units></Units>
+<Tip>The number of ratings made online about this recipe</Tip>
+<RID>8784</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_AUTOSAVE_TIME</Name>
+<Description>Number of minutes between automatic saves of data</Description>
+<Label>Autosave Interval</Label>
+<Column-Name>Autosave Interval</Column-Name>
+<Units>min</Units>
+<Tip>Number of minutes between automatic saves of data</Tip>
+<RID>8797</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_CLOUD_REFRESH_TIME</Name>
+<Description>Number of minutes between automatic synch operations</Description>
+<Label>Cloud Refresh Time</Label>
+<Column-Name>Cloud Refresh Time</Column-Name>
+<Units>min</Units>
+<Tip>Number of minutes between automatic synch operations</Tip>
+<RID>8798</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_R_YEAST_NAME</Name>
+<Description>Name of the primary fermentation yeast used</Description>
+<Label>Yeast Name</Label>
+<Column-Name>Yeast Name</Column-Name>
+<Units></Units>
+<Tip>Name of the primary fermentation yeast used</Tip>
+<RID>8803</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_R_MASH_TIMER</Name>
+<Description>The mash timer</Description>
+<Label>Mash/Steep Timer</Label>
+<Column-Name>Mash/Steep Timer</Column-Name>
+<Units></Units>
+<Tip>The mash timer</Tip>
+<RID>8806</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_R_MASH_LIST</Name>
+<Description>Mash timer step list</Description>
+<Label></Label>
+<Column-Name></Column-Name>
+<Units></Units>
+<Tip>Mash timer step list</Tip>
+<RID>8810</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_R_BOIL_TIMER</Name>
+<Description>Boil timer</Description>
+<Label>Boil Timer</Label>
+<Column-Name>Boil Timer</Column-Name>
+<Units></Units>
+<Tip>Boil timer</Tip>
+<RID>8815</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_R_MASH_STEPS_HTML</Name>
+<Description>Mash steps for mash timer</Description>
+<Label></Label>
+<Column-Name></Column-Name>
+<Units></Units>
+<Tip>Mash steps for mash timer</Tip>
+<RID>8818</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_R_BOIL_STEPS_HTML</Name>
+<Description>Boil steps used in boil timer</Description>
+<Label></Label>
+<Column-Name></Column-Name>
+<Units></Units>
+<Tip>Boil steps used in boil timer</Tip>
+<RID>8827</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_GRAIN_STEEP_TIME</Name>
+<Description>Time to steep grains when brewing with extract</Description>
+<Label>Grain Steep Time</Label>
+<Column-Name>Grain Steep Time</Column-Name>
+<Units>min</Units>
+<Tip>Time used for steeping grains when brewing with extract</Tip>
+<RID>8830</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_GRAIN_STEEP_TEMP</Name>
+<Description>Temperature for steeping grains when brewing with extract</Description>
+<Label>Grain Steep Temp</Label>
+<Column-Name>Grain Steep Temp</Column-Name>
+<Units></Units>
+<Tip>Temperature for steeping grains when brewing with extract</Tip>
+<RID>8831</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_CLOUD_PROXY</Name>
+<Description>Web address of proxy server to connect to cloud </Description>
+<Label>Proxy Server (Advanced)</Label>
+<Column-Name>Proxy Server (Advanced)</Column-Name>
+<Units></Units>
+<Tip>Web address of proxy server to connect to cloud (proxy_address:port)</Tip>
+<RID>8842</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_R_GRAIN_STEEP_TEMP</Name>
+<Description>Steep temperature for grains when brewing an extract</Description>
+<Label>Extract Grain Steep Temp</Label>
+<Column-Name>Extract Grain Steep Temp</Column-Name>
+<Units></Units>
+<Tip>Steep temperature for grains when brewing an extract</Tip>
+<RID>8851</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_R_GRAIN_STEEP_TIME</Name>
+<Description>Time to steep grains when brewing an extract</Description>
+<Label>Steep Time</Label>
+<Column-Name>Steep Time</Column-Name>
+<Units>min</Units>
+<Tip>Time to steep grains when brewing an extract</Tip>
+<RID>8852</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_R_MTIMER_DOWN</Name>
+<Description>Timer showing countdown to the next step</Description>
+<Label>Next Step</Label>
+<Column-Name>Next Step</Column-Name>
+<Units></Units>
+<Tip>Timer showing countdown to the next step</Tip>
+<RID>8855</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_R_BTIMER_DOWN</Name>
+<Description>Countdown to next boil step</Description>
+<Label>Next Step</Label>
+<Column-Name>Next Step</Column-Name>
+<Units></Units>
+<Tip>Countdown to next boil step</Tip>
+<RID>8856</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_GT_GRAVITY</Name>
+<Description>Current gravity of the wort</Description>
+<Label>Original Gravity</Label>
+<Column-Name>Original Gravity</Column-Name>
+<Units></Units>
+<Tip>Current gravity of the wort</Tip>
+<RID>8867</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_GT_VOLUME</Name>
+<Description>Volume of the wort</Description>
+<Label>Volume</Label>
+<Column-Name>Volume</Column-Name>
+<Units></Units>
+<Tip>Volume of the wort</Tip>
+<RID>8868</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_GT_TARGET</Name>
+<Description>The desired wort gravity</Description>
+<Label>Target Gravity</Label>
+<Column-Name>Target Gravity</Column-Name>
+<Units></Units>
+<Tip>The desired wort gravity</Tip>
+<RID>8869</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_GT_TYPE</Name>
+<Description>The type of extract to add </Description>
+<Label>Addition</Label>
+<Column-Name>Addition</Column-Name>
+<Units></Units>
+<Tip>The type of extract to add to adjust the gravity</Tip>
+<RID>8870</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_GT_WEIGHT</Name>
+<Description>The amount of extract to add</Description>
+<Label>Extract to Add</Label>
+<Column-Name>Extract to Add</Column-Name>
+<Units></Units>
+<Tip>The amount of extract to add</Tip>
+<RID>8871</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_GT_WATER_VOL</Name>
+<Description>Amount of water to use if diluting to lower gravity</Description>
+<Label>Dilute with Water</Label>
+<Column-Name>Dilute with Water</Column-Name>
+<Units></Units>
+<Tip>Amount of water to use if diluting to lower gravity</Tip>
+<RID>8872</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_AS_SEARCH</Name>
+<Description>Advanced search </Description>
+<Label>Search</Label>
+<Column-Name>Search</Column-Name>
+<Units></Units>
+<Tip>Advanced search - use comma to separate multiple terms</Tip>
+<RID>8880</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_AS_INGREDIENTS</Name>
+<Description>Searches all ingredients for matching terms</Description>
+<Label>Search Ingredients</Label>
+<Column-Name>Search Ingredients</Column-Name>
+<Units></Units>
+<Tip>Searches all ingredients for matching terms</Tip>
+<RID>8881</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_AS_SUBFOLDERS</Name>
+<Description>Search recipes in subfolders of this folder</Description>
+<Label>Search Subfolders</Label>
+<Column-Name>Search Subfolders</Column-Name>
+<Units></Units>
+<Tip>Search recipes in subfolders of this folder</Tip>
+<RID>8882</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_AS_MATCH</Name>
+<Description>Match recipes</Description>
+<Label>Match recipes</Label>
+<Column-Name>Match recipes</Column-Name>
+<Units></Units>
+<Tip>Match recipes</Tip>
+<RID>8884</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_AS_UNMATCH_COUNT</Name>
+<Description>Allows a recipe to match with some unmatched terms</Description>
+<Label>Allow this number of unmatched terms</Label>
+<Column-Name>Allow Unmatched</Column-Name>
+<Units></Units>
+<Tip>Allows a recipe to match with some unmatched terms</Tip>
+<RID>8885</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_R_FOLDER_NAME</Name>
+<Description>Folder name for advanced search</Description>
+<Label>Folder</Label>
+<Column-Name>Folder</Column-Name>
+<Units></Units>
+<Tip>Folder Name
+</Tip>
+<RID>8900</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_SC_SEARCH</Name>
+<Description>Cloud Search text box</Description>
+<Label>Cloud Search</Label>
+<Column-Name>Cloud Search</Column-Name>
+<Units></Units>
+<Tip>Search the cloud for recipes matching this term</Tip>
+<RID>8905</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_SC_ALL_GRAIN</Name>
+<Description>All grain checkbox for cloud search</Description>
+<Label>All Grain</Label>
+<Column-Name>All Grain</Column-Name>
+<Units></Units>
+<Tip>Search for all grain recipes online</Tip>
+<RID>8907</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_SC_PARTIAL</Name>
+<Description>Search for partial mash recipes online</Description>
+<Label>Partial Mash</Label>
+<Column-Name>Partial Mash</Column-Name>
+<Units></Units>
+<Tip>Search for partial mash recipes online</Tip>
+<RID>8908</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_SC_EXTRACT</Name>
+<Description>Search for extract recipes online</Description>
+<Label>Extract</Label>
+<Column-Name>Extract</Column-Name>
+<Units></Units>
+<Tip>Search for extract recipes online</Tip>
+<RID>8909</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_SC_SORT</Name>
+<Description>Sort cloud recipes in this order</Description>
+<Label>Sort Online Results By</Label>
+<Column-Name>Sort Online Results By</Column-Name>
+<Units></Units>
+<Tip>Sort cloud recipes in this order</Tip>
+<RID>8910</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_SC_MORE</Name>
+<Description>Shows more results</Description>
+<Label>More...</Label>
+<Column-Name>More...</Column-Name>
+<Units></Units>
+<Tip>Shows more results</Tip>
+<RID>8911</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_C_RATING</Name>
+<Description>Number of stars for online rating system</Description>
+<Label>Stars</Label>
+<Column-Name>Stars</Column-Name>
+<Units></Units>
+<Tip>Number of stars for online rating system</Tip>
+<RID>8916</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_C_USER</Name>
+<Description>Online user who contributed this recipe</Description>
+<Label>Contributor</Label>
+<Column-Name>Contributor</Column-Name>
+<Units></Units>
+<Tip>Online user who contributed this recipe</Tip>
+<RID>8917</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_SC_STATUS</Name>
+<Description>Status for cloud search</Description>
+<Label></Label>
+<Column-Name></Column-Name>
+<Units></Units>
+<Tip>Status for cloud search</Tip>
+<RID>8935</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_CLOUD_PROXY_USER</Name>
+<Description>Optional internet proxy user name for accessing the cloud</Description>
+<Label>Proxy User Name</Label>
+<Column-Name>Proxy User Name</Column-Name>
+<Units></Units>
+<Tip>Optional internet proxy user name for accessing the cloud</Tip>
+<RID>8969</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_CLOUD_PROXY_PASS</Name>
+<Description>Optional internet proxy password for cloud access</Description>
+<Label>Proxy Password</Label>
+<Column-Name>Proxy Password</Column-Name>
+<Units></Units>
+<Tip>Optional internet proxy password for cloud access</Tip>
+<RID>8970</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_H_WHIRLPOOL_UTIL</Name>
+<Description>Percent utilization relative to boiled hops for steep/whirlpool</Description>
+<Label>Steep/Whirlpool Util Factor</Label>
+<Column-Name>Steep/Whirlpool Util Factor</Column-Name>
+<Units>%</Units>
+<Tip>Percent of steep/aroma utilization relative to boiled hops.  Should be 50% at a steep temp of 90C/194F</Tip>
+<RID>8982</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_E_PRE_TRUB_LOSS</Name>
+<Description>Volume before including trub loss - used with extract calcs</Description>
+<Label>Pre-Trub Loss Volume</Label>
+<Column-Name>Pre-Trub Loss Volume</Column-Name>
+<Units></Units>
+<Tip>Volume before including trub losses</Tip>
+<RID>8986</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_G_NOT_FERMENTABLE</Name>
+<Description>This ingredient is not fermentable (i.e. lactose)</Description>
+<Label>Not Fermentable</Label>
+<Column-Name>Not Fermentable</Column-Name>
+<Units></Units>
+<Tip>This ingredient is not fermentable (i.e. lactose)</Tip>
+<RID>8987</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_ALPHA</Name>
+<Description>Hop Alpha Percentage</Description>
+<Label>Alpha</Label>
+<Column-Name>Alpha</Column-Name>
+<Units></Units>
+<Tip>Hop Alpha Percentage</Tip>
+<RID>8990</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_TIME</Name>
+<Description>Time when ingredient is used or added</Description>
+<Label>Time</Label>
+<Column-Name>Time</Column-Name>
+<Units></Units>
+<Tip>Time when ingredient is used or added</Tip>
+<RID>8991</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_PHASE_STRING</Name>
+<Description>Phase for this ingredient addition</Description>
+<Label>Phase</Label>
+<Column-Name>Phase</Column-Name>
+<Units></Units>
+<Tip>Phase for this ingredient addition</Tip>
+<RID>8992</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_ORIGIN</Name>
+<Description>Origin or laboratory for this ingredient</Description>
+<Label>Origin</Label>
+<Column-Name>Origin</Column-Name>
+<Units></Units>
+<Tip>Origin or laboratory for this ingredient</Tip>
+<RID>8993</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_COLOR</Name>
+<Description>Color of this ingredient</Description>
+<Label>Color</Label>
+<Column-Name>Color</Column-Name>
+<Units></Units>
+<Tip>Color of this ingredient</Tip>
+<RID>8994</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_FORM</Name>
+<Description>Form for this ingredient</Description>
+<Label>Form</Label>
+<Column-Name>Form</Column-Name>
+<Units></Units>
+<Tip>Form for this ingredient</Tip>
+<RID>8995</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_R_GLASS</Name>
+<Description>Internal use - used for the $glass field </Description>
+<Label>Glass</Label>
+<Column-Name>Glass</Column-Name>
+<Units></Units>
+<Tip>Internal use - used for the $glass field </Tip>
+<RID>9011</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_AR_NAME</Name>
+<Description>Name of the recipe being changed</Description>
+<Label>Name</Label>
+<Column-Name>Name</Column-Name>
+<Units></Units>
+<Tip>Name of the recipe being changed</Tip>
+<RID>9058</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_AR_DATE</Name>
+<Description>Date of the recipe change</Description>
+<Label>Date</Label>
+<Column-Name>Date</Column-Name>
+<Units></Units>
+<Tip>Date of the recipe change</Tip>
+<RID>9059</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_AR_FILE</Name>
+<Description>File name where archived recipe is stored</Description>
+<Label>File</Label>
+<Column-Name>File</Column-Name>
+<Units></Units>
+<Tip>File name
+</Tip>
+<RID>9060</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_AR_ACTION</Name>
+<Description>The action being archived</Description>
+<Label>Action</Label>
+<Column-Name>Action</Column-Name>
+<Units></Units>
+<Tip>The action being archived
+</Tip>
+<RID>9061</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_AR_DIRECTORY</Name>
+<Description>Directory where the recipe is stored</Description>
+<Label>Directory</Label>
+<Column-Name>Folder</Column-Name>
+<Units></Units>
+<Tip>Directory where the recipe is stored</Tip>
+<RID>9062</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_ARCHIVE_EDITS</Name>
+<Description>Option to archive all recipe edits</Description>
+<Label>Archive Recipe Edits</Label>
+<Column-Name>Archive Recipe Edits</Column-Name>
+<Units></Units>
+<Tip>Save all recipe edits in the recipe archive view</Tip>
+<RID>9087</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_ARCHIVE_DELETES</Name>
+<Description>Saves a copy of all deleted recipes in the archive</Description>
+<Label>Archive Recipe Deletes</Label>
+<Column-Name>Archive Recipe Deletes</Column-Name>
+<Units></Units>
+<Tip>Saves a copy of all deleted recipes in the recipe archive
+</Tip>
+<RID>9088</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_ARCHIVE_MONTHS</Name>
+<Description>Keeps archived recipes for this amount of time</Description>
+<Label>Keep Archived Recipes for</Label>
+<Column-Name>Keep Archived Recipes for</Column-Name>
+<Units>Months</Units>
+<Tip>Stores archived recipes for this number of months</Tip>
+<RID>9089</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_ARCHIVE_ADDS</Name>
+<Description>Archives a copy of all new recipes inserted</Description>
+<Label>Archive Recipe Adds</Label>
+<Column-Name>Archive Recipe Adds</Column-Name>
+<Units></Units>
+<Tip>Archives a copy of all new recipes inserted</Tip>
+<RID>9090</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_ARCHIVE_MOVES</Name>
+<Description>Archives all recipe move operations</Description>
+<Label>Archive Recipe Moves</Label>
+<Column-Name>Archive Recipe Moves</Column-Name>
+<Units></Units>
+<Tip>Archives all recipe move operations</Tip>
+<RID>9094</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_SHOW_MENU</Name>
+<Description>Show the menu </Description>
+<Label>Show Menu</Label>
+<Column-Name>Show Menu</Column-Name>
+<Units></Units>
+<Tip>Show the menu bar</Tip>
+<RID>9095</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_G_STEEP</Name>
+<Description>Steep the grains separately from the mash</Description>
+<Label>Steep Grain Separately</Label>
+<Column-Name>Steep Grain Separately</Column-Name>
+<Units></Units>
+<Tip>Steep the grains separately from the mash in an All Grain or Partial Mash recipe</Tip>
+<RID>9098</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>F_CHOOSE_FOLDER</Name>
+<Description>Choose a folder for local copy</Description>
+<Label>Choose Folder</Label>
+<Column-Name>Choose Folder</Column-Name>
+<Units></Units>
+<Tip>Choose a folder for storing these recipes</Tip>
+<RID>9106</RID>
+</Field>
+<Field><_MOD_>2016-03-15</_MOD_>
+<Name>FO_DATE_FMT</Name>
+<Description>Format for displaying dates</Description>
+<Label>Date Format</Label>
+<Column-Name>Date Format</Column-Name>
+<Units></Units>
+<Tip>Format for displaying dates</Tip>
+<RID>9110</RID>
+</Field>
 </Data>
 <_TExpanded>1</_TExpanded>
 </Fields>
@@ -12468,7 +13675,7 @@
 <Type>3507</Type>
 <Owndata>0</Owndata>
 <TID>3507</TID>
-<Size>266</Size>
+<Size>322</Size>
 <_XName>Menus</_XName>
 <Allocinc>16</Allocinc>
 <Data><Menu><_MOD_>2011-11-19</_MOD_>
@@ -12513,22 +13720,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CUT</Name>
-<Short-Name>Cut</Short-Name>
-<Menu-Name>Cut</Menu-Name>
+<Short-Name>Ausschneiden</Short-Name>
+<Menu-Name>Ausschneiden</Menu-Name>
 <Icon-File>Cut</Icon-File>
-<Description>Cuts the currently selected items to the clipboard</Description>
+<Description>Entfernt die ausgew&auml;hlten Objekte und kopiert sie in die Zwischenablage</Description>
 <Help-Name>editing_functions</Help-Name>
-<Tip>Cuts the current selection  and places it on the clipboard.</Tip>
+<Tip>Entfernt die ausgew&auml;hlten Objekte und kopiert sie in die Zwischenablage</Tip>
 <RID>7366</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_COPY</Name>
-<Short-Name>Copy</Short-Name>
-<Menu-Name>Copy</Menu-Name>
+<Short-Name>Kopieren</Short-Name>
+<Menu-Name>Kopieren</Menu-Name>
 <Icon-File>Copy</Icon-File>
-<Description>Copies the currently selected items to the clipboard</Description>
+<Description>Kopiert die aktuell ausgew&auml;hlten Eintr&auml;ge in die Zwischenablage</Description>
 <Help-Name>editing_functions</Help-Name>
-<Tip>Copies the current selection to the clipboard</Tip>
+<Tip>Kopiert die aktuell ausgew&auml;hlten Eintr&auml;ge in die Zwischenablage</Tip>
 <RID>7367</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -12553,22 +13760,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_DELETE</Name>
-<Short-Name>Delete</Short-Name>
-<Menu-Name>Delete</Menu-Name>
+<Short-Name>L&ouml;schen</Short-Name>
+<Menu-Name>L&ouml;schen</Menu-Name>
 <Icon-File>Delete</Icon-File>
-<Description>Delete selected items.</Description>
+<Description>L&ouml;scht ausgew&auml;hlte Elemente</Description>
 <Help-Name>editing_functions</Help-Name>
-<Tip>Deletes selected items and places them in the recycling bin</Tip>
+<Tip>L&ouml;scht ausgew&auml;hlte Elemente und verschiebt sie in den M&uuml;lleimer</Tip>
 <RID>7370</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_EDIT</Name>
-<Short-Name>Edit</Short-Name>
-<Menu-Name>Properties...</Menu-Name>
+<Short-Name>Bearbeiten</Short-Name>
+<Menu-Name>Eigenschaften...</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Edits the currently selected item</Description>
+<Description>Ausgew&auml;hltes Objekt bearbeiten</Description>
 <Help-Name>editing_functions</Help-Name>
-<Tip>Edits the currently selected item</Tip>
+<Tip>Ausgew&auml;hltes Objekt bearbeiten</Tip>
 <RID>7371</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -12583,12 +13790,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ABOUT</Name>
-<Short-Name>About</Short-Name>
-<Menu-Name>About BeerSmith...</Menu-Name>
+<Short-Name>&Uuml;ber</Short-Name>
+<Menu-Name>&Uuml;ber BeerSmith...</Menu-Name>
 <Icon-File>Logo</Icon-File>
-<Description>Shows the About box for BeerSmith</Description>
+<Description>Zeigt den &Uuml;ber Dialog f&uuml;r BeerSmith</Description>
 <Help-Name>about_beersmith</Help-Name>
-<Tip>Displays information about BeerSmith including the current version number</Tip>
+<Tip>Zeigt Informationen &uuml;ber BeerSmith inklusive der aktuellen Versionsnummer</Tip>
 <RID>7373</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -12633,12 +13840,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_BACK</Name>
-<Short-Name>Back</Short-Name>
-<Menu-Name>Back</Menu-Name>
+<Short-Name>Zur&uuml;ck</Short-Name>
+<Menu-Name>Zur&uuml;ck</Menu-Name>
 <Icon-File>Back</Icon-File>
-<Description>Go back to the previous view</Description>
+<Description>Zur&uuml;ck zur vorherigen Ansicht</Description>
 <Help-Name></Help-Name>
-<Tip>Goes back to the previous view</Tip>
+<Tip>Zur&uuml;ck zur vorherigen Ansicht</Tip>
 <RID>7378</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -12673,32 +13880,32 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>I_RED</Name>
-<Short-Name>Red</Short-Name>
-<Menu-Name>Red</Menu-Name>
+<Short-Name>Rot</Short-Name>
+<Menu-Name>Rot</Menu-Name>
 <Icon-File>RedBall</Icon-File>
-<Description>Red Ball</Description>
+<Description>Roter Ball</Description>
 <Help-Name></Help-Name>
-<Tip>Red Ball</Tip>
+<Tip>Roter Ball</Tip>
 <RID>7382</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>I_BLUE</Name>
-<Short-Name>Blue</Short-Name>
-<Menu-Name>Blue</Menu-Name>
+<Short-Name>Blau</Short-Name>
+<Menu-Name>Blau</Menu-Name>
 <Icon-File>BlueBall</Icon-File>
-<Description>Blue ball</Description>
+<Description>Blauer Ball</Description>
 <Help-Name></Help-Name>
-<Tip>Blue ball</Tip>
+<Tip>Blauer Ball</Tip>
 <RID>7383</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>I_YELLOW</Name>
-<Short-Name>Yellow</Short-Name>
-<Menu-Name>Yellow</Menu-Name>
+<Short-Name>Gelb</Short-Name>
+<Menu-Name>Gelb</Menu-Name>
 <Icon-File>YellowBall</Icon-File>
-<Description>Yellow Ball</Description>
+<Description>Gelber Ball</Description>
 <Help-Name></Help-Name>
-<Tip>Yellow Ball</Tip>
+<Tip>Gelber Ball</Tip>
 <RID>7384</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -12733,12 +13940,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CLOSE</Name>
-<Short-Name>Close</Short-Name>
-<Menu-Name>Close</Menu-Name>
+<Short-Name>Schliessen</Short-Name>
+<Menu-Name>Schliessen</Menu-Name>
 <Icon-File>Close</Icon-File>
-<Description>Close the current window</Description>
+<Description>Aktuelles Fenster schliessen</Description>
 <Help-Name></Help-Name>
-<Tip>Close the current view</Tip>
+<Tip>Aktuelle Ansicht schliessen</Tip>
 <RID>7388</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -12773,12 +13980,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_NOTE</Name>
-<Short-Name>Add Note</Short-Name>
-<Menu-Name>Add Note...</Menu-Name>
+<Short-Name>Notiz</Short-Name>
+<Menu-Name>Neue Notiz...</Menu-Name>
 <Icon-File>AddNote</Icon-File>
-<Description>Add a new note</Description>
+<Description>Neue Notiz anlegen</Description>
 <Help-Name>notes</Help-Name>
-<Tip>Add a new note, task or event</Tip>
+<Tip>Neue Notiz, Aufgabe oder Ereignis anlegen</Tip>
 <RID>7392</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -12793,12 +14000,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CANCEL</Name>
-<Short-Name>Cancel</Short-Name>
-<Menu-Name>Cancel</Menu-Name>
+<Short-Name>Abbruch</Short-Name>
+<Menu-Name>Abbruch</Menu-Name>
 <Icon-File>Cancel</Icon-File>
-<Description>Cancel the current item</Description>
+<Description>Aktuellen Eintrag verwerfen</Description>
 <Help-Name></Help-Name>
-<Tip>Close the current item without saving</Tip>
+<Tip>Aktuellen Eintrag ohne zu Speichern verwerfen</Tip>
 <RID>7394</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -12843,12 +14050,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CLOSE_PREVIEW</Name>
-<Short-Name>Close Preview</Short-Name>
-<Menu-Name>Close Preview</Menu-Name>
+<Short-Name>Vorschau schliessen</Short-Name>
+<Menu-Name>Vorschau schliessen</Menu-Name>
 <Icon-File>ClosePreview</Icon-File>
-<Description>Close Preview Pane</Description>
+<Description>Vorschau schliessen</Description>
 <Help-Name></Help-Name>
-<Tip>Close Preview Pane</Tip>
+<Tip>Vorschau schliessen</Tip>
 <RID>7399</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -12893,12 +14100,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_HOPS</Name>
-<Short-Name>Hopfen hinzuf&uuml;gen</Short-Name>
-<Menu-Name>Hopfen hinzuf&uuml;gen...</Menu-Name>
+<Short-Name>Neuer Hopfen</Short-Name>
+<Menu-Name>Neuer Hopfen...</Menu-Name>
 <Icon-File>Hops</Icon-File>
-<Description>Neue Hopfensorte zur Hopfendatenbank hinzuf&uuml;gen</Description>
+<Description>Neuen Hopfen zur Hopfen Datenbank hinzuf&uuml;gen</Description>
 <Help-Name>hops</Help-Name>
-<Tip>Neue Hopfensorte zur Hopfendatenbank hinzuf&uuml;gen</Tip>
+<Tip>Neuen Hopfen zur Hopfen Datenbank hinzuf&uuml;gen</Tip>
 <RID>7404</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -12923,12 +14130,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_GRAIN</Name>
-<Short-Name>Add Grain</Short-Name>
-<Menu-Name>Add Grain...</Menu-Name>
+<Short-Name>Neues Malz</Short-Name>
+<Menu-Name>Neues Malz...</Menu-Name>
 <Icon-File>Grain</Icon-File>
-<Description>Add a new malt, extract or sugar</Description>
+<Description>Neues Malz, Extrakt oder Zucker hinzuf&uuml;gen</Description>
 <Help-Name>grains_and_sugars</Help-Name>
-<Tip>Add a new malt, extract, grain or sugar</Tip>
+<Tip>Neues Malz, Extrakt, Rohfrucht oder Zucker hinzuf&uuml;gen</Tip>
 <RID>7407</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13073,12 +14280,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_MISC</Name>
-<Short-Name>Add Misc</Short-Name>
-<Menu-Name>Add Misc...</Menu-Name>
+<Short-Name>Sonstiges </Short-Name>
+<Menu-Name>Sonstiges hinzuf&uuml;gen...</Menu-Name>
 <Icon-File>Misc</Icon-File>
-<Description>Add a new miscellaneous ingredient </Description>
+<Description>Sonstige Zutat hinzuf&uuml;gen</Description>
 <Help-Name>miscellaneous_ingredients</Help-Name>
-<Tip>Add a new miscellaneous ingredient</Tip>
+<Tip>Eine neue Sonstige Zutat hinzuf&uuml;gen</Tip>
 <RID>7422</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13093,12 +14300,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_WATER</Name>
-<Short-Name>Add Water</Short-Name>
-<Menu-Name>Add Water...</Menu-Name>
+<Short-Name>Neues Wasser</Short-Name>
+<Menu-Name>Neues Wasser...</Menu-Name>
 <Icon-File>Water</Icon-File>
-<Description>Add a new water record</Description>
+<Description>Neues Wasserprofil anlegen</Description>
 <Help-Name>water</Help-Name>
-<Tip>Add a new water record</Tip>
+<Tip>Ein neues Wasserprofil anlegen</Tip>
 <RID>7424</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13123,12 +14330,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_YEAST</Name>
-<Short-Name>Add Yeast</Short-Name>
-<Menu-Name>Add Yeast...</Menu-Name>
+<Short-Name>Neue Hefe</Short-Name>
+<Menu-Name>Neue Hefe...</Menu-Name>
 <Icon-File>Yeast</Icon-File>
-<Description>Add a new yeast item</Description>
+<Description>Neuen Eintrag f&uuml;r Hefe anlegen</Description>
 <Help-Name>yeast</Help-Name>
-<Tip>Add a new yeast item</Tip>
+<Tip>Einen neuen Eintrag f&uuml;r Hefe anlegen</Tip>
 <RID>7427</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13143,32 +14350,32 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_STYLE</Name>
-<Short-Name>Add Style</Short-Name>
-<Menu-Name>Add Style...</Menu-Name>
+<Short-Name>Neuer Stil</Short-Name>
+<Menu-Name>Neuer Stil...</Menu-Name>
 <Icon-File>Style</Icon-File>
-<Description>Add a new style record to the database</Description>
+<Description>Neuen Bierstil zur Datenbank hinzuf&uuml;gen</Description>
 <Help-Name>styles</Help-Name>
-<Tip>Add a new style record to the database</Tip>
+<Tip>Neuen Bierstil zur Datenbank hinzuf&uuml;gen</Tip>
 <RID>7429</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_EQUIPMENT</Name>
-<Short-Name>Equipment</Short-Name>
-<Menu-Name>Equipment</Menu-Name>
+<Short-Name>Ausr&uuml;stung</Short-Name>
+<Menu-Name>Ausr&uuml;stung</Menu-Name>
 <Icon-File>Equip</Icon-File>
-<Description>Equipment view</Description>
+<Description>Ausr&uuml;stungs-Ansicht</Description>
 <Help-Name>equipment_profiles</Help-Name>
-<Tip>View the table of equipment</Tip>
+<Tip>Ausr&uuml;stungs-Tabelle ansehen</Tip>
 <RID>7430</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_EQUIPMENT</Name>
-<Short-Name>Add Equip</Short-Name>
-<Menu-Name>Add Equipment...</Menu-Name>
+<Short-Name>Neue Ausr&uuml;stung</Short-Name>
+<Menu-Name>Neue Ausr&uuml;stung...</Menu-Name>
 <Icon-File>Equip</Icon-File>
-<Description>Add a new equipment profile</Description>
+<Description>Neues Ausr&uuml;stungs-Profil anlegen</Description>
 <Help-Name>equipment_profiles</Help-Name>
-<Tip>Add a new equipment profile</Tip>
+<Tip>Neues Ausr&uuml;stungs-Profil anlegen</Tip>
 <RID>7431</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13183,12 +14390,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_MASHSTEP</Name>
-<Short-Name>Add Mash Step</Short-Name>
-<Menu-Name>Add Mash Step</Menu-Name>
+<Short-Name>Neuer Maischschritt </Short-Name>
+<Menu-Name>Neuer Maischschritt </Menu-Name>
 <Icon-File>Mash</Icon-File>
-<Description>Add a new mash step to this mash profile</Description>
+<Description>Neuen Maischschritt zum Maischprozess hinzuf&uuml;gen</Description>
 <Help-Name>mash_profiles</Help-Name>
-<Tip>Add a new mash step to this mash profile</Tip>
+<Tip>Neuen Maischschritt zum Maischprozess hinzuf&uuml;gen</Tip>
 <RID>7433</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13203,32 +14410,32 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_MASH</Name>
-<Short-Name>Add Mash</Short-Name>
-<Menu-Name>Add Mash...</Menu-Name>
+<Short-Name>Neuer Maischplan</Short-Name>
+<Menu-Name>Neuer Maischplan...</Menu-Name>
 <Icon-File>Mash</Icon-File>
-<Description>Add a new mash profile</Description>
+<Description>Neuen Maischplan anlegen</Description>
 <Help-Name>mash_profiles</Help-Name>
-<Tip>Add a new mash profile</Tip>
+<Tip>Neuen Maischplan anlegen</Tip>
 <RID>7435</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_EDIT_MASHSTEP</Name>
-<Short-Name>Edit Step</Short-Name>
-<Menu-Name>Edit Stel</Menu-Name>
+<Short-Name>Schritt bearbeiten</Short-Name>
+<Menu-Name>Schritt bearbeiten</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Edit the selected mash step</Description>
+<Description>Ausgew&auml;hlten Maische-Schritt bearbeiten</Description>
 <Help-Name>mash_profiles</Help-Name>
-<Tip>Edit the selected mash step</Tip>
+<Tip>Ausgew&auml;hlten Maische-Schritt bearbeiten</Tip>
 <RID>7436</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_DELETE_MASHSTEP</Name>
-<Short-Name>Delete</Short-Name>
-<Menu-Name>Delete Step</Menu-Name>
+<Short-Name>L&ouml;schen</Short-Name>
+<Menu-Name>Schritt l&ouml;schen</Menu-Name>
 <Icon-File>Delete</Icon-File>
-<Description>Delete the currently selected mash step</Description>
+<Description>L&ouml;scht den ausgew&auml;hlten Maisch-Schritt</Description>
 <Help-Name></Help-Name>
-<Tip>Delete the currently selected mash step</Tip>
+<Tip>L&ouml;scht den aktuell ausgew&auml;hlten Maisch-Schritt</Tip>
 <RID>7437</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13273,12 +14480,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_RECIPE</Name>
-<Short-Name>Add Recipe</Short-Name>
-<Menu-Name>Add Recipe...</Menu-Name>
+<Short-Name>Neues Rezept</Short-Name>
+<Menu-Name>Neues Rezept...</Menu-Name>
 <Icon-File>Recipe</Icon-File>
-<Description>Add a new recipe</Description>
+<Description>Neues Rezept anlegen</Description>
 <Help-Name>building_a_recipe</Help-Name>
-<Tip>Add a new recipe</Tip>
+<Tip>Ein neues Rezept anlegen</Tip>
 <RID>7442</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13286,9 +14493,9 @@
 <Short-Name>Design</Short-Name>
 <Menu-Name>Design</Menu-Name>
 <Icon-File>Recipe</Icon-File>
-<Description>Recipe designer tab for recipe dialog</Description>
+<Description>Rezept Designer Reiter f&uuml;r Rezept-Dialog</Description>
 <Help-Name>recipe_design_tab</Help-Name>
-<Tip>Recipe designer tab for recipe dialog</Tip>
+<Tip>Rezept Designer Reiter f&uuml;r Rezept-Dialog</Tip>
 <RID>7443</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13343,12 +14550,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_SHOP</Name>
-<Short-Name>Add Item</Short-Name>
-<Menu-Name>Add to Shopping List...</Menu-Name>
+<Short-Name>Neue Zutat</Short-Name>
+<Menu-Name>Zur Einkaufsliste...</Menu-Name>
 <Icon-File>Cart</Icon-File>
-<Description>Add an item to the shopping list</Description>
+<Description>Zutat zur Einkaufliste hinzuf&uuml;gen</Description>
 <Help-Name>shopping_list</Help-Name>
-<Tip>Add a new item to the shopping list</Tip>
+<Tip>Eine neue Zutat zur Einkaufliste hinzuf&uuml;gen</Tip>
 <RID>7449</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13413,12 +14620,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_FOLDER</Name>
-<Short-Name>Add Folder</Short-Name>
-<Menu-Name>Add Folder...</Menu-Name>
+<Short-Name>Neuer Ordner</Short-Name>
+<Menu-Name>Neuer Ordner...</Menu-Name>
 <Icon-File>New Folder</Icon-File>
-<Description>Add a new folder for storing recipes</Description>
+<Description>Neuen Ordner f&uuml;r Rezepte anlegen</Description>
 <Help-Name>my_recipes_and_folders</Help-Name>
-<Tip>Add a new folder for storing recipes</Tip>
+<Tip>Neuen Ordner f&uuml;r Rezepte anlegen</Tip>
 <RID>7456</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13523,22 +14730,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADJUST_BITTERNESS</Name>
-<Short-Name>Adj Bitterness</Short-Name>
-<Menu-Name>Adjust Bitterness...</Menu-Name>
+<Short-Name>Bittere anp.</Short-Name>
+<Menu-Name>Bittere anpassen...</Menu-Name>
 <Icon-File>AdjustHopBitterness</Icon-File>
-<Description>Adjust bitterness of the recipe</Description>
+<Description>Bittere des Rezepts anpassen</Description>
 <Help-Name>adjusting_bitterness_of_a_reci</Help-Name>
-<Tip>Adjust the bitterness of the recipe</Tip>
+<Tip>Die Bittere des Rezepts anpassen</Tip>
 <RID>7468</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADJUST_GRAVITY</Name>
-<Short-Name>Adj Gravity</Short-Name>
-<Menu-Name>Adjust Gravity...</Menu-Name>
+<Short-Name>Stammwrz. anp.</Short-Name>
+<Menu-Name>Stammw&uuml;rze anpassen...</Menu-Name>
 <Icon-File>AdjustGravity</Icon-File>
-<Description>Adjust the original gravity of this recipe</Description>
+<Description>Stammw&uuml;rze des Rezepts anpassen</Description>
 <Help-Name>adjusting_gravity_for_a_recipe</Help-Name>
-<Tip>Adjust the original gravity of this recipe</Tip>
+<Tip>Stammw&uuml;rze des Rezepts anpassen</Tip>
 <RID>7469</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13553,22 +14760,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CONVERT_RECIPE</Name>
-<Short-Name>Convert</Short-Name>
-<Menu-Name>Convert Recipe...</Menu-Name>
+<Short-Name>Umwandeln</Short-Name>
+<Menu-Name>Rezept umwandeln...</Menu-Name>
 <Icon-File>ConvertRecipe</Icon-File>
-<Description>Convert a recipe from all grain to extract</Description>
+<Description>Rezept von &quot;Malz&quot; auf &quot;Extrakt&quot; umwandeln</Description>
 <Help-Name>converting_a_recipe</Help-Name>
-<Tip>Convert a recipe from all grain to extract</Tip>
+<Tip>Rezept von &quot;Malz&quot; auf &quot;Extrakt&quot; umwandeln</Tip>
 <RID>7471</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADJUST_COLOR</Name>
-<Short-Name>Adj Color</Short-Name>
-<Menu-Name>Adjust Color...</Menu-Name>
+<Short-Name>Farbe anp.</Short-Name>
+<Menu-Name>Farbe anpassen...</Menu-Name>
 <Icon-File>AdjustColor</Icon-File>
-<Description>Adjust the beer color for a recipe</Description>
+<Description>Farbe des Bieres f&uuml;r ein Rezept anpassen</Description>
 <Help-Name>adjusting_color_of_a_recipe</Help-Name>
-<Tip>Adjust the beer color for a recipe</Tip>
+<Tip>Farbe des Bieres f&uuml;r ein Rezept anpassen</Tip>
 <RID>7472</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13623,12 +14830,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CARB</Name>
-<Short-Name>Carbonation</Short-Name>
-<Menu-Name>Carbonation Profiles</Menu-Name>
+<Short-Name>Karbonisierung</Short-Name>
+<Menu-Name>Karbonisierungprofile</Menu-Name>
 <Icon-File>Carbonation</Icon-File>
-<Description>Carbonation profiles for carbonating your beer</Description>
+<Description>Karbonisierungsprofile um Bier zu karbonisieren</Description>
 <Help-Name>carbonation_profiles</Help-Name>
-<Tip>Carbonation profiles for carbonating your beer</Tip>
+<Tip>Profile f&uuml;r die Karbonisierung der Biere</Tip>
 <RID>7478</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13643,12 +14850,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_CARB</Name>
-<Short-Name>Add Carbonation</Short-Name>
-<Menu-Name>Add Carbonation...</Menu-Name>
+<Short-Name>Neue Karbonisierung</Short-Name>
+<Menu-Name>Neue Karbonisierung...</Menu-Name>
 <Icon-File>Carbonation</Icon-File>
-<Description>Add a new carbonation profile</Description>
+<Description>Neues Karbonisierungs-Profil anlegen</Description>
 <Help-Name>carbonation_profiles</Help-Name>
-<Tip>Add a new carbonation profile</Tip>
+<Tip>Neues Karbonisierungs-Profil anlegen</Tip>
 <RID>7480</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13663,12 +14870,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_AGE</Name>
-<Short-Name>Fermentation</Short-Name>
-<Menu-Name>Fermentation Profiles</Menu-Name>
+<Short-Name>G&auml;rf&uuml;hrung</Short-Name>
+<Menu-Name>G&auml;rf&uuml;hrung und Lagerung</Menu-Name>
 <Icon-File>Ferment</Icon-File>
-<Description>Fermentation and aging profile for this beer</Description>
+<Description>G&auml;rf&uuml;hrung und Lagerprofil f&uuml;r dieses Bier</Description>
 <Help-Name>fermentation_profiles</Help-Name>
-<Tip>Fermentation and aging profile for this beer</Tip>
+<Tip>G&auml;rf&uuml;hrung und Lagerprofil f&uuml;r dieses Bier</Tip>
 <RID>7482</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13693,12 +14900,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_AGE</Name>
-<Short-Name>Add Ferm</Short-Name>
-<Menu-Name>Add Ferm...</Menu-Name>
+<Short-Name>Neue G&auml;rung</Short-Name>
+<Menu-Name>Neue G&auml;rung...</Menu-Name>
 <Icon-File>Age</Icon-File>
-<Description>Add a new aging profile</Description>
+<Description>Neue G&auml;rf&uuml;hrung anlegen</Description>
 <Help-Name>fermentation_profiles</Help-Name>
-<Tip>Add a new fermentation aging profile</Tip>
+<Tip>Neues G&auml;rf&uuml;hrungs-Profil anlegen</Tip>
 <RID>7485</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13714,12 +14921,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_STEP</Name>
-<Short-Name>Add Step</Short-Name>
-<Menu-Name>Add Step</Menu-Name>
+<Short-Name>Neuer Schritt</Short-Name>
+<Menu-Name>Schritt hinzu...</Menu-Name>
 <Icon-File>Step</Icon-File>
-<Description>Add a custom step to the brewsheet</Description>
+<Description>Individuellen Schritt zum Brauprotokoll hinzuf&uuml;gen</Description>
 <Help-Name></Help-Name>
-<Tip>Add a custom step to the brewsheet</Tip>
+<Tip>Einen individuellen Schritt zum Brauprotokoll hinzuf&uuml;gen</Tip>
 <RID>7487</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13834,12 +15041,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_TO_CART</Name>
-<Short-Name>Add to Cart</Short-Name>
-<Menu-Name>Add to Cart</Menu-Name>
+<Short-Name>Merken</Short-Name>
+<Menu-Name>In den Korb</Menu-Name>
 <Icon-File>Cart</Icon-File>
-<Description>Add ingredients in this recipe to the shopping cart</Description>
+<Description>Rezeptzutaten in den Warenkorb legen</Description>
 <Help-Name>shopping_list</Help-Name>
-<Tip>Add ingredients in this recipe to the shopping cart</Tip>
+<Tip>Alle Zutaten dieses Rezepts in den Warenkorb legen</Tip>
 <RID>7499</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13854,22 +15061,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CALENDAR</Name>
-<Short-Name>Calendar</Short-Name>
-<Menu-Name>Calendar</Menu-Name>
+<Short-Name>Kalender</Short-Name>
+<Menu-Name>Kalender</Menu-Name>
 <Icon-File>Calendar</Icon-File>
-<Description>Brewing calendar view</Description>
+<Description>Braukalender Ansicht</Description>
 <Help-Name>calendar</Help-Name>
-<Tip>Brewing calendar view</Tip>
+<Tip>Ansicht des Braukalenders</Tip>
 <RID>7501</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_EMPTY_CART</Name>
-<Short-Name>Empty Cart</Short-Name>
-<Menu-Name>Empty Cart</Menu-Name>
+<Short-Name>Warenkorb leeren</Short-Name>
+<Menu-Name>Warenkorb leeren</Menu-Name>
 <Icon-File>EmptyCart</Icon-File>
-<Description>Empty the shopping cart</Description>
+<Description>Den Warenkorb leeren</Description>
 <Help-Name>shopping_list</Help-Name>
-<Tip>Empty the shopping cart</Tip>
+<Tip>Den Warenkorb leeren</Tip>
 <RID>7502</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13924,12 +15131,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_INVENTORY</Name>
-<Short-Name>Add to Inventory</Short-Name>
-<Menu-Name>Add to Inventory</Menu-Name>
+<Short-Name>Ins Inventar</Short-Name>
+<Menu-Name>Ins Inventar</Menu-Name>
 <Icon-File>AddToInventory</Icon-File>
-<Description>Add selected items to inventory</Description>
+<Description>Ausgew&auml;hlte Eintr&auml;ge ins Inventar legen</Description>
 <Help-Name>inventory</Help-Name>
-<Tip>Add selected items to inventory</Tip>
+<Tip>Ausgew&auml;hlte Eintr&auml;ge ins Inventar legen</Tip>
 <RID>7508</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14174,42 +15381,42 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CUSTOMIZE_COLS</Name>
-<Short-Name>Customize Cols</Short-Name>
-<Menu-Name>Customize Columns...</Menu-Name>
+<Short-Name>Spalten anp.</Short-Name>
+<Menu-Name>Spalten anpassen...</Menu-Name>
 <Icon-File>CustomizeCols</Icon-File>
-<Description>Customize the columns displayed for this view</Description>
+<Description>Passt die Spalten die in dieser Ansicht gezeigt werden an</Description>
 <Help-Name>customizing_columns</Help-Name>
-<Tip>Customize the columns displayed for this view</Tip>
+<Tip>Passt die Spalten die in dieser Ansicht gezeigt werden an</Tip>
 <RID>7867</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_EDIT_WINDOW</Name>
-<Short-Name>Edit in window</Short-Name>
-<Menu-Name>Edit in a new window...</Menu-Name>
+<Short-Name>In Fenster bearbeiten</Short-Name>
+<Menu-Name>In Fenster bearbeiten...</Menu-Name>
 <Icon-File>NewWindow</Icon-File>
-<Description>Open this item for editing in a new window</Description>
+<Description>Dieses Objekt zum Bearbeiten in neuem Fenster &ouml;ffnen</Description>
 <Help-Name>navigating_beersmith</Help-Name>
-<Tip>Open this item for editing in a new window</Tip>
+<Tip>Dieses Objekt zum Bearbeiten in neuem Fenster &ouml;ffnen</Tip>
 <RID>7870</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_EDIT_TAB</Name>
-<Short-Name>Edit in Tab</Short-Name>
-<Menu-Name>Edit in a new tab...</Menu-Name>
+<Short-Name>In Reiter bearbeiten</Short-Name>
+<Menu-Name>In Reiter bearbeiten...</Menu-Name>
 <Icon-File>NewTab</Icon-File>
-<Description>Edit this item in a new tab</Description>
+<Description>Objekt in neuem Reiter bearbeiten</Description>
 <Help-Name>navigating_beersmith</Help-Name>
-<Tip>Edit this item in a new tab</Tip>
+<Tip>Objekt in einem neuen Reiter bearbeiten</Tip>
 <RID>7871</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_DEF_REPORT</Name>
-<Short-Name>Default Report</Short-Name>
-<Menu-Name>Set Default Report...</Menu-Name>
+<Short-Name>Standard Report</Short-Name>
+<Menu-Name>Standard Report einstellen...</Menu-Name>
 <Icon-File>Flag</Icon-File>
-<Description>Set the default report format to the current report</Description>
+<Description>Standard Format f&uuml;r den aktuell ausgew&auml;hlten Report festlegen</Description>
 <Help-Name>Reports</Help-Name>
-<Tip>Sets the default report format to the currently selected report</Tip>
+<Tip>Legt das Standard Format f&uuml;r den aktuell ausgew&auml;hlten Report fest</Tip>
 <RID>7873</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14224,12 +15431,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_BREWING_TAB</Name>
-<Short-Name>Brewing</Short-Name>
-<Menu-Name>Brewing</Menu-Name>
+<Short-Name>Brauen</Short-Name>
+<Menu-Name>Brauen</Menu-Name>
 <Icon-File>Recipe</Icon-File>
-<Description>Brewing related options tab name</Description>
+<Description>Brauoptionen Tab Name</Description>
 <Help-Name>brewing_options</Help-Name>
-<Tip>Brewing related options</Tip>
+<Tip>Brauoptionen </Tip>
 <RID>7876</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14254,22 +15461,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_COPY_BREW_LOG</Name>
-<Short-Name>Copy to Log</Short-Name>
-<Menu-Name>Copy to Brew Log</Menu-Name>
+<Short-Name>Protokoll-Kopie</Short-Name>
+<Menu-Name>In den Brauprotokoll-Ordner kopieren</Menu-Name>
 <Icon-File>Move</Icon-File>
-<Description>Make a copy of this recipe in the Brew Log folder</Description>
+<Description>Kopiert dieses Rezept in den Ordner f&uuml;r die Brauprotokolle</Description>
 <Help-Name>my_recipes_and_folders</Help-Name>
-<Tip>Make a copy of this recipe in the Brew Log folder</Tip>
+<Tip>Kopiert dieses Rezept in den Ordner f&uuml;r die Brauprotokolle</Tip>
 <RID>7898</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADVANCED_TAB</Name>
-<Short-Name>Advanced</Short-Name>
-<Menu-Name>Advanced Options</Menu-Name>
+<Short-Name>Erweitert</Short-Name>
+<Menu-Name>Erweiterte Optionen</Menu-Name>
 <Icon-File>OptionsAlt</Icon-File>
-<Description>Advanced options for brewing</Description>
+<Description>Erweiterte Brauoptionen</Description>
 <Help-Name>advanced</Help-Name>
-<Tip>Advanced options for brewing</Tip>
+<Tip>Erweiterte Brauoptionen</Tip>
 <RID>7899</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14384,32 +15591,32 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CUSTOM_FIELDS</Name>
-<Short-Name>Select Your Fields</Short-Name>
-<Menu-Name>Select Your Fields...</Menu-Name>
+<Short-Name>Felder ausw&auml;hlen</Short-Name>
+<Menu-Name>Felder ausw&auml;hlen...</Menu-Name>
 <Icon-File>Extension</Icon-File>
-<Description>Add or remove custom fields in design view</Description>
+<Description>Felder in der Gestaltungsansicht hinzuf&uuml;gen oder entfernen</Description>
 <Help-Name>recipe_design_tab</Help-Name>
-<Tip>Add or remove custom fields in design view</Tip>
+<Tip>Felder in der Gestaltungsansicht hinzuf&uuml;gen oder entfernen</Tip>
 <RID>8031</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_EDIT_CUST_FIELDS</Name>
-<Short-Name>Select Fields</Short-Name>
-<Menu-Name>Select Fields</Menu-Name>
+<Short-Name>Felder ausw&auml;hlen</Short-Name>
+<Menu-Name>Felder ausw&auml;hlen</Menu-Name>
 <Icon-File>Extension</Icon-File>
-<Description>Add/Edit custom fields to the recipe design view</Description>
+<Description>Benutzerdefinierte Felder zum Rezept Designer hinzuf&uuml;gen/bearbeiten</Description>
 <Help-Name>recipe_design_tab</Help-Name>
-<Tip>Add/Edit custom fields to the recipe design view</Tip>
+<Tip>Benutzerdefinierte Felder zum Rezept Designer hinzuf&uuml;gen/bearbeiten</Tip>
 <RID>8033</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CLEAR</Name>
-<Short-Name>Clear</Short-Name>
-<Menu-Name>Clear</Menu-Name>
+<Short-Name>L&ouml;schen</Short-Name>
+<Menu-Name>L&ouml;schen</Menu-Name>
 <Icon-File>Clear</Icon-File>
-<Description>Clears a selected field or item</Description>
+<Description>Ausgew&auml;hltes Feld oder Eintrag l&ouml;schen</Description>
 <Help-Name></Help-Name>
-<Tip>Clears a selected field or item</Tip>
+<Tip>L&ouml;scht das ausgew&auml;hlte Feld oder den den ausgew&auml;hlten Eintrag</Tip>
 <RID>8045</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14557,12 +15764,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CLOSE_ALL</Name>
-<Short-Name>Close All </Short-Name>
-<Menu-Name>Close All</Menu-Name>
+<Short-Name>Alles schliessen</Short-Name>
+<Menu-Name>Alles schliessen</Menu-Name>
 <Icon-File>Close</Icon-File>
-<Description>Closes all active views but leaves main frame open</Description>
+<Description>Schlie&szlig;t all aktiven Ansichten, aber l&auml;sst den Hauptrahmen ge&ouml;ffnet</Description>
 <Help-Name></Help-Name>
-<Tip>Closes all active views but leaves main frame open</Tip>
+<Tip>Schlie&szlig;t all aktiven Ansichten, aber l&auml;sst den Hauptrahmen ge&ouml;ffnet</Tip>
 <RID>8281</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14627,12 +15834,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CLOSE_SIDEBAR</Name>
-<Short-Name>Show/Hide Sidebar</Short-Name>
-<Menu-Name>Show/Hide Sidebar</Menu-Name>
+<Short-Name>Seitenleiste ein-/ausblenden</Short-Name>
+<Menu-Name>Seitenleiste ein-/ausblenden</Menu-Name>
 <Icon-File>ClosePreview</Icon-File>
-<Description>Close/Show the sidebar</Description>
+<Description>Seitenleiste ein-/ausblenden</Description>
 <Help-Name></Help-Name>
-<Tip>Close/Show the sidebar</Tip>
+<Tip>Seitenleiste ein-/ausblenden</Tip>
 <RID>8294</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14748,22 +15955,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_PLUGIN</Name>
-<Short-Name>Add</Short-Name>
-<Menu-Name>Add</Menu-Name>
+<Short-Name>Erweiterung</Short-Name>
+<Menu-Name>Erwieterung hinzu...</Menu-Name>
 <Icon-File>Add</Icon-File>
-<Description>Add a new plugin</Description>
+<Description>Neue Erweiterung installieren</Description>
 <Help-Name></Help-Name>
-<Tip>Add a new plugin</Tip>
+<Tip>Neue Erweiterung installieren</Tip>
 <RID>8346</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_DELETE_PLUGIN</Name>
-<Short-Name>Delete</Short-Name>
-<Menu-Name>Delete</Menu-Name>
-<Icon-File>Delete</Icon-File>
-<Description>Uninstall and delete a plugin</Description>
+<Short-Name>L&ouml;schen</Short-Name>
+<Menu-Name>L&ouml;schen</Menu-Name>
+<Icon-File>L&ouml;schen</Icon-File>
+<Description>L&ouml;scht und deinstalliert Erweiterung</Description>
 <Help-Name></Help-Name>
-<Tip>Uninstall and delete a plugin</Tip>
+<Tip>L&ouml;scht und deinstalliert ein Erweiterung</Tip>
 <RID>8347</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14818,12 +16025,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ACTIVATE</Name>
-<Short-Name>Activate this copy of BeerSmith</Short-Name>
-<Menu-Name>Activate BeerSmith...</Menu-Name>
+<Short-Name>Diese Kopie von BeerSmith aktiviBeerSmith aktivieren...</Short-Name>
+<Menu-Name>BeerSmith aktivieren...</Menu-Name>
 <Icon-File>Privacy</Icon-File>
-<Description>Activate this copy of BeerSmith by entering your activation key</Description>
+<Description>Aktivieren dieser Kopie von BeerSmith durch Eingabe des Aktivierungs-Schl&uuml;ssels</Description>
 <Help-Name></Help-Name>
-<Tip>Activate this copy of BeerSmith by entering your activation key</Tip>
+<Tip>Aktivieren dieser Kopie von BeerSmith durch Eingabe ihres Aktivierungs-Schl&uuml;ssels</Tip>
 <RID>8374</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14998,32 +16205,32 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CHANGE_DOC_DIR</Name>
-<Short-Name>Change Documents Directory</Short-Name>
-<Menu-Name>Change Documents Directory...</Menu-Name>
+<Short-Name>Dateiordner &auml;ndern</Short-Name>
+<Menu-Name>Dateiordner &auml;ndern...</Menu-Name>
 <Icon-File>Folder</Icon-File>
-<Description>Change the location where documents are stored</Description>
+<Description>Ordner in dem die Dateien gespeichert werden &auml;ndern</Description>
 <Help-Name></Help-Name>
-<Tip>Change the location where documents are stored</Tip>
+<Tip>Ordner in dem die Dateien gespeichert werden &auml;ndern</Tip>
 <RID>8477</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CHOOSE_HOPS</Name>
-<Short-Name>Choose Hops</Short-Name>
-<Menu-Name>Choose Hops</Menu-Name>
+<Short-Name>Hopfen w&auml;hlen</Short-Name>
+<Menu-Name>Hopfen ausw&auml;hlen</Menu-Name>
 <Icon-File>Hops</Icon-File>
-<Description>Choose a hops to use in this tool</Description>
+<Description>Hopfen f&uuml;r dieses Werkzeug ausw&auml;hlen</Description>
 <Help-Name></Help-Name>
-<Tip>Choose a hops to use in this tool</Tip>
+<Tip>Einen Hopfen f&uuml;r dieses Werkzeug ausw&auml;hlen</Tip>
 <RID>8515</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_DISP_INGREDIENTS</Name>
-<Short-Name>Ingredients</Short-Name>
-<Menu-Name>Ingredients</Menu-Name>
+<Short-Name>Zutaten</Short-Name>
+<Menu-Name>Zutaten</Menu-Name>
 <Icon-File>Ingredients</Icon-File>
-<Description>Ingredients used in this recipe (shorter version)</Description>
+<Description>In diesem Rezept verwendete Zutaten (Kurzfassung)</Description>
 <Help-Name></Help-Name>
-<Tip>Ingredients used in this recipe</Tip>
+<Tip>In diesem Rezept verwendete Zutaten</Tip>
 <RID>8518</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15078,32 +16285,32 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CLOUD_TAB</Name>
-<Short-Name>Cloud</Short-Name>
-<Menu-Name>Cloud</Menu-Name>
+<Short-Name>Wolke</Short-Name>
+<Menu-Name>Wolke</Menu-Name>
 <Icon-File>Cloud</Icon-File>
-<Description>The BeerSmith Cloud Settings</Description>
+<Description>Die BeerSmith Wolken Einstellungen</Description>
 <Help-Name>Cloud</Help-Name>
-<Tip>Settings for the BeerSmith cloud which allows remote access of recipes.</Tip>
+<Tip>Einstellungen f&uuml;r die BeerSmith Wolke, um auf Rezepte von der Ferne aus zuzugreifen.</Tip>
 <RID>8653</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CLOUD_LOGIN</Name>
-<Short-Name>Login to Account</Short-Name>
-<Menu-Name>Login to Account</Menu-Name>
+<Short-Name>Anmelden</Short-Name>
+<Menu-Name>Anmelden mit Zugang</Menu-Name>
 <Icon-File>Key</Icon-File>
-<Description>Log into your existing account to verify your username and password</Description>
+<Description>In bestehenden Zugang anmelden um Benutzername und Passwort zu &uuml;berpr&uuml;fen</Description>
 <Help-Name></Help-Name>
-<Tip>Log into your existing account to verify your username and password</Tip>
+<Tip>In bestehenden Zugang anmelden um Benutzername und Passwort zu &uuml;berpr&uuml;fen</Tip>
 <RID>8660</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_CLOUD_NEW</Name>
-<Short-Name>Create New Account</Short-Name>
-<Menu-Name>Create New Account</Menu-Name>
+<Short-Name>Neuen Zugang erstellen</Short-Name>
+<Menu-Name>Neuen Zugang erstellen</Menu-Name>
 <Icon-File>Add</Icon-File>
-<Description>Create a new account with this login and password</Description>
+<Description>Neuen Zugang mit diesem Namen und Passwort erstellen</Description>
 <Help-Name></Help-Name>
-<Tip>Create a new account with this login and password</Tip>
+<Tip>Neuen Zugang mit diesem Benutzernamen und Passwort erstellen</Tip>
 <RID>8661</RID>
 </Menu>
 <Menu><_MOD_>2011-11-21</_MOD_>
@@ -15118,12 +16325,12 @@
 </Menu>
 <Menu><_MOD_>2011-12-15</_MOD_>
 <Name>M_CLOUD</Name>
-<Short-Name>Cloud</Short-Name>
-<Menu-Name>Cloud</Menu-Name>
+<Short-Name>Wolke</Short-Name>
+<Menu-Name>Wolke</Menu-Name>
 <Icon-File>Cloud</Icon-File>
-<Description>The BeerSmith Online Recipe Cloud</Description>
+<Description>Die BeerSmith Online Rezepte Wolke</Description>
 <Help-Name></Help-Name>
-<Tip>The BeerSmith Online Recipe Cloud</Tip>
+<Tip>Die BeerSmith Online Rezepte Wolke</Tip>
 <RID>8717</RID>
 </Menu>
 <Menu><_MOD_>2011-12-15</_MOD_>
@@ -15136,6 +16343,569 @@
 <Tip>Animation</Tip>
 <RID>8718</RID>
 </Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_LOGIN_CLOUD</Name>
+<Short-Name>Logon</Short-Name>
+<Menu-Name>Logon</Menu-Name>
+<Icon-File>Cloud</Icon-File>
+<Description>Logon to the cloud</Description>
+<Help-Name></Help-Name>
+<Tip>Logon to the cloud</Tip>
+<RID>8750</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_CLOUD_SYNC</Name>
+<Short-Name>Neu laden</Short-Name>
+<Menu-Name>Neu laden</Menu-Name>
+<Icon-File>Reload</Icon-File>
+<Description>Neu vom Wolkenserver laden</Description>
+<Help-Name></Help-Name>
+<Tip>Neu vom Wolkenserver laden</Tip>
+<RID>8753</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_CLOUD_PRIVATE</Name>
+<Short-Name>&Ouml;ffentlich/Privat</Short-Name>
+<Menu-Name>Rezept als &ouml;ffentlich oder privat markieren</Menu-Name>
+<Icon-File>Lock</Icon-File>
+<Description>Markiert ein Rezept als &ouml;ffentlich oder privat auf der BeerSmith Rezepte-Seite</Description>
+<Help-Name></Help-Name>
+<Tip>Markiert ein Rezept als &ouml;ffentlich oder privat auf der BeerSmith Rezepte-Seite</Tip>
+<RID>8773</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_CLOUD_LOGOFF</Name>
+<Short-Name>Benutzer wechseln</Short-Name>
+<Menu-Name>Wolken-Benutzer wechseln</Menu-Name>
+<Icon-File>Person</Icon-File>
+<Description>Abmelden und als anderer Benutzer bei der Wolke anmelden</Description>
+<Help-Name></Help-Name>
+<Tip>Abmelden und als anderer Benutzer bei der Wolke anmelden</Tip>
+<RID>8774</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_CLOUD_REPLACE</Name>
+<Short-Name>Ersetzen</Short-Name>
+<Menu-Name>Ersetzen</Menu-Name>
+<Icon-File>CloudReplace</Icon-File>
+<Description>Ersetzt ein Wolken-Rezept durch eine neue Version ohne das die Bewertungen verloren gehen</Description>
+<Help-Name>ren gehen</Help-Name>
+<Tip>Ersetzt ein Wolken-Rezept durch eine neue Version ohne das die Kommentare oder Bewertungen verloren gehen</Tip>
+<RID>8785</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_R_CHOOSE_CLOUD</Name>
+<Short-Name>Choose Recipe</Short-Name>
+<Menu-Name>Choose Recipe</Menu-Name>
+<Icon-File></Icon-File>
+<Description>Choose a replacement for this recipe</Description>
+<Help-Name></Help-Name>
+<Tip>Choose a replacement for this recipe</Tip>
+<RID>8786</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_R_START_MTIMER</Name>
+<Short-Name>Run</Short-Name>
+<Menu-Name>Run</Menu-Name>
+<Icon-File>Right</Icon-File>
+<Description>Start the mash timer</Description>
+<Help-Name></Help-Name>
+<Tip>Start the mash timer</Tip>
+<RID>8807</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_R_PAUSE_MTIMER</Name>
+<Short-Name>Pause</Short-Name>
+<Menu-Name>Pause</Menu-Name>
+<Icon-File>Pause</Icon-File>
+<Description>Pause mash timer</Description>
+<Help-Name></Help-Name>
+<Tip>Pause mash timer</Tip>
+<RID>8808</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_R_RESET_MTIMER</Name>
+<Short-Name>Reset</Short-Name>
+<Menu-Name>Reset</Menu-Name>
+<Icon-File>Undo</Icon-File>
+<Description>Reset mash timer</Description>
+<Help-Name></Help-Name>
+<Tip>Reset mash timer</Tip>
+<RID>8809</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_TIMER_TAB</Name>
+<Short-Name>Timer</Short-Name>
+<Menu-Name>Timer</Menu-Name>
+<Icon-File>Clock</Icon-File>
+<Description>Mash and boil brewing timer</Description>
+<Help-Name>timer_tab</Help-Name>
+<Tip>Mash and boil brewing timer</Tip>
+<RID>8811</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_COPY_CLOUD</Name>
+<Short-Name>Wolken-Kopie</Short-Name>
+<Menu-Name>In den Wolken-Ordner kopieren</Menu-Name>
+<Icon-File>Cloud</Icon-File>
+<Description>Kopiert das ausgew&auml;hlte Rezept in den Wolken-Ordner</Description>
+<Help-Name></Help-Name>
+<Tip>Kopiert das ausgew&auml;hlte Rezept in den Wolken-Ordner</Tip>
+<RID>8813</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_R_START_BTIMER</Name>
+<Short-Name>Run</Short-Name>
+<Menu-Name>Run</Menu-Name>
+<Icon-File>Right</Icon-File>
+<Description>Start Boil Timer</Description>
+<Help-Name></Help-Name>
+<Tip>Start Boil Timer</Tip>
+<RID>8821</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_R_PAUSE_BTIMER</Name>
+<Short-Name>Pause</Short-Name>
+<Menu-Name>Pause</Menu-Name>
+<Icon-File>Pause</Icon-File>
+<Description>Pause boil timer</Description>
+<Help-Name></Help-Name>
+<Tip>Pause boil timer</Tip>
+<RID>8822</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_R_RESET_BTIMER</Name>
+<Short-Name>Reset</Short-Name>
+<Menu-Name>Reset</Menu-Name>
+<Icon-File>Undo</Icon-File>
+<Description>Reset Boil Timer</Description>
+<Help-Name></Help-Name>
+<Tip>Reset Boil Timer</Tip>
+<RID>8823</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_SAVE_REPORT_CSV</Name>
+<Short-Name>Save Report as CSV</Short-Name>
+<Menu-Name>Save Report as CSV</Menu-Name>
+<Icon-File>SaveAs</Icon-File>
+<Description>Save this report as a Comma Separated Value file</Description>
+<Help-Name></Help-Name>
+<Tip>Save this report as a Comma Separated Value file</Tip>
+<RID>8836</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_R_SET_BTIMER</Name>
+<Short-Name>Set</Short-Name>
+<Menu-Name>Set</Menu-Name>
+<Icon-File>Clock</Icon-File>
+<Description>Set the boil timer to a particular time</Description>
+<Help-Name></Help-Name>
+<Tip>Set the boil timer to a particular time</Tip>
+<RID>8847</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_R_SET_MTIMER</Name>
+<Short-Name>Set</Short-Name>
+<Menu-Name>Set</Menu-Name>
+<Icon-File>Clock</Icon-File>
+<Description>Set the mash timer to a particular time</Description>
+<Help-Name></Help-Name>
+<Tip>Set the mash timer to a particular time</Tip>
+<RID>8848</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_FAVORITES</Name>
+<Short-Name>Favorites</Short-Name>
+<Menu-Name>Favorites</Menu-Name>
+<Icon-File>Heart</Icon-File>
+<Description>Favorites</Description>
+<Help-Name></Help-Name>
+<Tip>Favorites</Tip>
+<RID>8861</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_ADD_FAVORITE</Name>
+<Short-Name>Favorit speichern</Short-Name>
+<Menu-Name>Favorit speichern</Menu-Name>
+<Icon-File>Add</Icon-File>
+<Description>Diesen Eintrag zu den Favoriten Hinzuf&uuml;gen</Description>
+<Help-Name></Help-Name>
+<Tip>Diesen Eintrag zu den Favoriten Hinzuf&uuml;gen</Tip>
+<RID>8863</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_DELETE_FAVORITE</Name>
+<Short-Name>Favoriten l&ouml;schen</Short-Name>
+<Menu-Name>Favoriten l&ouml;schen</Menu-Name>
+<Icon-File>Delete</Icon-File>
+<Description>L&ouml;scht diesen Favoriten</Description>
+<Help-Name></Help-Name>
+<Tip>L&ouml;scht diesen Favoriten</Tip>
+<RID>8864</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_TOOL_GRAVITY_ADJ</Name>
+<Short-Name>Adjust Gravity</Short-Name>
+<Menu-Name>Adjust Gravity</Menu-Name>
+<Icon-File>AdjustGravity</Icon-File>
+<Description>Adjust wort gravity by adding malt extract</Description>
+<Help-Name>adjust_gravity_tool</Help-Name>
+<Tip>Tool to estimate the amount of malt extract or water needed to adjust the specific gravity of wort</Tip>
+<RID>8866</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_SEARCH</Name>
+<Short-Name>Search All</Short-Name>
+<Menu-Name>Recipe Search</Menu-Name>
+<Icon-File>AdvSearch</Icon-File>
+<Description>Search All Recipes</Description>
+<Help-Name>search_all_local_recipes</Help-Name>
+<Tip>Search All Recipes</Tip>
+<RID>8890</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_SEARCH_RESULTS</Name>
+<Short-Name>Search</Short-Name>
+<Menu-Name>Search</Menu-Name>
+<Icon-File>Search</Icon-File>
+<Description>Search results</Description>
+<Help-Name></Help-Name>
+<Tip>Search Results</Tip>
+<RID>8892</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_SEARCH_SETTINGS</Name>
+<Short-Name>Advanced Search</Short-Name>
+<Menu-Name>Advanced Search</Menu-Name>
+<Icon-File>Search</Icon-File>
+<Description>Advanced Search Settings</Description>
+<Help-Name></Help-Name>
+<Tip>Advanced Search Settings</Tip>
+<RID>8894</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_SEARCH_CLOUD</Name>
+<Short-Name>Cloud Search</Short-Name>
+<Menu-Name>Recipe Cloud Search</Menu-Name>
+<Icon-File>CloudSearch</Icon-File>
+<Description>Search for public recipes on BeerSmithRecipes.com</Description>
+<Help-Name>cloud_search</Help-Name>
+<Tip>Search for public recipes on BeerSmithRecipes.com</Tip>
+<RID>8903</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_SEARCH_CLOUD_SETTINGS</Name>
+<Short-Name>Settings</Short-Name>
+<Menu-Name>Settings</Menu-Name>
+<Icon-File>CloudSearch</Icon-File>
+<Description>Cloud search settings</Description>
+<Help-Name></Help-Name>
+<Tip>Cloud search settings</Tip>
+<RID>8904</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_SC_GO</Name>
+<Short-Name>Start Search</Short-Name>
+<Menu-Name>Start Search</Menu-Name>
+<Icon-File>Search</Icon-File>
+<Description>Search button for cloud search</Description>
+<Help-Name></Help-Name>
+<Tip>Start the search online</Tip>
+<RID>8919</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_SC_MORE</Name>
+<Short-Name>Load More Results</Short-Name>
+<Menu-Name>Load More Results</Menu-Name>
+<Icon-File></Icon-File>
+<Description>Loads more results for the search</Description>
+<Help-Name></Help-Name>
+<Tip>Loads more results for the current search</Tip>
+<RID>8936</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_HTML_PREVIEW</Name>
+<Short-Name>Print Preview</Short-Name>
+<Menu-Name>Print Preview</Menu-Name>
+<Icon-File>Preview</Icon-File>
+<Description>Print Preview Window</Description>
+<Help-Name></Help-Name>
+<Tip>Print Preview</Tip>
+<RID>8948</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_HTML_BAR</Name>
+<Short-Name>Preview</Short-Name>
+<Menu-Name>Preview</Menu-Name>
+<Icon-File></Icon-File>
+<Description>Preview tool bar</Description>
+<Help-Name></Help-Name>
+<Tip>Preview tool bar</Tip>
+<RID>8949</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_TABBED_RIBBON</Name>
+<Short-Name>Toggle Tabbed Ribbon</Short-Name>
+<Menu-Name>Toggle Tabbed Ribbon</Menu-Name>
+<Icon-File>Tab</Icon-File>
+<Description>Toggle tabbed ribbon on and off</Description>
+<Help-Name></Help-Name>
+<Tip>Turns on/off the tabbed ribbon at the top of the screen</Tip>
+<RID>8952</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_CLOUD_TEMP</Name>
+<Short-Name>CloudTemp</Short-Name>
+<Menu-Name>CloudTemp</Menu-Name>
+<Icon-File>Cloud</Icon-File>
+<Description>Temporary table used to store intermediate cloud data</Description>
+<Help-Name></Help-Name>
+<Tip>Temporary table used to store intermediate cloud data</Tip>
+<RID>8954</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_COPY_LOCAL</Name>
+<Short-Name>Lokale Kopie</Short-Name>
+<Menu-Name>Lokale Kopie</Menu-Name>
+<Icon-File>CopyLocal</Icon-File>
+<Description>Kopiert das Rezept in den lokalen Ordner f&uuml;r &quot;Meine Rezepte&quot;</Description>
+<Help-Name>copy_local_command</Help-Name>
+<Tip>Kopiert das Rezept in den lokalen Ordner f&uuml;r &quot;Meine Rezepte&quot;</Tip>
+<RID>8955</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_CLOUD_PREVIEW</Name>
+<Short-Name>Wolken Vorschau</Short-Name>
+<Menu-Name>Wolken Vorschau</Menu-Name>
+<Icon-File>Cloud</Icon-File>
+<Description>Vorschau auf das Rezept aus der Wolke</Description>
+<Help-Name>recipe_preview</Help-Name>
+<Tip>Vorschau auf das Rezept das in der der Rezept-Wolke gefunden wurde</Tip>
+<RID>8956</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_CLOUD_PREVIEW_BAR</Name>
+<Short-Name></Short-Name>
+<Menu-Name></Menu-Name>
+<Icon-File></Icon-File>
+<Description>Identifier for cloud preview bar - internal use</Description>
+<Help-Name></Help-Name>
+<Tip></Tip>
+<RID>8957</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_EDIT_VIEW</Name>
+<Short-Name>Ansehen</Short-Name>
+<Menu-Name>Ansehen</Menu-Name>
+<Icon-File>Properties</Icon-File>
+<Description>Ausgew&auml;hltes Objekt ansehen</Description>
+<Help-Name></Help-Name>
+<Tip>Ausgew&auml;hltes Objekt ansehen</Tip>
+<RID>8958</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_UPDATE_CHECK</Name>
+<Short-Name>Check</Short-Name>
+<Menu-Name>Check</Menu-Name>
+<Icon-File></Icon-File>
+<Description>Internal - used for checking for update</Description>
+<Help-Name></Help-Name>
+<Tip>Internal - used for checking from update</Tip>
+<RID>8960</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_UPDATE_DOWNLOADED</Name>
+<Short-Name>Update Downloaded</Short-Name>
+<Menu-Name>Update Downloaded</Menu-Name>
+<Icon-File></Icon-File>
+<Description>Used internally after an updated version has been downloaded</Description>
+<Help-Name></Help-Name>
+<Tip>Used internally after an updated version has been downloaded</Tip>
+<RID>8962</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_SAVE_EQUIP</Name>
+<Short-Name>Save Equipment Profile</Short-Name>
+<Menu-Name>Save Equipment Profile</Menu-Name>
+<Icon-File>Save</Icon-File>
+<Description>Saves this equipment profile to Profiles-&gt;Equipment</Description>
+<Help-Name></Help-Name>
+<Tip>Saves this equipment profile to Profiles-&gt;Equipment</Tip>
+<RID>8973</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_SAVE_MASH</Name>
+<Short-Name>Save Mash Profile</Short-Name>
+<Menu-Name>Save Mash Profile</Menu-Name>
+<Icon-File>Save</Icon-File>
+<Description>Save this mash profile to your Profiles-&gt;Mash database</Description>
+<Help-Name></Help-Name>
+<Tip>Save this mash profile to your Profiles-&gt;Mash database</Tip>
+<RID>8974</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_SAVE_CARB</Name>
+<Short-Name>Save Carbonation Profile</Short-Name>
+<Menu-Name>Save Carbonation Profile</Menu-Name>
+<Icon-File>Save</Icon-File>
+<Description>Saves this carbonation profile to Profiles-&gt;Carbonation</Description>
+<Help-Name></Help-Name>
+<Tip>Saves this carbonation profile to Profiles-&gt;Carbonation</Tip>
+<RID>8975</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_SAVE_AGE</Name>
+<Short-Name>Save Fermentation Profile</Short-Name>
+<Menu-Name>Save Fermentation Profile</Menu-Name>
+<Icon-File>Save</Icon-File>
+<Description>Saves this fermentation profile to Profiles-&gt;Fermentation</Description>
+<Help-Name></Help-Name>
+<Tip>Saves this fermentation profile to Profiles-&gt;Fermentation</Tip>
+<RID>8976</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_INGREDIENT_FIELDS</Name>
+<Short-Name>Ingredients</Short-Name>
+<Menu-Name>Ingredients</Menu-Name>
+<Icon-File></Icon-File>
+<Description>Internal use - ingredient list fields</Description>
+<Help-Name></Help-Name>
+<Tip>Internal use - ingredient list fields</Tip>
+<RID>9010</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_EQUIP_WIZARD1</Name>
+<Short-Name>Equipment Wizard...</Short-Name>
+<Menu-Name>Equipment Wizard...</Menu-Name>
+<Icon-File>Wizard</Icon-File>
+<Description>Show the equipment wizard</Description>
+<Help-Name>equipment_profiles</Help-Name>
+<Tip>Show the equipment wizard</Tip>
+<RID>9035</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_EQUIP_WIZARD2</Name>
+<Short-Name>Next</Short-Name>
+<Menu-Name>Next</Menu-Name>
+<Icon-File>Right</Icon-File>
+<Description>Show the next page in the equipment wizard</Description>
+<Help-Name>equipment_profiles</Help-Name>
+<Tip>Show the next page in the equipment wizard</Tip>
+<RID>9036</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_EQUIP_WIZARD_PREV</Name>
+<Short-Name>Previous</Short-Name>
+<Menu-Name>Previous</Menu-Name>
+<Icon-File>Left</Icon-File>
+<Description>Go back one page</Description>
+<Help-Name></Help-Name>
+<Tip>Go back one page</Tip>
+<RID>9037</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_EQUIP_WIZARD_NEXT2</Name>
+<Short-Name>Next</Short-Name>
+<Menu-Name>Next</Menu-Name>
+<Icon-File>Right</Icon-File>
+<Description>Used for next page in equip wiz</Description>
+<Help-Name></Help-Name>
+<Tip>Go to the next page in wizard</Tip>
+<RID>9039</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_EQUIP_WIZARD_PREV2</Name>
+<Short-Name>Previous</Short-Name>
+<Menu-Name>Previous</Menu-Name>
+<Icon-File>Left</Icon-File>
+<Description>Previous page in equipment wizard</Description>
+<Help-Name></Help-Name>
+<Tip>Go to previous page in equipment wizard</Tip>
+<RID>9040</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_EQUIP_WIZARD3</Name>
+<Short-Name>Next</Short-Name>
+<Menu-Name>Next</Menu-Name>
+<Icon-File>Right</Icon-File>
+<Description>Next page in equipment wizard</Description>
+<Help-Name>equipment_profiles</Help-Name>
+<Tip>Next page in equipment wizard
+</Tip>
+<RID>9041</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_EQUIP_NORMAL_MODE</Name>
+<Short-Name>Normal Equipment Editor Mode</Short-Name>
+<Menu-Name>Normal Equipment Editor Mode</Menu-Name>
+<Icon-File>Equip</Icon-File>
+<Description>Exits equipment wizard and returns to default equipment editor</Description>
+<Help-Name></Help-Name>
+<Tip>Exits equipment wizard and returns to default equipment editor</Tip>
+<RID>9043</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_EQUIP_WIZARD</Name>
+<Short-Name>Create an Equipment Profile</Short-Name>
+<Menu-Name>Create an Equipment Profile</Menu-Name>
+<Icon-File>Equip</Icon-File>
+<Description>Used in startup screen</Description>
+<Help-Name>equipment_profiles</Help-Name>
+<Tip>Creating a profile to match your equipment is an important first step for using BeerSmith
+</Tip>
+<RID>9053</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_VIDEOS</Name>
+<Short-Name>Watch Video Tutorials</Short-Name>
+<Menu-Name>Watch Video Tutorials on Using BeerSmith</Menu-Name>
+<Icon-File>Monitor</Icon-File>
+<Description>Used in startup screen</Description>
+<Help-Name></Help-Name>
+<Tip>Watch short video tutorials online about how to use BeerSmith</Tip>
+<RID>9054</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_START_BEERSMITH</Name>
+<Short-Name>Start Using BeerSmith</Short-Name>
+<Menu-Name>Start Using BeerSmith</Menu-Name>
+<Icon-File>Logo</Icon-File>
+<Description>Used in startup screen</Description>
+<Help-Name></Help-Name>
+<Tip>Start using BeerSmith 2</Tip>
+<RID>9055</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_ARCHIVE</Name>
+<Short-Name>Rezeptarchiv</Short-Name>
+<Menu-Name>Rezeptarchiv</Menu-Name>
+<Icon-File>Security</Icon-File>
+<Description>Archiv der Rezept&auml;nderungen</Description>
+<Help-Name>the_recipe_archive</Help-Name>
+<Tip>Archiv der Rezept&auml;nderungen</Tip>
+<RID>9057</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_FORCE_SAVE</Name>
+<Short-Name>Force Save</Short-Name>
+<Menu-Name>Force Save</Menu-Name>
+<Icon-File>Save</Icon-File>
+<Description>Force save - used for debugging</Description>
+<Help-Name></Help-Name>
+<Tip>Force save - used for debugging</Tip>
+<RID>9103</RID>
+</Menu>
+<Menu><_MOD_>2016-03-15</_MOD_>
+<Name>M_CHOOSE_FOLDER</Name>
+<Short-Name>Ordner ausw&auml;hlen</Short-Name>
+<Menu-Name>Ordner ausw&auml;hlen</Menu-Name>
+<Icon-File>CopyLocal</Icon-File>
+<Description>Ordner f&uuml;r Rezepte ausw&auml;hlen</Description>
+<Help-Name>copy_local_command</Help-Name>
+<Tip>Ordner in dem die Rezepte gespeichert werden ausw&auml;hlen
+</Tip>
+<RID>9107</RID>
+</Menu>
 </Data>
 <_TExpanded>1</_TExpanded>
 </Menus>
@@ -15144,7 +16914,7 @@
 <Type>3508</Type>
 <Owndata>0</Owndata>
 <TID>3508</TID>
-<Size>137</Size>
+<Size>152</Size>
 <_XName>Options</_XName>
 <Allocinc>16</Allocinc>
 <Data><Option><_MOD_>2011-11-19</_MOD_>
@@ -16242,6 +18012,126 @@
 <Type>0</Type>
 <Description>Cloud password</Description>
 <RID>8734</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_CLOUD_REFRESH_TIME</Res-Name>
+<Option-Name>Cloud.Refresh.Time</Option-Name>
+<Default>12</Default>
+<Type>1</Type>
+<Description>Number of minutes between automatic cloud syncs when cloud view</Description>
+<RID>8772</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_CLOUD_PROXY</Res-Name>
+<Option-Name>Could.Proxy</Option-Name>
+<Default></Default>
+<Type>0</Type>
+<Description>Proxy address used when accessing cloud server</Description>
+<RID>8841</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_PREVIEW_NONE</Res-Name>
+<Option-Name>Preview.None</Option-Name>
+<Default>0</Default>
+<Type>1</Type>
+<Description>Preview panel off (for cloud search)</Description>
+<RID>8912</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_TABBED_RIBBON</Res-Name>
+<Option-Name>View.Ribbon.Tabs</Option-Name>
+<Default>0</Default>
+<Type>1</Type>
+<Description>Used to toggle tabbed ribbons in main frame</Description>
+<RID>8951</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_CLOUD_PROXY_PASS</Res-Name>
+<Option-Name>Cloud.Proxy.Pass</Option-Name>
+<Default></Default>
+<Type>0</Type>
+<Description>Password for cloud proxy</Description>
+<RID>8965</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_CLOUD_PROXY_USER</Res-Name>
+<Option-Name>Cloud.Proxy.User</Option-Name>
+<Default></Default>
+<Type>0</Type>
+<Description>User name for cloud proxy login</Description>
+<RID>8968</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_WHIRLPOOL_UTIL</Res-Name>
+<Option-Name>Hop.Whirlpool</Option-Name>
+<Default>50.0</Default>
+<Type>2</Type>
+<Description>Whirlpool utilization compared to a regular boil</Description>
+<RID>8981</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_ARCHIVE_BASELINE</Res-Name>
+<Option-Name>Archive.Baseline</Option-Name>
+<Default>0</Default>
+<Type>1</Type>
+<Description>True if archive has been baselined</Description>
+<RID>9080</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_ARCHIVE_EDITS</Res-Name>
+<Option-Name>Archive.Edits</Option-Name>
+<Default>1</Default>
+<Type>1</Type>
+<Description>Archives all recipe edits</Description>
+<RID>9083</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O__ARCHIVE_DELETES</Res-Name>
+<Option-Name>Archive.Deletes</Option-Name>
+<Default>1</Default>
+<Type>1</Type>
+<Description>Archive recipe deletes</Description>
+<RID>9084</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_ARCHIVE_MOVES</Res-Name>
+<Option-Name>Archive.Moves</Option-Name>
+<Default>1</Default>
+<Type>1</Type>
+<Description>Archive Recipe Moves</Description>
+<RID>9085</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_ARCHIVE_MONTHS</Res-Name>
+<Option-Name>Archive.Months</Option-Name>
+<Default>60</Default>
+<Type>1</Type>
+<Description>Keep archive data for this number of months</Description>
+<RID>9086</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_ARCHIVE_ADDS</Res-Name>
+<Option-Name>Archive.Adds</Option-Name>
+<Default>1</Default>
+<Type>1</Type>
+<Description>Archives recipe adds/inserts</Description>
+<RID>9091</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_ARCHIVE_DELETES</Res-Name>
+<Option-Name>Archive.Deletes</Option-Name>
+<Default>1</Default>
+<Type>1</Type>
+<Description>Archives all delete operations</Description>
+<RID>9093</RID>
+</Option>
+<Option><_MOD_>2016-03-15</_MOD_>
+<Res-Name>O_DATE_FMT</Res-Name>
+<Option-Name>Date.Format</Option-Name>
+<Default>0</Default>
+<Type>1</Type>
+<Description>Format for displaying dates</Description>
+<RID>9109</RID>
 </Option>
 </Data>
 <_TExpanded>1</_TExpanded>
