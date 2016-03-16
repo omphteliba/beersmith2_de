@@ -1,4 +1,4 @@
-<Database><_BaseKey>79944</_BaseKey>
+<Database><_BaseKey>80443</_BaseKey>
 <Strings><_MOD_>2011-11-19</_MOD_>
 <Name>Strings</Name>
 <Type>3505</Type>
@@ -13850,12 +13850,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_FORWARD</Name>
-<Short-Name>Forward</Short-Name>
-<Menu-Name>Forward</Menu-Name>
+<Short-Name>Weiter</Short-Name>
+<Menu-Name>Weiter</Menu-Name>
 <Icon-File>Forward</Icon-File>
-<Description>Moves forward to the next view</Description>
+<Description>Bl&auml;ttert zur n&auml;chsten Ansicht</Description>
 <Help-Name></Help-Name>
-<Tip>Move forward to the next view</Tip>
+<Tip>Bl&auml;ttert zur n&auml;chsten Ansicht</Tip>
 <RID>7379</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14090,12 +14090,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_HOPS</Name>
-<Short-Name>Hops</Short-Name>
-<Menu-Name>Hops</Menu-Name>
+<Short-Name>Hopfen</Short-Name>
+<Menu-Name>Hopfen</Menu-Name>
 <Icon-File>Hops</Icon-File>
-<Description>View the hops table</Description>
+<Description>Hopfen-Tabelle anzeigen</Description>
 <Help-Name>hops</Help-Name>
-<Tip>View the hops table</Tip>
+<Tip>Hopfen-Tabelle anzeigen</Tip>
 <RID>7403</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14120,12 +14120,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_GRAIN</Name>
-<Short-Name>Grain</Short-Name>
-<Menu-Name>Grain</Menu-Name>
+<Short-Name>Sch&uuml;ttung</Short-Name>
+<Menu-Name>Sch&uuml;ttung</Menu-Name>
 <Icon-File>Grain</Icon-File>
-<Description>View grains, extracts, sugars</Description>
+<Description>Zeigt Malze, Rohfrucht, Extrakte und Zucker an</Description>
 <Help-Name>grains_and_sugars</Help-Name>
-<Tip>View the grains, malt, extract and sugar table</Tip>
+<Tip>Zeigt die Tabelle mit Rohfrucht, Malzen, Extrakten und Zuckern an</Tip>
 <RID>7406</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14350,8 +14350,8 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_STYLE</Name>
-<Short-Name>Neuer Stil</Short-Name>
-<Menu-Name>Neuer Stil...</Menu-Name>
+<Short-Name>Neuer Bierstil</Short-Name>
+<Menu-Name>Neuer Bierstil...</Menu-Name>
 <Icon-File>Style</Icon-File>
 <Description>Neuen Bierstil zur Datenbank hinzuf&uuml;gen</Description>
 <Help-Name>styles</Help-Name>
@@ -14360,12 +14360,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_EQUIPMENT</Name>
-<Short-Name>Ausr&uuml;stung</Short-Name>
-<Menu-Name>Ausr&uuml;stung</Menu-Name>
+<Short-Name>Brauger&auml;t</Short-Name>
+<Menu-Name>Brauger&auml;t</Menu-Name>
 <Icon-File>Equip</Icon-File>
-<Description>Ausr&uuml;stungs-Ansicht</Description>
+<Description>Brauger&auml;t-Ansicht</Description>
 <Help-Name>equipment_profiles</Help-Name>
-<Tip>Ausr&uuml;stungs-Tabelle ansehen</Tip>
+<Tip>Tabelle des Brauger&auml;ts ansehen</Tip>
 <RID>7430</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14460,8 +14460,8 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_G_DME</Name>
-<Short-Name>Dry Extract</Short-Name>
-<Menu-Name>Dry Extract</Menu-Name>
+<Short-Name>Malzextrakt-Pulver</Short-Name>
+<Menu-Name>Malzextrakt-Pulver</Menu-Name>
 <Icon-File>DME</Icon-File>
 <Description>Actually just an icon used for grain database</Description>
 <Help-Name></Help-Name>
@@ -14470,8 +14470,8 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_G_LME</Name>
-<Short-Name>Liquid Extract</Short-Name>
-<Menu-Name>Liquid Extract</Menu-Name>
+<Short-Name>Fl&uuml;ssigmalzextrakt</Short-Name>
+<Menu-Name>Fl&uuml;ssigmalzextrakt</Menu-Name>
 <Icon-File>LME</Icon-File>
 <Description>Icon used in grain types for grain database</Description>
 <Help-Name></Help-Name>
@@ -14610,12 +14610,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_FOLDER</Name>
-<Short-Name>Folder</Short-Name>
-<Menu-Name>Folder</Menu-Name>
+<Short-Name>Ordner</Short-Name>
+<Menu-Name>Ordner</Menu-Name>
 <Icon-File>Folder</Icon-File>
-<Description>Folders used for storing recipes</Description>
+<Description>Ordner f&uuml;r Rezepte</Description>
 <Help-Name>my_recipes_and_folders</Help-Name>
-<Tip>Folders for storing recipes</Tip>
+<Tip>Ordner f&uuml;r Rezepte</Tip>
 <RID>7455</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14720,12 +14720,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_EXIT</Name>
-<Short-Name>Exit</Short-Name>
-<Menu-Name>Exit</Menu-Name>
+<Short-Name>Beenden</Short-Name>
+<Menu-Name>Beenden</Menu-Name>
 <Icon-File>Close</Icon-File>
-<Description>Exit BeerSmith</Description>
+<Description>BeerSmith beenden</Description>
 <Help-Name></Help-Name>
-<Tip>Exit BeerSmith</Tip>
+<Tip>BeerSmith beenden</Tip>
 <RID>7467</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14820,12 +14820,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_HELP</Name>
-<Short-Name>Help</Short-Name>
-<Menu-Name>Help...</Menu-Name>
+<Short-Name>Hilfe</Short-Name>
+<Menu-Name>Hilfe...</Menu-Name>
 <Icon-File>Help</Icon-File>
-<Description>Display help for this topic</Description>
+<Description>Hilfe f&uuml;r dieses Thema anzeigen</Description>
 <Help-Name>index</Help-Name>
-<Tip>Display help for this topic</Tip>
+<Tip>Hilfe f&uuml;r dieses Thema anzeigen</Tip>
 <RID>7477</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15211,32 +15211,32 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_HB_ADD</Name>
-<Short-Name>Add</Short-Name>
-<Menu-Name>Add</Menu-Name>
+<Short-Name>Hinzuf&uuml;gen</Short-Name>
+<Menu-Name>Hinzuf&uuml;gen</Menu-Name>
 <Icon-File>Add</Icon-File>
-<Description>Add a new hop to this hop schedule</Description>
+<Description>Neuen Hopfen zum Rezept hinzuf&uuml;gen</Description>
 <Help-Name>hop_bitterness_tool</Help-Name>
-<Tip>Add a new hop to this hop schedule</Tip>
+<Tip>Neuen Hopfen zum Rezept hinzuf&uuml;gen</Tip>
 <RID>7735</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_HB_EDIT</Name>
-<Short-Name>Edit</Short-Name>
-<Menu-Name>Edit</Menu-Name>
+<Short-Name>Bearbeiten</Short-Name>
+<Menu-Name>Bearbeiten</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Edit the selected hop addition</Description>
+<Description>Ausgew&auml;hlten Hopfen bearbeiten</Description>
 <Help-Name>hop_bitterness_tool</Help-Name>
-<Tip>Edit the selected hop addition</Tip>
+<Tip>Ausgew&auml;hlten Hopfen bearbeiten</Tip>
 <RID>7736</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_HB_DELETE</Name>
-<Short-Name>Delete</Short-Name>
-<Menu-Name>Delete</Menu-Name>
+<Short-Name>L&ouml;schen</Short-Name>
+<Menu-Name>L&ouml;schen</Menu-Name>
 <Icon-File>Delete</Icon-File>
-<Description>Delete the selected hop addition</Description>
+<Description>Ausgew&auml;hlten Hopfen l&ouml;schen</Description>
 <Help-Name>hop_bitterness_tool</Help-Name>
-<Tip>Delete the selected hop addition</Tip>
+<Tip>Ausgew&auml;hlten Hopfen l&ouml;schen</Tip>
 <RID>7737</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15451,12 +15451,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_HOPS_TAB</Name>
-<Short-Name>Bitterness</Short-Name>
-<Menu-Name>Bitterness</Menu-Name>
+<Short-Name>Bittere</Short-Name>
+<Menu-Name>Bittere</Menu-Name>
 <Icon-File>Hops</Icon-File>
-<Description>Options used for bitterness calculations</Description>
+<Description>Optionen f&uuml;r die Berechnung der Bittere</Description>
 <Help-Name>bitterness</Help-Name>
-<Tip>Options used for bitterness calculations</Tip>
+<Tip>Optionen f&uuml;r die Berechnung der Bittere</Tip>
 <RID>7879</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15631,12 +15631,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_GRAIN_ADJ</Name>
-<Short-Name>Grain Pct</Short-Name>
-<Menu-Name>Grain Pct...</Menu-Name>
+<Short-Name>Sch&uuml;ttung %</Short-Name>
+<Menu-Name>Sch&uuml;ttung %...</Menu-Name>
 <Icon-File>Grain</Icon-File>
-<Description>Adjust the percentages of each grain</Description>
+<Description>Prozentwerte der Sch&uuml;ttungsanteile anpassen</Description>
 <Help-Name>recipe_design_tab</Help-Name>
-<Tip>Adjust the percentages of each grain</Tip>
+<Tip>Prozentwerte der einzelnen Sch&uuml;ttungsanteile anpassen</Tip>
 <RID>8071</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15794,12 +15794,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_HELP_INDEX</Name>
-<Short-Name>Help Index</Short-Name>
-<Menu-Name>Help Index...</Menu-Name>
+<Short-Name>Hilfe Index</Short-Name>
+<Menu-Name>Hilfe Index...</Menu-Name>
 <Icon-File>Info</Icon-File>
-<Description>Main help index</Description>
+<Description>Haupt Hilfe Verzeichnis</Description>
 <Help-Name></Help-Name>
-<Tip>Main help index</Tip>
+<Tip>Haupt Hilfe Verzeichnis</Tip>
 <RID>8288</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15807,9 +15807,9 @@
 <Short-Name>Forum</Short-Name>
 <Menu-Name>Forum...</Menu-Name>
 <Icon-File>Person</Icon-File>
-<Description>Online BeerSmith discussion forum</Description>
+<Description>Online BeerSmith Diskussionsforum</Description>
 <Help-Name></Help-Name>
-<Tip>Visit the BeerSmith discussion forum</Tip>
+<Tip>Besucht das BeerSmith Diskussionsforum</Tip>
 <RID>8289</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15817,19 +15817,19 @@
 <Short-Name>Videos</Short-Name>
 <Menu-Name>Videos...</Menu-Name>
 <Icon-File>Monitor</Icon-File>
-<Description>Online video tutorials for BeerSmith 2</Description>
+<Description>Online Video-Anleitungen f&uuml;r BeerSmith 2</Description>
 <Help-Name></Help-Name>
-<Tip>Online video tutorials for BeerSmith 2</Tip>
+<Tip>Online Video-Anleitungen f&uuml;r BeerSmith 2</Tip>
 <RID>8290</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_HELP_SUPPORT</Name>
-<Short-Name>Support</Short-Name>
-<Menu-Name>Support...</Menu-Name>
+<Short-Name>Kundendienst</Short-Name>
+<Menu-Name>Kundendienst...</Menu-Name>
 <Icon-File>Globe</Icon-File>
-<Description>Online support for BeerSmith 2</Description>
+<Description>Online Kundendienst f&uuml;r BeerSmith 2</Description>
 <Help-Name></Help-Name>
-<Tip>Online support for BeerSmith 2</Tip>
+<Tip>Online Kundendienst f&uuml;r BeerSmith 2</Tip>
 <RID>8291</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15925,22 +15925,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_HELP_BEERSMITH</Name>
-<Short-Name>Home Page</Short-Name>
-<Menu-Name>Home Page...</Menu-Name>
+<Short-Name>Webseite</Short-Name>
+<Menu-Name>Webseite...</Menu-Name>
 <Icon-File>Recipe</Icon-File>
-<Description>Open the BeerSmith Home Page</Description>
+<Description>BeerSmith Webseite &ouml;ffnen</Description>
 <Help-Name></Help-Name>
-<Tip>Open the BeerSmith Home Web Page</Tip>
+<Tip>BeerSmith Webseite &ouml;ffnen</Tip>
 <RID>8333</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_HELP_UPDATES</Name>
 <Short-Name>Updates</Short-Name>
-<Menu-Name>Check for Updates...</Menu-Name>
+<Menu-Name>Auf Updates pr&uuml;fen...</Menu-Name>
 <Icon-File>Update</Icon-File>
-<Description>Check online for updates to BeerSmith</Description>
+<Description>Online nach Updates f&uuml;r BeerSmith suchen</Description>
 <Help-Name></Help-Name>
-<Tip>Check online for updates to BeerSmith</Tip>
+<Tip>Online nach Updates f&uuml;r BeerSmith suchen</Tip>
 <RID>8336</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -16265,12 +16265,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_HELPS</Name>
-<Short-Name>Help</Short-Name>
-<Menu-Name>Help</Menu-Name>
+<Short-Name>Hilfe</Short-Name>
+<Menu-Name>Hilfe</Menu-Name>
 <Icon-File>Help</Icon-File>
 <Description>Help menu dropdown for shortcut bar</Description>
 <Help-Name></Help-Name>
-<Tip>Help for BeerSmith</Tip>
+<Tip>Hilfe f&uuml;r BeerSmith</Tip>
 <RID>8627</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -16515,12 +16515,12 @@
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_FAVORITES</Name>
-<Short-Name>Favorites</Short-Name>
-<Menu-Name>Favorites</Menu-Name>
+<Short-Name>Favoriten</Short-Name>
+<Menu-Name>Favoriten</Menu-Name>
 <Icon-File>Heart</Icon-File>
-<Description>Favorites</Description>
+<Description>Favoriten</Description>
 <Help-Name></Help-Name>
-<Tip>Favorites</Tip>
+<Tip>Favoriten</Tip>
 <RID>8861</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
@@ -16625,22 +16625,22 @@
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_HTML_PREVIEW</Name>
-<Short-Name>Print Preview</Short-Name>
-<Menu-Name>Print Preview</Menu-Name>
+<Short-Name>Druckvorschau</Short-Name>
+<Menu-Name>Druckvorschau</Menu-Name>
 <Icon-File>Preview</Icon-File>
-<Description>Print Preview Window</Description>
+<Description>Druckvorschau Fenster</Description>
 <Help-Name></Help-Name>
-<Tip>Print Preview</Tip>
+<Tip>Druckvorschau</Tip>
 <RID>8948</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_HTML_BAR</Name>
-<Short-Name>Preview</Short-Name>
-<Menu-Name>Preview</Menu-Name>
+<Short-Name>Vorschau</Short-Name>
+<Menu-Name>Vorschau</Menu-Name>
 <Icon-File></Icon-File>
-<Description>Preview tool bar</Description>
+<Description>Vorschau Werkzeugleiste</Description>
 <Help-Name></Help-Name>
-<Tip>Preview tool bar</Tip>
+<Tip>Vorschau Werkzeugleiste</Tip>
 <RID>8949</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
@@ -16775,84 +16775,83 @@
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_EQUIP_WIZARD1</Name>
-<Short-Name>Equipment Wizard...</Short-Name>
-<Menu-Name>Equipment Wizard...</Menu-Name>
+<Short-Name>Brauger&auml;t-Zauberer...</Short-Name>
+<Menu-Name>Brauger&auml;t-Zauberer...</Menu-Name>
 <Icon-File>Wizard</Icon-File>
-<Description>Show the equipment wizard</Description>
+<Description>&Ouml;ffnet den Brauger&auml;t-Zauberer</Description>
 <Help-Name>equipment_profiles</Help-Name>
-<Tip>Show the equipment wizard</Tip>
+<Tip>&Ouml;ffnet den Brauger&auml;t-Zauberer</Tip>
 <RID>9035</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_EQUIP_WIZARD2</Name>
-<Short-Name>Next</Short-Name>
-<Menu-Name>Next</Menu-Name>
+<Short-Name>N&auml;chstes</Short-Name>
+<Menu-Name>N&auml;chstes</Menu-Name>
 <Icon-File>Right</Icon-File>
-<Description>Show the next page in the equipment wizard</Description>
+<Description>Zeigt die n&auml;chste Seite des Brauger&auml;t-Zauberers</Description>
 <Help-Name>equipment_profiles</Help-Name>
-<Tip>Show the next page in the equipment wizard</Tip>
+<Tip>Zeigt die n&auml;chste Seite des Brauger&auml;t-Zauberers</Tip>
 <RID>9036</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_EQUIP_WIZARD_PREV</Name>
-<Short-Name>Previous</Short-Name>
-<Menu-Name>Previous</Menu-Name>
+<Short-Name>Zur&uuml;ck</Short-Name>
+<Menu-Name>Zur&uuml;ck</Menu-Name>
 <Icon-File>Left</Icon-File>
-<Description>Go back one page</Description>
+<Description>Eine Seite zur&uuml;ck</Description>
 <Help-Name></Help-Name>
-<Tip>Go back one page</Tip>
+<Tip>Eine Seite zur&uuml;ck bl&auml;ttern</Tip>
 <RID>9037</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_EQUIP_WIZARD_NEXT2</Name>
-<Short-Name>Next</Short-Name>
-<Menu-Name>Next</Menu-Name>
+<Short-Name>N&auml;chstes</Short-Name>
+<Menu-Name>N&auml;chstes</Menu-Name>
 <Icon-File>Right</Icon-File>
 <Description>Used for next page in equip wiz</Description>
 <Help-Name></Help-Name>
-<Tip>Go to the next page in wizard</Tip>
+<Tip>Geht zur n&auml;chsten Seite im Brauger&auml;t-Zauberer</Tip>
 <RID>9039</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_EQUIP_WIZARD_PREV2</Name>
-<Short-Name>Previous</Short-Name>
-<Menu-Name>Previous</Menu-Name>
+<Short-Name>Zur&uuml;ck</Short-Name>
+<Menu-Name>Zur&uuml;ck</Menu-Name>
 <Icon-File>Left</Icon-File>
-<Description>Previous page in equipment wizard</Description>
+<Description>Previous page in equipment Wizard</Description>
 <Help-Name></Help-Name>
-<Tip>Go to previous page in equipment wizard</Tip>
+<Tip>Zur vorhergehenden Seite im Brauger&auml;t-Zauberer bl&auml;ttern</Tip>
 <RID>9040</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_EQUIP_WIZARD3</Name>
-<Short-Name>Next</Short-Name>
-<Menu-Name>Next</Menu-Name>
+<Short-Name>N&auml;chstes</Short-Name>
+<Menu-Name>N&auml;chstes</Menu-Name>
 <Icon-File>Right</Icon-File>
-<Description>Next page in equipment wizard</Description>
+<Description>N&auml;chste Seite im Brauger&auml;t-Zauberer</Description>
 <Help-Name>equipment_profiles</Help-Name>
-<Tip>Next page in equipment wizard
+<Tip>N&auml;chste Seite im Brauger&auml;t-Zauberer
 </Tip>
 <RID>9041</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_EQUIP_NORMAL_MODE</Name>
-<Short-Name>Normal Equipment Editor Mode</Short-Name>
-<Menu-Name>Normal Equipment Editor Mode</Menu-Name>
+<Short-Name>Normaler Brauger&auml;t-Editor Modus</Short-Name>
+<Menu-Name>Normaler Brauger&auml;t-Editor Modus</Menu-Name>
 <Icon-File>Equip</Icon-File>
-<Description>Exits equipment wizard and returns to default equipment editor</Description>
+<Description>Beendet den &quot;Brauger&auml;t-Zauberer&quot; und kehrt zum &quot;Brauger&auml;t-Editor&quot; zur&uuml;ck</Description>
 <Help-Name></Help-Name>
-<Tip>Exits equipment wizard and returns to default equipment editor</Tip>
+<Tip>Beendet den &quot;Brauger&auml;t-Zauberer&quot; und kehrt zum &quot;Brauger&auml;t-Editor&quot; zur&uuml;ck</Tip>
 <RID>9043</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_EQUIP_WIZARD</Name>
-<Short-Name>Create an Equipment Profile</Short-Name>
-<Menu-Name>Create an Equipment Profile</Menu-Name>
+<Short-Name>Brauerei-Profil erstellen</Short-Name>
+<Menu-Name>Brauerei-Profil erstellen</Menu-Name>
 <Icon-File>Equip</Icon-File>
 <Description>Used in startup screen</Description>
 <Help-Name>equipment_profiles</Help-Name>
-<Tip>Creating a profile to match your equipment is an important first step for using BeerSmith
-</Tip>
+<Tip>Das Erstellen eines Profils das den Ger&auml;ten der Brauerei entspricht, ist ein wichtiger erster Schritt in der Arbeit mit BeerSmith</Tip>
 <RID>9053</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
