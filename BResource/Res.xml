@@ -1,0 +1,196 @@
+<Database><_BaseKey>12512</_BaseKey>
+<Strings><ID>11001</ID>
+<RID>11001</RID>
+<Modified>12/31/69</Modified>
+<Type>3505</Type>
+<Owndata>0</Owndata>
+<Name>Strings</Name>
+<TID>3505</TID>
+<Size>0</Size>
+<Allocinc>16</Allocinc>
+<Data></Data>
+</Strings>
+<Fields><ID>11002</ID>
+<RID>11002</RID>
+<Modified>12/31/69</Modified>
+<Type>3506</Type>
+<Owndata>0</Owndata>
+<Name>Fields</Name>
+<TID>3506</TID>
+<Size>0</Size>
+<Allocinc>16</Allocinc>
+<Data></Data>
+</Fields>
+<Menus><ID>11003</ID>
+<RID>11003</RID>
+<Modified>12/31/69</Modified>
+<Type>3507</Type>
+<Owndata>0</Owndata>
+<Name>Menus</Name>
+<TID>3507</TID>
+<Size>11</Size>
+<Allocinc>16</Allocinc>
+<Data><Menu><ID>12487</ID>
+<RID>12487</RID>
+<Modified>12/31/69</Modified>
+<Name>M_OPEN</Name>
+<Short-Name>Open</Short-Name>
+<Menu-Name>Open...</Menu-Name>
+<Icon-File>Open</Icon-File>
+<Description>Open a file</Description>
+<Help-Name>Open</Help-Name>
+<Tip>OpenOpens a file for editing</Tip>
+</Menu>
+<Menu><ID>12490</ID>
+<RID>12490</RID>
+<Modified>12/31/69</Modified>
+<Name>M_SAVE</Name>
+<Short-Name>Save</Short-Name>
+<Menu-Name>Save</Menu-Name>
+<Icon-File>Save</Icon-File>
+<Description>Save file</Description>
+<Help-Name>Save</Help-Name>
+<Tip>SaveSaves a file</Tip>
+</Menu>
+<Menu><ID>12492</ID>
+<RID>12492</RID>
+<Modified>12/31/69</Modified>
+<Name>M_STRING</Name>
+<Short-Name>New String</Short-Name>
+<Menu-Name>New String...</Menu-Name>
+<Icon-File>String</Icon-File>
+<Description>Insert a new string</Description>
+<Help-Name>String</Help-Name>
+<Tip>New StringInsert a new string resource</Tip>
+</Menu>
+<Menu><ID>124700</ID>
+<RID>12700</RID>
+<Modified>12/31/69</Modified>
+<Name>M_MERGE</Name>
+<Short-Name>Merge File</Short-Name>
+<Menu-Name>Merge New File</Menu-Name>
+<Icon-File>Move</Icon-File>
+<Description>Merge two XML files, retaining currently open one</Description>
+<Help-Name></Help-Name>
+<Tip>Merge two XML files, retaining currently open one</Tip>
+</Menu>
+<Menu><ID>12494</ID>
+<RID>12494</RID>
+<Modified>12/31/69</Modified>
+<Name>M_MENU</Name>
+<Short-Name>New Menu</Short-Name>
+<Menu-Name>New Menu...</Menu-Name>
+<Icon-File>Menu</Icon-File>
+<Description>Insert a new menu resource</Description>
+<Help-Name>Menu</Help-Name>
+<Tip>New MenuInsert a new menu</Tip>
+</Menu>
+<Menu><ID>12496</ID>
+<RID>12496</RID>
+<Modified>12/31/69</Modified>
+<Name>M_OPTION</Name>
+<Short-Name>New Option</Short-Name>
+<Menu-Name>New Option...</Menu-Name>
+<Icon-File>Option</Icon-File>
+<Description>Insert a new option resource</Description>
+<Help-Name>Option</Help-Name>
+<Tip>New OptionInserts a new option</Tip>
+</Menu>
+<Menu><ID>12498</ID>
+<RID>12498</RID>
+<Modified>12/31/69</Modified>
+<Name>M_DELETE</Name>
+<Short-Name>Delete</Short-Name>
+<Menu-Name>Delete</Menu-Name>
+<Icon-File>Delete</Icon-File>
+<Description>Delete the selected items</Description>
+<Help-Name>Delete</Help-Name>
+<Tip>DeleteDeletes the currently selected items</Tip>
+</Menu>
+<Menu><ID>12500</ID>
+<RID>12500</RID>
+<Modified>12/31/69</Modified>
+<Name>M_FIELD</Name>
+<Short-Name>New Field</Short-Name>
+<Menu-Name>New Field</Menu-Name>
+<Icon-File>Field</Icon-File>
+<Description>Insert New Field</Description>
+<Help-Name>Field</Help-Name>
+<Tip>New FieldInsert a new field.</Tip>
+</Menu>
+<Menu><ID>12502</ID>
+<RID>12502</RID>
+<Modified>12/31/69</Modified>
+<Name>M_PROPERTIES</Name>
+<Short-Name>Edit</Short-Name>
+<Menu-Name>Properties...</Menu-Name>
+<Icon-File>Properties</Icon-File>
+<Description>Edit the currently selected item</Description>
+<Help-Name>Properties</Help-Name>
+<Tip>Edit PropertiesEdits the currently selected item</Tip>
+</Menu>
+<Menu><ID>12504</ID>
+<RID>12504</RID>
+<Modified>12/31/69</Modified>
+<Name>M_ADD</Name>
+<Short-Name>Add</Short-Name>
+<Menu-Name>Add...</Menu-Name>
+<Icon-File>Add</Icon-File>
+<Description>Add item to current view</Description>
+<Help-Name>Add</Help-Name>
+<Tip>AddAdds an item to the current view</Tip>
+</Menu>
+<Menu><ID>12506</ID>
+<RID>12506</RID>
+<Modified>12/31/69</Modified>
+<Name>M_NEW</Name>
+<Short-Name>New File</Short-Name>
+<Menu-Name>New File...</Menu-Name>
+<Icon-File>New</Icon-File>
+<Description>Creates an empty resource file</Description>
+<Help-Name>New</Help-Name>
+<Tip>Creates an empty resouce file</Tip>
+</Menu>
+<Menu><ID>12508</ID>
+<RID>12508</RID>
+<Modified>12/31/69</Modified>
+<Name>M_SAVEAS</Name>
+<Short-Name>Save As</Short-Name>
+<Menu-Name>Save As...</Menu-Name>
+<Icon-File>SaveAs</Icon-File>
+<Description>Save current resource as another name</Description>
+<Help-Name>SaveAs</Help-Name>
+<Tip>Saves the current resource file under another name.</Tip>
+</Menu>
+</Data>
+</Menus>
+<Options><ID>11004</ID>
+<RID>11004</RID>
+<Modified>12/31/69</Modified>
+<Type>3508</Type>
+<Owndata>0</Owndata>
+<Name>Options</Name>
+<TID>3508</TID>
+<Size>2</Size>
+<Allocinc>16</Allocinc>
+<Data><Option><ID>12510</ID>
+<RID>12510</RID>
+<Modified>12/31/69</Modified>
+<Res-Name>O_RESHDR_PATH</Res-Name>
+<Option-Name>Resource.Header.Path</Option-Name>
+<Default></Default>
+<Type>String</Type>
+<Description>Resource header &quot;res.h&quot; path</Description>
+</Option>
+<Option><ID>12512</ID>
+<RID>12512</RID>
+<Modified>12/31/69</Modified>
+<Res-Name>O_RES_PATH</Res-Name>
+<Option-Name>Resource.Path</Option-Name>
+<Default></Default>
+<Type>String</Type>
+<Description>Path to the resource file.</Description>
+</Option>
+</Data>
+</Options>
+</Database>
