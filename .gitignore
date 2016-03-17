@@ -1,3 +1,4 @@
 *.h
 *.bak
 *.exe
+BResource/icons/*
