@@ -1,4 +1,4 @@
-<Database><_BaseKey>80907</_BaseKey>
+<Database><_BaseKey>83009</_BaseKey>
 <Strings><_MOD_>2011-11-19</_MOD_>
 <Name>Strings</Name>
 <Type>3505</Type>
@@ -13680,32 +13680,32 @@
 <Allocinc>16</Allocinc>
 <Data><Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_OPEN</Name>
-<Short-Name>Open</Short-Name>
-<Menu-Name>Open File...</Menu-Name>
+<Short-Name>&Ouml;ffnen</Short-Name>
+<Menu-Name>Datei &ouml;ffnen...</Menu-Name>
 <Icon-File>Open</Icon-File>
-<Description>Opens a file</Description>
+<Description>&Ouml;ffnet eine Datei</Description>
 <Help-Name>opening_a_file</Help-Name>
-<Tip>Opens a file for editing</Tip>
+<Tip>&Ouml;ffnet eine Datei um sie zu bearbeiten</Tip>
 <RID>7362</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_NEW</Name>
-<Short-Name>New File</Short-Name>
-<Menu-Name>New File...</Menu-Name>
+<Short-Name>Neue Datei</Short-Name>
+<Menu-Name>Neue Datei...</Menu-Name>
 <Icon-File>NewFile</Icon-File>
-<Description>Creates an empty file</Description>
+<Description>Erstellt eine leere Datei</Description>
 <Help-Name>importing_and_exporting_files</Help-Name>
-<Tip>Creates an empty recipe or ingredients file</Tip>
+<Tip>Erstellt ein leeres Rezept oder Datei f&uuml;r Zutaten</Tip>
 <RID>7363</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_SAVE</Name>
-<Short-Name>Export All</Short-Name>
-<Menu-Name>Export All...</Menu-Name>
+<Short-Name>Alles exportieren</Short-Name>
+<Menu-Name>Alles exportieren...</Menu-Name>
 <Icon-File>Save</Icon-File>
-<Description>Export all items to a file</Description>
+<Description>Alle Objekte in eine Datei schreiben</Description>
 <Help-Name>export_all</Help-Name>
-<Tip>Exports all items in this view to a file</Tip>
+<Tip>Alle Objekte aus dieser Ansciht exportieren</Tip>
 <RID>7364</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13740,12 +13740,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_PASTE</Name>
-<Short-Name>Paste</Short-Name>
-<Menu-Name>Paste</Menu-Name>
+<Short-Name>Einf&uuml;gen</Short-Name>
+<Menu-Name>Einf&uuml;gen</Menu-Name>
 <Icon-File>Paste</Icon-File>
-<Description>Paste an item from the clipboard to the current view.</Description>
+<Description>F&uuml;gt ein Objekt aus der Zwischenablage in die aktuelle Ansicht ein</Description>
 <Help-Name>editing_functions</Help-Name>
-<Tip>Pastes an item from the clipboard into the current view</Tip>
+<Tip>F&uuml;gt ein Objekt aus der Zwischenablage in die aktuelle Ansicht ein</Tip>
 <RID>7368</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13780,12 +13780,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_RECIPE</Name>
-<Short-Name>My Recipes</Short-Name>
-<Menu-Name>My Recipes</Menu-Name>
+<Short-Name>Meine Rezepte</Short-Name>
+<Menu-Name>Meine Rezepte</Menu-Name>
 <Icon-File>Recipe</Icon-File>
-<Description>View My Recipes</Description>
+<Description>Meine Rezepte anzeigen</Description>
 <Help-Name>my_recipes_and_folders</Help-Name>
-<Tip>View my recipes</Tip>
+<Tip>Meine Rezepte anzeigen</Tip>
 <RID>7372</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13930,12 +13930,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_REDO</Name>
-<Short-Name>Redo</Short-Name>
-<Menu-Name>Redo</Menu-Name>
+<Short-Name>Nochmals</Short-Name>
+<Menu-Name>Nochmals tun</Menu-Name>
 <Icon-File>Redo</Icon-File>
-<Description>Redo the last operation that was undone</Description>
+<Description>Letzte Aktion die zur&uuml;ck genommen wurde, nochmals ausf&uuml;hren</Description>
 <Help-Name>Redo</Help-Name>
-<Tip>Redo the last operation undone</Tip>
+<Tip>Letzte Aktion die zur&uuml;ck genommen wurde, nochmals ausf&uuml;hren</Tip>
 <RID>7387</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13970,12 +13970,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_NOTES</Name>
-<Short-Name>Notes</Short-Name>
-<Menu-Name>Notes</Menu-Name>
+<Short-Name>Notizen</Short-Name>
+<Menu-Name>Notizen</Menu-Name>
 <Icon-File>Note</Icon-File>
-<Description>Notes view command</Description>
+<Description>Zeigt die Notizen an</Description>
 <Help-Name>notes</Help-Name>
-<Tip>View notes, tasks and events</Tip>
+<Tip>Zeigt Notizen, Aufgaben und Ereignisse</Tip>
 <RID>7391</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -13995,7 +13995,7 @@
 <Icon-File>Ok</Icon-File>
 <Description>Ok</Description>
 <Help-Name></Help-Name>
-<Tip>Save and close the open item</Tip>
+<Tip>Speciehrt und schlie&szlig;t das ge&ouml;ffnete Objekt</Tip>
 <RID>7393</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14080,7 +14080,7 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_PREVIEW_BOTTOM</Name>
-<Short-Name>Preview Bottom</Short-Name>
+<Short-Name>Vorschau Knopf</Short-Name>
 <Menu-Name>Preview on Bottom</Menu-Name>
 <Icon-File>PreviewBottom</Icon-File>
 <Description>PreviewPane on Bottom</Description>
@@ -14270,12 +14270,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_MISC</Name>
-<Short-Name>Misc</Short-Name>
-<Menu-Name>Miscellaneous</Menu-Name>
+<Short-Name>Sonstiges</Short-Name>
+<Menu-Name>Sonstiges</Menu-Name>
 <Icon-File>Misc</Icon-File>
-<Description>View the table of miscellaneous items</Description>
+<Description>Zeigt die Tabelle der sonstigen Zutaten</Description>
 <Help-Name>miscellaneous_ingredients</Help-Name>
-<Tip>View the database of miscellaneous items</Tip>
+<Tip>Zeigt die Tabelle der sonstigen Zutaten</Tip>
 <RID>7421</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14310,12 +14310,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_RENAME</Name>
-<Short-Name>Rename</Short-Name>
-<Menu-Name>Rename...</Menu-Name>
+<Short-Name>Umbenennen</Short-Name>
+<Menu-Name>Umbenennen...</Menu-Name>
 <Icon-File>Rename</Icon-File>
-<Description>Rename the selected item</Description>
+<Description>Ausgew&auml;hltes Objekt umbenennen</Description>
 <Help-Name>editing_functions</Help-Name>
-<Tip>Rename the selected item</Tip>
+<Tip>Ausgew&auml;hltes Objekt umbenennen</Tip>
 <RID>7425</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14380,12 +14380,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_MASHSTEP</Name>
-<Short-Name>Mash Step</Short-Name>
-<Menu-Name>Mash Step</Menu-Name>
+<Short-Name>Maischschritte</Short-Name>
+<Menu-Name>Maischschritte</Menu-Name>
 <Icon-File>MashStep</Icon-File>
-<Description>View the mash steps for this mash profile</Description>
+<Description>Maischschritte dieses Maischprozesses anzeigen</Description>
 <Help-Name>mash_profiles</Help-Name>
-<Tip>View the mash steps for this mash profile</Tip>
+<Tip>Maischschritte dieses Maischprozesses anzeigen</Tip>
 <RID>7432</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14400,22 +14400,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_MASH</Name>
-<Short-Name>Mash</Short-Name>
-<Menu-Name>Mash Profiles</Menu-Name>
+<Short-Name>Maische</Short-Name>
+<Menu-Name>Maischprozess</Menu-Name>
 <Icon-File>Mash</Icon-File>
-<Description>View the table of mash profiles</Description>
+<Description>Tabelle der Maischprozesse anzeigen</Description>
 <Help-Name>mash_profiles</Help-Name>
-<Tip>View the table of mash profiles</Tip>
+<Tip>Tabelle der Maischprozesse anzeigen</Tip>
 <RID>7434</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ADD_MASH</Name>
-<Short-Name>Neuer Maischplan</Short-Name>
-<Menu-Name>Neuer Maischplan...</Menu-Name>
+<Short-Name>Neuer Maischprozess</Short-Name>
+<Menu-Name>Neuer Maischprozess...</Menu-Name>
 <Icon-File>Mash</Icon-File>
-<Description>Neuen Maischplan anlegen</Description>
+<Description>Neuen Maischprozess anlegen</Description>
 <Help-Name>mash_profiles</Help-Name>
-<Tip>Neuen Maischplan anlegen</Tip>
+<Tip>Neuen Maischprozess anlegen</Tip>
 <RID>7435</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14423,9 +14423,9 @@
 <Short-Name>Schritt bearbeiten</Short-Name>
 <Menu-Name>Schritt bearbeiten</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Ausgew&auml;hlten Maische-Schritt bearbeiten</Description>
+<Description>Ausgew&auml;hlten Maischschritt bearbeiten</Description>
 <Help-Name>mash_profiles</Help-Name>
-<Tip>Ausgew&auml;hlten Maische-Schritt bearbeiten</Tip>
+<Tip>Ausgew&auml;hlten Maischschritt bearbeiten</Tip>
 <RID>7436</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14433,29 +14433,29 @@
 <Short-Name>L&ouml;schen</Short-Name>
 <Menu-Name>Schritt l&ouml;schen</Menu-Name>
 <Icon-File>Delete</Icon-File>
-<Description>L&ouml;scht den ausgew&auml;hlten Maisch-Schritt</Description>
+<Description>L&ouml;scht den ausgew&auml;hlten Maischschritt</Description>
 <Help-Name></Help-Name>
-<Tip>L&ouml;scht den aktuell ausgew&auml;hlten Maisch-Schritt</Tip>
+<Tip>L&ouml;scht den aktuell ausgew&auml;hlten Maischschritt</Tip>
 <RID>7437</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_MASHSTEP_UP</Name>
-<Short-Name>Move Step Up</Short-Name>
-<Menu-Name>Move Step Up</Menu-Name>
+<Short-Name>Schritt hoch</Short-Name>
+<Menu-Name>Schritt hoch</Menu-Name>
 <Icon-File>Up</Icon-File>
-<Description>Move the selected step up </Description>
+<Description>Bewegt den ausgew&auml;hlten Schritt nach oben</Description>
 <Help-Name></Help-Name>
-<Tip>Moves the selected mash step up one place</Tip>
+<Tip>Bewegt den ausgew&auml;hlten Schritt um eine Position nach oben</Tip>
 <RID>7438</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_MASHSTEP_DOWN</Name>
-<Short-Name>Move Step Down</Short-Name>
-<Menu-Name>Move Step Down</Menu-Name>
+<Short-Name>Schritt runter</Short-Name>
+<Menu-Name>Schritt runter</Menu-Name>
 <Icon-File>Down</Icon-File>
-<Description>Moves the selected mash step down one place</Description>
+<Description>Bewegt den ausgew&auml;hlten Maischschritt eine Position nach unten</Description>
 <Help-Name></Help-Name>
-<Tip>Moves the selected mash step down one place</Tip>
+<Tip>Bewegt den ausgew&auml;hlten Maischschritt eine Position nach unten</Tip>
 <RID>7439</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14500,42 +14500,42 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_ADD_GRAIN</Name>
-<Short-Name>Add Grain</Short-Name>
-<Menu-Name>Add Grain</Menu-Name>
+<Short-Name>Neue Sch&uuml;ttung</Short-Name>
+<Menu-Name>Neue Sch&uuml;ttung</Menu-Name>
 <Icon-File>Grain</Icon-File>
-<Description>Add a new extract, grain or sugar to this recipe</Description>
+<Description>Exktrakt, Malz oder Zucker zum Rezept hinzuf&uuml;gen</Description>
 <Help-Name>recipe_design_tab</Help-Name>
-<Tip>Add a new extract, grain or sugar to this recipe</Tip>
+<Tip>Exktrakt, Malz oder Zucker zum Rezept hinzuf&uuml;gen</Tip>
 <RID>7444</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_ADD_HOPS</Name>
-<Short-Name>Add Hops</Short-Name>
-<Menu-Name>Add Hops</Menu-Name>
+<Short-Name>Neuer Hopfen</Short-Name>
+<Menu-Name>Neuer Hopfen</Menu-Name>
 <Icon-File>Hops</Icon-File>
-<Description>Add a new hops ingredient to this recipe</Description>
+<Description>Hopfen zum Rezept hinzuf&uuml;gen</Description>
 <Help-Name>recipe_design_tab</Help-Name>
-<Tip>Add a new hops ingredient to this recipe</Tip>
+<Tip>Hopfen zum Rezept hinzuf&uuml;gen</Tip>
 <RID>7445</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_ADD_YEAST</Name>
-<Short-Name>Add Yeast</Short-Name>
-<Menu-Name>Add Yeast</Menu-Name>
+<Short-Name>Neue Hefe</Short-Name>
+<Menu-Name>Neue Hefe</Menu-Name>
 <Icon-File>Yeast</Icon-File>
-<Description>Add a new yeast ingredient to this recipe</Description>
+<Description>Hefe zum Rezept hinzuf&uuml;gen</Description>
 <Help-Name>recipe_design_tab</Help-Name>
-<Tip>Add a new yeast ingredient to this recipe</Tip>
+<Tip>Hefe zum Rezept hinzuf&uuml;gen</Tip>
 <RID>7446</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_ADD_WATER</Name>
-<Short-Name>Add Water</Short-Name>
-<Menu-Name>Add Water</Menu-Name>
+<Short-Name>Neues Wasser</Short-Name>
+<Menu-Name>Neues Wasser</Menu-Name>
 <Icon-File>Water</Icon-File>
-<Description>Add a new water ingredient to this recipe</Description>
+<Description>Wasser zum Rezept hinzuf&uuml;gen</Description>
 <Help-Name>recipe_design_tab</Help-Name>
-<Tip>Add a new water ingredient to this recipe</Tip>
+<Tip>Wasser zum Rezept hinzuf&uuml;gen</Tip>
 <RID>7447</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14560,52 +14560,52 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_DELETE_ING</Name>
-<Short-Name>Delete</Short-Name>
-<Menu-Name>Delete</Menu-Name>
+<Short-Name>L&ouml;schen</Short-Name>
+<Menu-Name>L&ouml;schen</Menu-Name>
 <Icon-File>Delete</Icon-File>
-<Description>Delete Ingredient</Description>
+<Description>Zutat l&ouml;schen</Description>
 <Help-Name></Help-Name>
-<Tip>Delete the selected ingredient</Tip>
+<Tip>Ausgew&auml;hlte Zutat l&ouml;schen</Tip>
 <RID>7450</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_EDIT_ING</Name>
-<Short-Name>Edit</Short-Name>
-<Menu-Name>Edit</Menu-Name>
+<Short-Name>Bearbeiten</Short-Name>
+<Menu-Name>Bearbeiten</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Edit the selected ingredient</Description>
+<Description>Ausgew&auml;hlte Zutat bearbeiten</Description>
 <Help-Name></Help-Name>
-<Tip>Edit the selected ingredient</Tip>
+<Tip>Ausgew&auml;hlte Zutat bearbeiten</Tip>
 <RID>7451</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_ADD_MISC</Name>
-<Short-Name>Add Misc</Short-Name>
-<Menu-Name>Add Misc</Menu-Name>
+<Short-Name>Sonstiges hinzuf&uuml;gen</Short-Name>
+<Menu-Name>Sonstiges hinzuf&uuml;gen</Menu-Name>
 <Icon-File>Misc</Icon-File>
-<Description>Add a miscellaneous Ingredient</Description>
+<Description>Sonstige Zutat hinzuf&uuml;gen</Description>
 <Help-Name>recipe_design_tab</Help-Name>
-<Tip>Add a miscellaneous Ingredient</Tip>
+<Tip>Sonstige Zutat hinzuf&uuml;gen</Tip>
 <RID>7452</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_INCREASE_AMT</Name>
-<Short-Name>Increase Amt</Short-Name>
-<Menu-Name>Increase Amt</Menu-Name>
+<Short-Name>Menge erh&ouml;hen</Short-Name>
+<Menu-Name>Menge erh&ouml;hen</Menu-Name>
 <Icon-File>IncAmt</Icon-File>
-<Description>Increase amount of selected ingredient</Description>
+<Description>Menge der ausgew&auml;hlten Zutat erh&ouml;hen</Description>
 <Help-Name></Help-Name>
-<Tip>Increase the amount of the selected ingredient</Tip>
+<Tip>Die Menge der ausgew&auml;hlten Zutat erh&ouml;hen</Tip>
 <RID>7453</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_DECREASE_AMT</Name>
-<Short-Name>Decrease Amt</Short-Name>
-<Menu-Name>Decrease Amt</Menu-Name>
+<Short-Name>Menge reduzieren</Short-Name>
+<Menu-Name>Menge reduzieren</Menu-Name>
 <Icon-File>DecAmt</Icon-File>
-<Description>Decrease the amount of the selected ingredient</Description>
+<Description>Menge der gew&auml;hlten Zutat reduzieren</Description>
 <Help-Name></Help-Name>
-<Tip>Decrease the amount of the selected ingredient</Tip>
+<Tip>Menge der gew&auml;hlten Zutat reduzieren</Tip>
 <RID>7454</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14630,92 +14630,92 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_CHOOSE_STYLE</Name>
-<Short-Name>Choose Style</Short-Name>
-<Menu-Name>Choose Style</Menu-Name>
+<Short-Name>Bierstil w&auml;hlen</Short-Name>
+<Menu-Name>Bierstil ausw&auml;hlen</Menu-Name>
 <Icon-File>Style</Icon-File>
-<Description>Choose the style of this beer</Description>
+<Description>Bierstil f&uuml;r dieses Rezept w&auml;hlen</Description>
 <Help-Name>styles</Help-Name>
-<Tip>Choose the style of this beer</Tip>
+<Tip>Bierstil f&uuml;r dieses Rezept ausw&auml;hlen</Tip>
 <RID>7457</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_CHOOSE_EQUIP</Name>
-<Short-Name>Choose Equipment</Short-Name>
-<Menu-Name>Choose Equipment</Menu-Name>
+<Short-Name>Brauger&auml;t w&auml;hlen</Short-Name>
+<Menu-Name>Brauger&auml;t w&auml;hlen</Menu-Name>
 <Icon-File>Equip</Icon-File>
-<Description>Choose equipment for this recipe</Description>
+<Description>Brauger&auml;t f&uuml;r dieses Rezept w&auml;hlen</Description>
 <Help-Name>equipment_profiles</Help-Name>
-<Tip>Choose equipment for this recipe</Tip>
+<Tip>Brauger&auml;t f&uuml;r dieses Rezept w&auml;hlen</Tip>
 <RID>7458</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_CHOOSE_MASH</Name>
-<Short-Name>Choose Mash</Short-Name>
-<Menu-Name>Choose Mash</Menu-Name>
+<Short-Name>Maischprozess w&auml;hlen</Short-Name>
+<Menu-Name>Maischprozess ausw&auml;hlen</Menu-Name>
 <Icon-File>Mash</Icon-File>
-<Description>Choose the mash profile for this recipe</Description>
+<Description>Maischprozess f&uuml;r dieses Rezept w&auml;hlen</Description>
 <Help-Name>mash_profiles</Help-Name>
-<Tip>Choose the mash profile for this recipe</Tip>
+<Tip>Maischprozess f&uuml;r dieses Rezept ausw&auml;hlen</Tip>
 <RID>7459</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_SUBST_ING</Name>
-<Short-Name>Substitute</Short-Name>
-<Menu-Name>Substitute</Menu-Name>
+<Short-Name>Ersatz</Short-Name>
+<Menu-Name>Ersetzen</Menu-Name>
 <Icon-File>Refresh</Icon-File>
-<Description>Substitute the selected ingredient for another</Description>
+<Description>Ausgew&auml;hlte Zutat ersetzen</Description>
 <Help-Name>recipe_design_tab</Help-Name>
-<Tip>Substitute the selected ingredient for another</Tip>
+<Tip>Ausgew&auml;hlte Zutat durch eine andere austauschen</Tip>
 <RID>7460</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_EDIT_STYLE</Name>
-<Short-Name>Edit Style</Short-Name>
-<Menu-Name>Edit Style</Menu-Name>
+<Short-Name>Bierstil &auml;ndern</Short-Name>
+<Menu-Name>Bierstil &auml;ndern</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Edit the style for this recipe</Description>
+<Description>Bierstil des Rezepts &auml;ndern</Description>
 <Help-Name>styles</Help-Name>
-<Tip>Edit the style for this recipe</Tip>
+<Tip>Den Bierstil des Rezepts &auml;ndern</Tip>
 <RID>7461</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_EDIT_EQUIP</Name>
-<Short-Name>Edit Equipment</Short-Name>
-<Menu-Name>Edit Equipment</Menu-Name>
+<Short-Name>Brauger&auml;t &auml;ndern</Short-Name>
+<Menu-Name>Brauger&auml;t &auml;ndern</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Edit the equipment settings for this recipe</Description>
+<Description>Brauger&auml;t f&uuml;r dieses Rezept &auml;ndern</Description>
 <Help-Name>equipment_profiles</Help-Name>
-<Tip>Edit the equipment settings for this recipe</Tip>
+<Tip>Das Brauger&auml;t f&uuml;r dieses Rezept &auml;ndern</Tip>
 <RID>7462</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_EDIT_MASH</Name>
-<Short-Name>Edit Mash</Short-Name>
-<Menu-Name>Edit Mash</Menu-Name>
+<Short-Name>Maischprozess &auml;ndern</Short-Name>
+<Menu-Name>Maischprozess &auml;ndern</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Edit the mash profile for this recipe</Description>
+<Description>Maischprozess f&uuml;r dieses Rezept &auml;ndern</Description>
 <Help-Name>mash_profiles</Help-Name>
-<Tip>Edit the mash profile for this recipe</Tip>
+<Tip>Maischprozess f&uuml;r dieses Rezept &auml;ndern</Tip>
 <RID>7463</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_ADD_TO_DATABASE</Name>
-<Short-Name>Save to My Ingredients</Short-Name>
-<Menu-Name>Save to Database</Menu-Name>
+<Short-Name>Zu meinen Zutaten hinzuf&uuml;gen</Short-Name>
+<Menu-Name>Zu meinen Zutaten hinzuf&uuml;gen</Menu-Name>
 <Icon-File>Save</Icon-File>
-<Description>Save Item to My Ingredient Database</Description>
+<Description>Zu meinen Zutaten hinzuf&uuml;gen</Description>
 <Help-Name>recipe_design_tab</Help-Name>
-<Tip>Save Item to My Ingredient Database</Tip>
+<Tip>Zu meinen Zutaten hinzuf&uuml;gen</Tip>
 <RID>7464</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_UPDATE_PRICES</Name>
-<Short-Name>Update Prices</Short-Name>
-<Menu-Name>Update Prices</Menu-Name>
+<Short-Name>Preise aktualisieren</Short-Name>
+<Menu-Name>Preise aktualisieren</Menu-Name>
 <Icon-File>Price</Icon-File>
-<Description>Update Prices for Ingredients from My Ingredients Tables</Description>
+<Description>Preise der Zutaten mit Werten aus der &quot;Meine Zutaten&quot; Datenbank aktualisieren</Description>
 <Help-Name></Help-Name>
-<Tip>Updates prices for all ingredients from My Ingredients database</Tip>
+<Tip>Preise der Zutaten mit Werten aus der &quot;Meine Zutaten&quot; Datenbank aktualisieren</Tip>
 <RID>7465</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14780,22 +14780,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_EDIT_BASE_GRAIN</Name>
-<Short-Name>Edit Base Grain</Short-Name>
-<Menu-Name>Edit Base Grain</Menu-Name>
+<Short-Name>Grundmalz &auml;ndern</Short-Name>
+<Menu-Name>Grundmalz &auml;ndern</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Edit the base grain for recipe conversion</Description>
+<Description>Grundmalz f&uuml;r die Umwandlung &auml;ndern</Description>
 <Help-Name>converting_a_recipe</Help-Name>
-<Tip>Edit the base grain for recipe conversion</Tip>
+<Tip>Grundmalz f&uuml;r die Umwandlung &auml;ndern</Tip>
 <RID>7473</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_CHOOSE_BASE_GRAIN</Name>
-<Short-Name>Choose Base Grain</Short-Name>
-<Menu-Name>Choose Base Grain</Menu-Name>
+<Short-Name>Basis Malz w&auml;hlen</Short-Name>
+<Menu-Name>Basis Malz w&auml;hlen</Menu-Name>
 <Icon-File>Grain</Icon-File>
-<Description>Choose the base grain for recipe conversion</Description>
+<Description>Basis Malz f&uuml;r die Rezeptumwandlung ausw&auml;hlen</Description>
 <Help-Name>converting_a_recipe</Help-Name>
-<Tip>Choose the base grain for recipe conversion</Tip>
+<Tip>Basis Malz f&uuml;r die Rezeptumwandlung ausw&auml;hlen</Tip>
 <RID>7474</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14833,19 +14833,19 @@
 <Short-Name>Karbonisierung</Short-Name>
 <Menu-Name>Karbonisierungprofile</Menu-Name>
 <Icon-File>Carbonation</Icon-File>
-<Description>Karbonisierungsprofile um Bier zu karbonisieren</Description>
+<Description>Karbonisierungsart um Bier zu karbonisieren</Description>
 <Help-Name>carbonation_profiles</Help-Name>
 <Tip>Profile f&uuml;r die Karbonisierung der Biere</Tip>
 <RID>7478</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_CHOOSE_CARB</Name>
-<Short-Name>Set Carbonation</Short-Name>
-<Menu-Name>Set Carbonation</Menu-Name>
+<Short-Name>Karbonisierung w&auml;hlen</Short-Name>
+<Menu-Name>Karbonisierung ausw&auml;hlen</Menu-Name>
 <Icon-File>Carbonation</Icon-File>
-<Description>Set the carbonation type for this recipe</Description>
+<Description>Karbonisierungsart f&uuml;r Rezept ausw&auml;hlen</Description>
 <Help-Name>carbonation_profiles</Help-Name>
-<Tip>Set the carbonation type for this recipe</Tip>
+<Tip>Karbonisierungsart f&uuml;r dieses Rezept ausw&auml;hlen</Tip>
 <RID>7479</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14853,19 +14853,19 @@
 <Short-Name>Neue Karbonisierung</Short-Name>
 <Menu-Name>Neue Karbonisierung...</Menu-Name>
 <Icon-File>Carbonation</Icon-File>
-<Description>Neues Karbonisierungs-Profil anlegen</Description>
+<Description>Neues Karbonisierungsart anlegen</Description>
 <Help-Name>carbonation_profiles</Help-Name>
-<Tip>Neues Karbonisierungs-Profil anlegen</Tip>
+<Tip>Neues Karbonisierungsart anlegen</Tip>
 <RID>7480</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_EDIT_CARB</Name>
-<Short-Name>Edit Carbonation</Short-Name>
-<Menu-Name>Edit Carbonation</Menu-Name>
+<Short-Name>Karbonisierung &auml;ndern</Short-Name>
+<Menu-Name>Karbonisierung &auml;ndern</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Edit the carbonation profile</Description>
+<Description>Karbonisierungsart &auml;ndern</Description>
 <Help-Name>carbonation_profiles</Help-Name>
-<Tip>Edit the carbonation profile</Tip>
+<Tip>Karbonisierungsart &auml;ndern</Tip>
 <RID>7481</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14880,22 +14880,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_CHOOSE_AGE</Name>
-<Short-Name>Choose Fermentation Profile</Short-Name>
-<Menu-Name>Choose Fermentation Profile</Menu-Name>
+<Short-Name>G&auml;rf&uuml;hrung w&auml;hlen</Short-Name>
+<Menu-Name>G&auml;rf&uuml;hrung ausw&auml;hlen</Menu-Name>
 <Icon-File>Age</Icon-File>
-<Description>Choose a fermentation or aging profile</Description>
+<Description>G&auml;rf&uuml;hrung oder Lagerprofil ausw&auml;hlen</Description>
 <Help-Name>fermentation_profiles</Help-Name>
-<Tip>Choose a fermentation or aging profile</Tip>
+<Tip>G&auml;rf&uuml;hrung oder Lagerprofil ausw&auml;hlen</Tip>
 <RID>7483</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_EDIT_AGE</Name>
-<Short-Name>Edit Ferm</Short-Name>
-<Menu-Name>Edit Fermentation Profile</Menu-Name>
+<Short-Name>G&auml;rf&uuml;hrung &auml;ndern</Short-Name>
+<Menu-Name>G&auml;rf&uuml;hrung &auml;ndern</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Edit the age profile</Description>
+<Description>G&auml;rf&uuml;hrung &auml;ndern</Description>
 <Help-Name>fermentation_profiles</Help-Name>
-<Tip>Edit the age profile</Tip>
+<Tip>G&auml;rf&uuml;hrung &auml;ndern</Tip>
 <RID>7484</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -14984,9 +14984,9 @@
 <Short-Name>Sonstiges hinzuf&uuml;gen</Short-Name>
 <Menu-Name>Sonstiges hinzuf&uuml;gen</Menu-Name>
 <Icon-File>Misc</Icon-File>
-<Description>Sonstiges zum Inventar hinzuf&uuml;gen</Description>
+<Description>Sonstige Zutat zum Inventar hinzuf&uuml;gen</Description>
 <Help-Name>inventory</Help-Name>
-<Tip>Sonstiges zum Inventar hinzuf&uuml;gen</Tip>
+<Tip>Sonstige Zutat zum Inventar hinzuf&uuml;gen</Tip>
 <RID>7493</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15024,7 +15024,7 @@
 <Short-Name>Bearbeiten</Short-Name>
 <Menu-Name>Bearbeiten</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Inventar f&uuml;r Sonstiges bearbeiten</Description>
+<Description>Inventar f&uuml;r sonstige Zutaten bearbeiten</Description>
 <Help-Name>inventory</Help-Name>
 <Tip>Inventar f&uuml;r sonstige Zutaten bearbeiten</Tip>
 <RID>7497</RID>
@@ -15121,12 +15121,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ROUND_UP</Name>
-<Short-Name>Round Up</Short-Name>
-<Menu-Name>Round Up Amounts</Menu-Name>
+<Short-Name>Aufrunden</Short-Name>
+<Menu-Name>Werte aufrunden</Menu-Name>
 <Icon-File>RoundUp</Icon-File>
-<Description>Round the amounts up to a whole value</Description>
+<Description>Werte aufrunden</Description>
 <Help-Name>shopping_list</Help-Name>
-<Tip>Round the amounts up to a whole value</Tip>
+<Tip>Werte aufrunden</Tip>
 <RID>7507</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15151,12 +15151,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_NEXT_MONTH</Name>
-<Short-Name>Next Month</Short-Name>
-<Menu-Name>Next Month</Menu-Name>
+<Short-Name>Kommender Monat</Short-Name>
+<Menu-Name>Kommender Monat</Menu-Name>
 <Icon-File>Right</Icon-File>
-<Description>View the next month</Description>
+<Description>Zeigt den kommenden Monat an</Description>
 <Help-Name>calendar</Help-Name>
-<Tip>View the next month</Tip>
+<Tip>Zeigt den kommenden Monat an</Tip>
 <RID>7510</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15181,12 +15181,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_NEXT_YEAR</Name>
-<Short-Name>Next Year</Short-Name>
-<Menu-Name>Next Year</Menu-Name>
+<Short-Name>N&auml;chstes Jahr</Short-Name>
+<Menu-Name>N&auml;chstes Jahr</Menu-Name>
 <Icon-File>dright</Icon-File>
-<Description>Move calendar to next year</Description>
+<Description>Zeigt das n&auml;chste Jahr an</Description>
 <Help-Name>calendar</Help-Name>
-<Tip>Move calendar to next year</Tip>
+<Tip>Zeigt das n&auml;chste Jahr an</Tip>
 <RID>7513</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15364,9 +15364,9 @@
 <Short-Name></Short-Name>
 <Menu-Name></Menu-Name>
 <Icon-File>Add</Icon-File>
-<Description>Set your own image for this recipe</Description>
+<Description>Individuelles Bild f&uuml;r Rezept festlegen</Description>
 <Help-Name></Help-Name>
-<Tip>Set your own image for this recipe</Tip>
+<Tip>Individuelles Bild f&uuml;r Rezept festlegen</Tip>
 <RID>7864</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15421,12 +15421,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_OPTIONS</Name>
-<Short-Name>Options</Short-Name>
-<Menu-Name>Options...</Menu-Name>
+<Short-Name>Optionen</Short-Name>
+<Menu-Name>Optionen...</Menu-Name>
 <Icon-File>Options</Icon-File>
-<Description>Displays the options dialog for BeerSmith</Description>
+<Description>&Ouml;ffnet den Dialog f&uuml;r Optionen</Description>
 <Help-Name>options</Help-Name>
-<Tip>Displays the options dialog for BeerSmith</Tip>
+<Tip>&Ouml;ffnet den Dialog f&uuml;r Optionen von BeerSmith</Tip>
 <RID>7875</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15481,8 +15481,8 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_RECIPE_DB_RIBBON</Name>
-<Short-Name>Recipe</Short-Name>
-<Menu-Name>Recipe</Menu-Name>
+<Short-Name>Rezepte</Short-Name>
+<Menu-Name>Rezepte</Menu-Name>
 <Icon-File>Recipe</Icon-File>
 <Description>Ribbon used for editing groups of recipes</Description>
 <Help-Name></Help-Name>
@@ -15501,52 +15501,52 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_OU_SET_METRIC</Name>
-<Short-Name>Set to Metric Units</Short-Name>
-<Menu-Name>Set to Metric Units</Menu-Name>
+<Short-Name>metrische Einheiten</Short-Name>
+<Menu-Name>Auf metrische Einheiten einstellen</Menu-Name>
 <Icon-File></Icon-File>
-<Description>Sets the units to be metric</Description>
+<Description>Auf metrische Einheiten einstellen</Description>
 <Help-Name></Help-Name>
-<Tip>Sets the units to be metric</Tip>
+<Tip>Auf metrische Einheiten einstellen</Tip>
 <RID>7948</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_OU_SET_ENGLISH</Name>
-<Short-Name>Set to English (US) Units</Short-Name>
-<Menu-Name>Set units to English</Menu-Name>
+<Short-Name>britische (US) Einheiten</Short-Name>
+<Menu-Name>Auf britische (US) Einheiten einstellen</Menu-Name>
 <Icon-File></Icon-File>
-<Description>Sets all of the units to be English units</Description>
+<Description>Stelle alle Einheiten auf britische / USA Ma&szlig;einheiten um</Description>
 <Help-Name></Help-Name>
-<Tip>Sets all of the units to be English units</Tip>
+<Tip>Stelle alle Einheiten auf britische / USA Ma&szlig;einheiten um</Tip>
 <RID>7949</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_OU_SET_IMPERIAL</Name>
-<Short-Name>Set to Imperial Units</Short-Name>
-<Menu-Name>Set units to Imperial</Menu-Name>
+<Short-Name>britische Einheiten</Short-Name>
+<Menu-Name>Auf britische Einheiten einstellen</Menu-Name>
 <Icon-File></Icon-File>
-<Description>Sets all of the units to be imperial English measures</Description>
+<Description>Auf britische Einheiten einstellen</Description>
 <Help-Name></Help-Name>
-<Tip>Sets all of the units to be imperial English measures</Tip>
+<Tip>Auf britische Einheiten einstellen</Tip>
 <RID>7950</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_REFRACTOMETER_TAB</Name>
-<Short-Name>Refractometer</Short-Name>
-<Menu-Name>Refractometer</Menu-Name>
+<Short-Name>Refraktometer</Short-Name>
+<Menu-Name>Refraktometer</Menu-Name>
 <Icon-File>Refractometer</Icon-File>
-<Description>Refractometer calibration options</Description>
+<Description>Kalibrieroptionen f&uuml;r Refraktometer</Description>
 <Help-Name>refractometer</Help-Name>
-<Tip>Refractometer calibration options</Tip>
+<Tip>Kalibrieroptionen f&uuml;r Refraktometer</Tip>
 <RID>7973</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_REF_CALIBRATE</Name>
-<Short-Name>Calibrate Refractometer</Short-Name>
-<Menu-Name>Calibrate Refractometer</Menu-Name>
+<Short-Name>Refraktometer kalibrieren</Short-Name>
+<Menu-Name>Refraktometer kalibrieren</Menu-Name>
 <Icon-File>Refractometer</Icon-File>
-<Description>Calibrate the refractometer for use</Description>
+<Description>Refraktometer f&uuml;r die Benutzung kalibrieren</Description>
 <Help-Name>refractometer</Help-Name>
-<Tip>Calibrate the refractometer for use</Tip>
+<Tip>Refraktometer f&uuml;r die Benutzung kalibrieren</Tip>
 <RID>7978</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15621,12 +15621,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_MASH_TAB</Name>
-<Short-Name>Mash Details</Short-Name>
-<Menu-Name>Mash Details</Menu-Name>
+<Short-Name>Maischdetails</Short-Name>
+<Menu-Name>Maischdetails</Menu-Name>
 <Icon-File>Mash</Icon-File>
-<Description>Tab with the mash details for this recipe</Description>
+<Description>Reiter mit den Details des Maischprozesses dieses Rezeptes</Description>
 <Help-Name>mash_details_tab</Help-Name>
-<Tip>Tab with the mash details for this recipe</Tip>
+<Tip>Reiter mit den Details des Maischprozesses dieses Rezeptes</Tip>
 <RID>8054</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15641,22 +15641,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_REGISTER</Name>
-<Short-Name>Activation</Short-Name>
-<Menu-Name>Activate BeerSmith...</Menu-Name>
+<Short-Name>Aktivieren</Short-Name>
+<Menu-Name>BeerSmith aktivieren...</Menu-Name>
 <Icon-File>Privacy</Icon-File>
-<Description>Enter the registration key to unlock your product</Description>
+<Description>Lizenzschl&uuml;ssel eingeben um BeerSmith freizuschalten</Description>
 <Help-Name>activating_beersmith</Help-Name>
-<Tip>Enter the registration key to unlock your product</Tip>
+<Tip>Lizenzschl&uuml;ssel eingeben um BeerSmith freizuschalten</Tip>
 <RID>8083</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ORDER_NOW</Name>
-<Short-Name>Order Now!</Short-Name>
-<Menu-Name>Order Now!</Menu-Name>
+<Short-Name>Jetzt kaufen!</Short-Name>
+<Menu-Name>Jetzt kaufen!</Menu-Name>
 <Icon-File>Recipe</Icon-File>
-<Description>Order an activation key for BeerSmith</Description>
+<Description>Lizenzschl&uuml;ssel f&uuml;r BeerSmith kaufen</Description>
 <Help-Name></Help-Name>
-<Tip>Order an activation key for BeerSmith</Tip>
+<Tip>Lizenzschl&uuml;ssel f&uuml;r BeerSmith kaufen</Tip>
 <RID>8100</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15681,32 +15681,32 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_YEAST_TAB</Name>
-<Short-Name>Yeast Starter</Short-Name>
-<Menu-Name>Yeast Starter</Menu-Name>
+<Short-Name>Hefestarter</Short-Name>
+<Menu-Name>Hefestarter</Menu-Name>
 <Icon-File>Yeast</Icon-File>
-<Description>Yeast starter settings and calculator for this recipe</Description>
+<Description>Einstellungen und Hefestarter-Berechnungen f&uuml;r diese Rezept</Description>
 <Help-Name>yeast_starter_tab</Help-Name>
-<Tip>Yeast starter settings and calculator for this recipe</Tip>
+<Tip>Einstellungen und Hefestarter-Berechnungen f&uuml;r diese Rezept</Tip>
 <RID>8168</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_PREVIEW_BREWSHEET</Name>
-<Short-Name>Brew Steps</Short-Name>
-<Menu-Name>Brew Steps</Menu-Name>
+<Short-Name>Brauprotokoll</Short-Name>
+<Menu-Name>Brauprotokoll</Menu-Name>
 <Icon-File>Preview</Icon-File>
-<Description>Prints instructions showing step by step how to brew this recipe</Description>
+<Description>Zeigt das Brauprotokoll an</Description>
 <Help-Name>brew_steps_the_brew_sheet</Help-Name>
-<Tip>Prints instructions showing step by step how to brew this recipe</Tip>
+<Tip>Zeigt das Brauprotokoll an</Tip>
 <RID>8217</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_NOTES_TAB</Name>
-<Short-Name>Notes</Short-Name>
-<Menu-Name>Notes</Menu-Name>
+<Short-Name>Notizen</Short-Name>
+<Menu-Name>Notizen</Menu-Name>
 <Icon-File>RecipeNotes</Icon-File>
-<Description>Extended Notes tab</Description>
+<Description>Erweiterter Notizen Reiter</Description>
 <Help-Name>notes_tab</Help-Name>
-<Tip>Tab for entering detailed notes into the program.</Tip>
+<Tip>Reiter um ausf&uuml;hrliche Notizen zum Rezept hinzuzuf&uuml;gen</Tip>
 <RID>8222</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15742,24 +15742,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_MAXIMIZE</Name>
-<Short-Name>Maximize</Short-Name>
-<Menu-Name>Maximize</Menu-Name>
+<Short-Name>Maximieren</Short-Name>
+<Menu-Name>Maximieren</Menu-Name>
 <Icon-File></Icon-File>
-<Description>Maximize the current window</Description>
+<Description>Maximiert das aktuelle Fenster</Description>
 <Help-Name></Help-Name>
-<Tip>Maximize the current window
-</Tip>
+<Tip>Maximiert das aktuelle Fenster</Tip>
 <RID>8279</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_MINIMIZE</Name>
-<Short-Name>Minimize</Short-Name>
-<Menu-Name>Minimize/Zoom</Menu-Name>
+<Short-Name>Minimieren</Short-Name>
+<Menu-Name>Minimieren/Vergr&ouml;&szlig;ern</Menu-Name>
 <Icon-File></Icon-File>
-<Description>Minimize/Zoom the current window</Description>
+<Description>Minimiert/Vergr&ouml;&szlig;ert das aktuelle Fenster</Description>
 <Help-Name></Help-Name>
-<Tip>Minimize/Zoom the current window
-</Tip>
+<Tip>Minimiert/Vergr&ouml;&szlig;ert das aktuelle Fenster</Tip>
 <RID>8280</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15855,12 +15853,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_SAVE_ING</Name>
-<Short-Name>Save Item</Short-Name>
-<Menu-Name>Save Ingredient</Menu-Name>
+<Short-Name>Zutat speichern</Short-Name>
+<Menu-Name>Zutat speichern</Menu-Name>
 <Icon-File>Save</Icon-File>
-<Description>Saves the selected ingredient to your ingredients database for future use</Description>
+<Description>Ausgew&auml;hlte Zutat in der Zutatendatenbank speichern</Description>
 <Help-Name></Help-Name>
-<Tip>Saves the selected ingredient to your ingredients database for future use</Tip>
+<Tip>Ausgew&auml;hlte Zutat in der Zutatendatenbank speichern</Tip>
 <RID>8305</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15875,52 +15873,52 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_REPORTS_TAB</Name>
-<Short-Name>Reports</Short-Name>
-<Menu-Name>Reports</Menu-Name>
+<Short-Name>Berichte</Short-Name>
+<Menu-Name>Berichte</Menu-Name>
 <Icon-File>CustomizeCols</Icon-File>
-<Description>Add custom report templates to BeerSmith</Description>
+<Description>Individuelle Berichte zu BeerSmith hinzuf&uuml;gen</Description>
 <Help-Name>Custom_Reports</Help-Name>
-<Tip>Add custom report templates to BeerSmith</Tip>
+<Tip>Individuelle Berichte zu BeerSmith hinzuf&uuml;gen</Tip>
 <RID>8313</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_O_ADD_REPORT</Name>
-<Short-Name>Add Report</Short-Name>
-<Menu-Name>Add Report...</Menu-Name>
+<Short-Name>Neuer Bericht</Short-Name>
+<Menu-Name>Neuer Bericht...</Menu-Name>
 <Icon-File>Add</Icon-File>
-<Description>Add a new custom report template</Description>
+<Description>Individuelle Berichtvorlage hinzuf&uuml;gen</Description>
 <Help-Name>custom_reports</Help-Name>
-<Tip>Add a new custom report template</Tip>
+<Tip>Individuelle Berichtvorlage hinzuf&uuml;gen</Tip>
 <RID>8314</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_O_EDIT_REPORT</Name>
-<Short-Name>Edit</Short-Name>
-<Menu-Name>Edit</Menu-Name>
+<Short-Name>Bearbeiten</Short-Name>
+<Menu-Name>Bearbeiten</Menu-Name>
 <Icon-File>Properties</Icon-File>
-<Description>Edit the selected report template</Description>
+<Description>Ausgew&auml;hlten Bericht bearbeiten</Description>
 <Help-Name>custom_reports</Help-Name>
-<Tip>Edit the selected report template</Tip>
+<Tip>Ausgew&auml;hlten Bericht bearbeiten</Tip>
 <RID>8320</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_O_DELETE_REPORT</Name>
-<Short-Name>Delete</Short-Name>
-<Menu-Name>Delete</Menu-Name>
+<Short-Name>L&ouml;schen</Short-Name>
+<Menu-Name>L&ouml;schen</Menu-Name>
 <Icon-File>Delete</Icon-File>
-<Description>Delete the selected report</Description>
+<Description>Ausgew&auml;hllten Bericht l&ouml;schen</Description>
 <Help-Name></Help-Name>
-<Tip>Delete the selected report</Tip>
+<Tip>Ausgew&auml;hllten Bericht l&ouml;schen</Tip>
 <RID>8321</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_RPT_FMTS</Name>
-<Short-Name>Reports</Short-Name>
-<Menu-Name>Reports</Menu-Name>
+<Short-Name>Berichte</Short-Name>
+<Menu-Name>Berichte</Menu-Name>
 <Icon-File>CustomizeCols</Icon-File>
-<Description>Custom report formats</Description>
+<Description>Individuelle Berichtsformate</Description>
 <Help-Name>custom_reports</Help-Name>
-<Tip>Custom report formats</Tip>
+<Tip>Individuelle Berichtsformate</Tip>
 <RID>8324</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15945,12 +15943,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_PLUGIN</Name>
-<Short-Name>Add-ons</Short-Name>
-<Menu-Name>Add-ons...</Menu-Name>
+<Short-Name>Erweiterungen</Short-Name>
+<Menu-Name>Erweiterungen...</Menu-Name>
 <Icon-File>Extension</Icon-File>
-<Description>Add-ons and extensions for BeerSmith</Description>
+<Description>Erweiterungen f&uuml;r BeerSmith</Description>
 <Help-Name>add_ons</Help-Name>
-<Tip>Add-ons and extensions for BeerSmith</Tip>
+<Tip>Erweiterungen f&uuml;r BeerSmith</Tip>
 <RID>8344</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -15985,12 +15983,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_PLUGINS_AVAIL</Name>
-<Short-Name>Add-ons</Short-Name>
-<Menu-Name>Add-ons</Menu-Name>
+<Short-Name>Erweiterungen</Short-Name>
+<Menu-Name>Erweiterungen</Menu-Name>
 <Icon-File>Extension</Icon-File>
-<Description>Add ons available</Description>
+<Description>Verf&uuml;gbare Erweiterungen</Description>
 <Help-Name>add_ons</Help-Name>
-<Tip>Add-ons available</Tip>
+<Tip>Verf&uuml;gbare Erweiterungen</Tip>
 <RID>8351</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -16025,7 +16023,7 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_ACTIVATE</Name>
-<Short-Name>Diese Kopie von BeerSmith aktiviBeerSmith aktivieren...</Short-Name>
+<Short-Name>BeerSmith aktivieren...</Short-Name>
 <Menu-Name>BeerSmith aktivieren...</Menu-Name>
 <Icon-File>Privacy</Icon-File>
 <Description>Aktivieren dieser Kopie von BeerSmith durch Eingabe des Aktivierungs-Schl&uuml;ssels</Description>
@@ -16035,12 +16033,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_PURCHASE</Name>
-<Short-Name>Purchase an Activation Code</Short-Name>
-<Menu-Name>Purchase an Activation Code for BeerSmith</Menu-Name>
+<Short-Name>Lizenz kaufen</Short-Name>
+<Menu-Name>Lizenzschl&uuml;ssel f&uuml;r BeerSmith kaufen</Menu-Name>
 <Icon-File>Logo</Icon-File>
-<Description>Purchase an activation code for BeerSmith</Description>
+<Description>Lizenzschl&uuml;ssel f&uuml;r BeerSmith kaufen</Description>
 <Help-Name></Help-Name>
-<Tip>Purchase an activation code for BeerSmith</Tip>
+<Tip>Lizenzschl&uuml;ssel f&uuml;r BeerSmith kaufen</Tip>
 <RID>8375</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -16145,22 +16143,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_PREFERENCES</Name>
-<Short-Name>Preferences</Short-Name>
-<Menu-Name>Preferences...</Menu-Name>
+<Short-Name>Einstellungen</Short-Name>
+<Menu-Name>Einstellungen...</Menu-Name>
 <Icon-File>Options</Icon-File>
-<Description>Modify the program preferences</Description>
+<Description>Programmeinstellungen anpassen</Description>
 <Help-Name>options</Help-Name>
-<Tip>Modify the program preferences</Tip>
+<Tip>Programmeinstellungen anpassen</Tip>
 <RID>8411</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_LIMITED</Name>
-<Short-Name>Run BeerSmith in a limited mode</Short-Name>
-<Menu-Name>Run BeerSmith in a limited mode</Menu-Name>
+<Short-Name>Test-Version</Short-Name>
+<Menu-Name>BeerSmith als Test-Version nutzen</Menu-Name>
 <Icon-File>GlassDark</Icon-File>
-<Description>Run BeerSmith in a limited mode until you can activate it</Description>
+<Description>BeerSmith als Test-Version nutzen, bis man die Vollversion aktivieren kann</Description>
 <Help-Name></Help-Name>
-<Tip>Run BeerSmith in a limited mode until you can activate it</Tip>
+<Tip>BeerSmith als Test-Version nutzen, bis man die Vollversion aktivieren kann</Tip>
 <RID>8419</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -16175,7 +16173,7 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_INTRO_UNITS</Name>
-<Short-Name>Metrische/englische Einheiten eiMetrische/englische Einheiten einstellen</Short-Name>
+<Short-Name>Einheiten einstellen</Short-Name>
 <Menu-Name>Metrische/englische Einheiten einstellen</Menu-Name>
 <Icon-File></Icon-File>
 <Description>Wie man entweder metrische oder englische Einheiten in BeerSmith einstellt</Description>
@@ -16185,22 +16183,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_INC_TIME</Name>
-<Short-Name>Increase Time</Short-Name>
-<Menu-Name>Increase Time</Menu-Name>
+<Short-Name>Zeit erh&ouml;hen</Short-Name>
+<Menu-Name>Zeit erh&ouml;hen</Menu-Name>
 <Icon-File>Up</Icon-File>
-<Description>Increase the time for this ingredient</Description>
+<Description>Zeit f&uuml;r diese Zutat erh&ouml;hen</Description>
 <Help-Name></Help-Name>
-<Tip>Increase the time for this ingredient</Tip>
+<Tip>Zeit f&uuml;r diese Zutat erh&ouml;hen</Tip>
 <RID>8465</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_R_DEC_TIME</Name>
-<Short-Name>Decrease Time</Short-Name>
-<Menu-Name>Decrease Time</Menu-Name>
+<Short-Name>Zeit reduzieren</Short-Name>
+<Menu-Name>Zeit reduzieren</Menu-Name>
 <Icon-File>Down</Icon-File>
-<Description>Decrease the amount of time for this ingredient</Description>
+<Description>Zeiteinheit f&uuml;r dieses Rezept reduzieren</Description>
 <Help-Name></Help-Name>
-<Tip>Decrease the amount of time for this ingredient</Tip>
+<Tip>Zeiteinheit f&uuml;r dieses Rezept reduzieren</Tip>
 <RID>8466</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -16235,12 +16233,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_SAVEAS</Name>
-<Short-Name>Save As</Short-Name>
-<Menu-Name>Save As</Menu-Name>
+<Short-Name>Speichern als</Short-Name>
+<Menu-Name>Speichern als</Menu-Name>
 <Icon-File>Rename</Icon-File>
-<Description>Save this recipe under another name</Description>
+<Description>Rezept unter anderem Namen speichern</Description>
 <Help-Name></Help-Name>
-<Tip>Save this recipe under another name</Tip>
+<Tip>Dieses Rezept unter einem anderen Namen speichern</Tip>
 <RID>8554</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -16255,8 +16253,8 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_RPT_CHOOSE_FILE</Name>
-<Short-Name>Choose Template File...</Short-Name>
-<Menu-Name>Choose Template File...</Menu-Name>
+<Short-Name>Vorlagendatei w&auml;hlen...</Short-Name>
+<Menu-Name>Vorlagendatei ausw&auml;hlen...</Menu-Name>
 <Icon-File></Icon-File>
 <Description>Choose file button for custom reports</Description>
 <Help-Name></Help-Name>
@@ -16345,12 +16343,12 @@
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_LOGIN_CLOUD</Name>
-<Short-Name>Logon</Short-Name>
-<Menu-Name>Logon</Menu-Name>
+<Short-Name>Anmelden</Short-Name>
+<Menu-Name>Anmelden</Menu-Name>
 <Icon-File>Cloud</Icon-File>
-<Description>Logon to the cloud</Description>
+<Description>Zur Wolke anmelden</Description>
 <Help-Name></Help-Name>
-<Tip>Logon to the cloud</Tip>
+<Tip>Zur Wolke anmelden</Tip>
 <RID>8750</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
@@ -16395,22 +16393,22 @@
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_R_CHOOSE_CLOUD</Name>
-<Short-Name>Choose Recipe</Short-Name>
-<Menu-Name>Choose Recipe</Menu-Name>
+<Short-Name>Rezept w&auml;hlen</Short-Name>
+<Menu-Name>Rezept ausw&auml;hlen</Menu-Name>
 <Icon-File></Icon-File>
-<Description>Choose a replacement for this recipe</Description>
+<Description>Ersatz f&uuml;r dieses Rezept ausw&auml;hlen</Description>
 <Help-Name></Help-Name>
-<Tip>Choose a replacement for this recipe</Tip>
+<Tip>Ersatz f&uuml;r dieses Rezept ausw&auml;hlen</Tip>
 <RID>8786</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_R_START_MTIMER</Name>
-<Short-Name>Run</Short-Name>
-<Menu-Name>Run</Menu-Name>
+<Short-Name>Start</Short-Name>
+<Menu-Name>Start</Menu-Name>
 <Icon-File>Right</Icon-File>
-<Description>Start the mash timer</Description>
+<Description>Maischuhr starten</Description>
 <Help-Name></Help-Name>
-<Tip>Start the mash timer</Tip>
+<Tip>Die Maischuhr starten</Tip>
 <RID>8807</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
@@ -16418,9 +16416,9 @@
 <Short-Name>Pause</Short-Name>
 <Menu-Name>Pause</Menu-Name>
 <Icon-File>Pause</Icon-File>
-<Description>Pause mash timer</Description>
+<Description>Maischuhr anhalten</Description>
 <Help-Name></Help-Name>
-<Tip>Pause mash timer</Tip>
+<Tip>Maischuhr anhalten</Tip>
 <RID>8808</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
@@ -16428,9 +16426,9 @@
 <Short-Name>Reset</Short-Name>
 <Menu-Name>Reset</Menu-Name>
 <Icon-File>Undo</Icon-File>
-<Description>Reset mash timer</Description>
+<Description>Maischuhr zur&uuml;ck setzen</Description>
 <Help-Name></Help-Name>
-<Tip>Reset mash timer</Tip>
+<Tip>Maischuhr zur&uuml;ck setzen</Tip>
 <RID>8809</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
@@ -16455,12 +16453,12 @@
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_R_START_BTIMER</Name>
-<Short-Name>Run</Short-Name>
-<Menu-Name>Run</Menu-Name>
+<Short-Name>Start</Short-Name>
+<Menu-Name>Start</Menu-Name>
 <Icon-File>Right</Icon-File>
-<Description>Start Boil Timer</Description>
+<Description>Kochuhr starten</Description>
 <Help-Name></Help-Name>
-<Tip>Start Boil Timer</Tip>
+<Tip>Kochuhr starten</Tip>
 <RID>8821</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
@@ -16468,9 +16466,9 @@
 <Short-Name>Pause</Short-Name>
 <Menu-Name>Pause</Menu-Name>
 <Icon-File>Pause</Icon-File>
-<Description>Pause boil timer</Description>
+<Description>Kochuhr anhalten</Description>
 <Help-Name></Help-Name>
-<Tip>Pause boil timer</Tip>
+<Tip>Kochuhr anhalten</Tip>
 <RID>8822</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
@@ -16478,9 +16476,9 @@
 <Short-Name>Reset</Short-Name>
 <Menu-Name>Reset</Menu-Name>
 <Icon-File>Undo</Icon-File>
-<Description>Reset Boil Timer</Description>
+<Description>Kochuhr zur&uuml;cksetzen</Description>
 <Help-Name></Help-Name>
-<Tip>Reset Boil Timer</Tip>
+<Tip>Kochuhr zur&uuml;cksetzen</Tip>
 <RID>8823</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
@@ -16495,22 +16493,22 @@
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_R_SET_BTIMER</Name>
-<Short-Name>Set</Short-Name>
-<Menu-Name>Set</Menu-Name>
+<Short-Name>Einstellen</Short-Name>
+<Menu-Name>Einstellen</Menu-Name>
 <Icon-File>Clock</Icon-File>
-<Description>Set the boil timer to a particular time</Description>
+<Description>Kochuhr auf bestimmte Zeit zu stellen</Description>
 <Help-Name></Help-Name>
-<Tip>Set the boil timer to a particular time</Tip>
+<Tip>Kochuhr auf eine bestimmte Zeit zu stellen</Tip>
 <RID>8847</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
 <Name>M_R_SET_MTIMER</Name>
-<Short-Name>Set</Short-Name>
-<Menu-Name>Set</Menu-Name>
+<Short-Name>Einstellen</Short-Name>
+<Menu-Name>Einstellen</Menu-Name>
 <Icon-File>Clock</Icon-File>
-<Description>Set the mash timer to a particular time</Description>
+<Description>Maischuhr auf bestimmte Uhrzeit stellen</Description>
 <Help-Name></Help-Name>
-<Tip>Set the mash timer to a particular time</Tip>
+<Tip>Maischuhr auf eine bestimmte Uhrzeit stellen</Tip>
 <RID>8848</RID>
 </Menu>
 <Menu><_MOD_>2016-03-15</_MOD_>
