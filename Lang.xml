@@ -14113,7 +14113,7 @@
 <Short-Name>Zutaten</Short-Name>
 <Menu-Name>Zutaten</Menu-Name>
 <Icon-File>Ingredients</Icon-File>
-<Description>Ingredient Views</Description>
+<Description>Zutaten &Uuml;bersicht</Description>
 <Help-Name>adding_custom_ingredients</Help-Name>
 <Tip>Zeige Zutaten Tabelle</Tip>
 <RID>10510</RID>
@@ -15975,12 +15975,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_INSTALL_PLUGIN</Name>
-<Short-Name>Install Add-On</Short-Name>
-<Menu-Name>Install Add-On...</Menu-Name>
+<Short-Name>Installiere Add-On</Short-Name>
+<Menu-Name>Installiere Add-On...</Menu-Name>
 <Icon-File>Update</Icon-File>
-<Description>Install the selected add-on</Description>
+<Description>Installiere das ausgew&auml;hlte add-on</Description>
 <Help-Name></Help-Name>
-<Tip>Install the selected add-on</Tip>
+<Tip>Installiert das ausgew&auml;hlte add-on</Tip>
 <RID>10696</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -16015,12 +16015,12 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_INTRO</Name>
-<Short-Name>Welcome</Short-Name>
-<Menu-Name>Welcome Screen</Menu-Name>
+<Short-Name>Willkomen</Short-Name>
+<Menu-Name>Willkomen Seite</Menu-Name>
 <Icon-File>Logo</Icon-File>
-<Description>Welcome to BeerSmith Screen</Description>
+<Description>Willkomen auf der BeerSmith Seite</Description>
 <Help-Name>index</Help-Name>
-<Tip>Welcome to BeerSmith Screen</Tip>
+<Tip>Willkomen auf der BeerSmith Seite</Tip>
 <RID>10700</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
@@ -16065,22 +16065,22 @@
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_INTRO_ACTIVATING</Name>
-<Short-Name>Activating BeerSmith</Short-Name>
-<Menu-Name>Activating BeerSmith</Menu-Name>
+<Short-Name>Aktiviere BeerSmith</Short-Name>
+<Menu-Name>Aktiviere BeerSmith</Menu-Name>
 <Icon-File></Icon-File>
-<Description>How to activate your copy of BeerSmith using a purchased key</Description>
+<Description>Wie aktiviere ich  BeerSmith mit einem gekauften Lizenzschl&uuml;ssel</Description>
 <Help-Name>activating_beersmith</Help-Name>
-<Tip>How to activate your copy of BeerSmith using a purchased key</Tip>
+<Tip>Wie aktiviere ich  BeerSmith mit einem gekauften Lizenzschl&uuml;ssel</Tip>
 <RID>10705</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
 <Name>M_INTRO_EQUIPMENT</Name>
-<Short-Name>Creating your Equipment Profile</Short-Name>
-<Menu-Name>Creating your Equipment Profile</Menu-Name>
+<Short-Name>Erstelle dein Zubeh&ouml;r Profil</Short-Name>
+<Menu-Name>Erstelle dein Zubeh&ouml;r Profil</Menu-Name>
 <Icon-File></Icon-File>
-<Description>How to create an equipment profile to match your equipment</Description>
+<Description>Wie erstelle ich ein Profil das zu meinem Zubeh&ouml;r passt</Description>
 <Help-Name>equipment_profiles</Help-Name>
-<Tip>How to create an equipment profile to match your equipment</Tip>
+<Tip>Wie erstelle ich ein Profil das zu meinem Zubeh&ouml;r passt</Tip>
 <RID>10706</RID>
 </Menu>
 <Menu><_MOD_>2011-11-19</_MOD_>
